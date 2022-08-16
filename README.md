@@ -1,5 +1,11 @@
 # ATTACK
 Class tools for overview of MITRE ATT&amp;CK®
+## Easy setup = open github in lab machine
+### you need these
+	* https://github.com/redcanaryco/invoke-atomicredteam/wiki/Installing-Invoke-AtomicRedTeam
+	* https://mitre-attack.github.io/attack-navigator/
+	* https://atomicredteam.io/atomics/
+	
 ## Lab - general problems in lab 
 	You must do a few steps out of order to reduce frustration
 	1. Have a 2k12 running
