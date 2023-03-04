@@ -1,11 +1,26 @@
 # ATTACK
 Class tools for overview of MITRE ATT&amp;CK®
-## Easy setup = open github in lab machine
+## Easy setup = open the github in lab machine
 ### you need these
 	* https://github.com/redcanaryco/invoke-atomicredteam/wiki/Installing-Invoke-AtomicRedTeam
 	* https://mitre-attack.github.io/attack-navigator/
 	* https://atomicredteam.io/atomics/
-	
+
+## Install Win2K12r2
+
+## Win2K12 setup
+	Install Chrome
+	Update chrome://net-internals/#hsts add github.com and include subdomains.
+	This will permit chrome to access hsts sites	
+## Powershell files download 
+	* https://github.com/MicrosoftDocs/PowerShell-Docs/blob/main/reference/docs-conceptual/windows-powershell/wmf/setup/install-configure.md
+	Powershell install 
+	* https://learn.microsoft.com/en-us/powershell/scripting/windows-powershell/wmf/setup/install-configure?view=powershell-7.3#installing-from-the-command-prompt
+	Run as administrator - command prompt ( NOT current powershell window)
+	Navigate to Downloads folder
+	Win8.1AndW2K12R2-KB3191564-x64.msu /quiet /norestart
+	Check your version $PSVersionTable.PSVersion
+
 ## Lab - general problems in lab 
 	You must do a few steps out of order to reduce frustration
 	1. Have a 2k12 running
