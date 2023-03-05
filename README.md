@@ -1,18 +1,27 @@
 # ATTACK
 Class tools for overview of MITRE ATT&amp;CK®
+
+## Use my image or build your own
+
+## BANDWIDTH WARNING
+### Downloading during class is a bad idea based on your location and bandwidth - do a quick calculation before starting.
+### You have been warned... no whining
+### This file is a full Windows 2k12 image 6.4GB - it has no license. It will shut down after one hour of boot time
+	https://ceh-v11-20220609.s3.amazonaws.com/ATTACKLAB/ATTACK-LAB-2k12-insecure.ova
+### Fast setup - the image has alll the preconfigurations
 ## Easy setup = open the github in lab machine
 ### you need these
 	* https://github.com/redcanaryco/invoke-atomicredteam/wiki/Installing-Invoke-AtomicRedTeam
 	* https://mitre-attack.github.io/attack-navigator/
 	* https://atomicredteam.io/atomics/
+## BUILD YOUR OWN
+### Install Win2K12r2
 
-## Install Win2K12r2
-
-## Win2K12 setup
+### Win2K12 setup
 	Install Chrome
 	Update chrome://net-internals/#hsts add github.com and include subdomains.
 	This will permit chrome to access hsts sites	
-## Powershell files download 
+#### Powershell files download 
 	* https://github.com/MicrosoftDocs/PowerShell-Docs/blob/main/reference/docs-conceptual/windows-powershell/wmf/setup/install-configure.md
 	Powershell install 
 	* https://learn.microsoft.com/en-us/powershell/scripting/windows-powershell/wmf/setup/install-configure?view=powershell-7.3#installing-from-the-command-prompt
@@ -20,6 +29,8 @@ Class tools for overview of MITRE ATT&amp;CK®
 	Navigate to Downloads folder
 	Win8.1AndW2K12R2-KB3191564-x64.msu /quiet /norestart
 	Check your version $PSVersionTable.PSVersion
+#### Install Atomic Red Team
+https://github.com/redcanaryco/invoke-atomicredteam/wiki/Installing-Invoke-AtomicRedTeam
 
 ## Lab - general problems in lab 
 	You must do a few steps out of order to reduce frustration
