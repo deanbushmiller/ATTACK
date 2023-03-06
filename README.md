@@ -4,7 +4,8 @@ Class tools for overview of MITRE ATT&amp;CK®
 ## Use my image OR Build your own
 
 ## BANDWIDTH WARNING
-### Downloading during class is a bad idea based on your location and bandwidth - do a quick calculation before starting.
+### Downloading during class - do a quick calculation before starting - ON a 1Gb connection = 30min.
+This may interupt your class interaction
 ### You have been warned... no whining
 ## Use my image
 ### This file is a full Windows 2k12 image 6.4GB - it has no license. It will shut down after one hour of boot time
