@@ -1,11 +1,12 @@
 # ATTACK
 Class tools for overview of MITRE ATT&amp;CK®
 
-## Use my image or build your own
+## Use my image OR Build your own
 
 ## BANDWIDTH WARNING
 ### Downloading during class is a bad idea based on your location and bandwidth - do a quick calculation before starting.
 ### You have been warned... no whining
+## Use my image
 ### This file is a full Windows 2k12 image 6.4GB - it has no license. It will shut down after one hour of boot time
 	https://ceh-v11-20220609.s3.amazonaws.com/ATTACKLAB/ATTACK-LAB-2k12-insecure.ova
 ### Fast setup - the image has alll the preconfigurations
@@ -14,13 +15,15 @@ Class tools for overview of MITRE ATT&amp;CK®
 	* https://github.com/redcanaryco/invoke-atomicredteam/wiki/Installing-Invoke-AtomicRedTeam
 	* https://mitre-attack.github.io/attack-navigator/
 	* https://atomicredteam.io/atomics/
-## BUILD YOUR OWN
+## Build your own
 ### Install Win2K12r2
 
-### Win2K12 setup
-	Install Chrome
-	Update chrome://net-internals/#hsts add github.com and include subdomains.
-	This will permit chrome to access hsts sites	
+### Configure setup
+*	Install Chrome
+*	Update chrome://net-internals/#hsts add github.com and include subdomains.
+*	This will permit chrome to access hsts sites
+*	Install Office 2013 Word & Excel
+*	Install version 10 of PDF viewer 
 #### Powershell files download 
 	* https://github.com/MicrosoftDocs/PowerShell-Docs/blob/main/reference/docs-conceptual/windows-powershell/wmf/setup/install-configure.md
 	Powershell install 
