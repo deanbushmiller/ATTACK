@@ -10,7 +10,7 @@ This may interupt your class interaction
 ## Use my image
 ### This file is a full Windows 2k12 image 6.4GB - it has no license. It will shut down after one hour of boot time
 	https://ceh-v11-20220609.s3.amazonaws.com/ATTACKLAB/ATTACK-LAB-2k12-insecure.ova
-### Fast setup - the image has alll the preconfigurations
+### Fast setup - the image has all the preconfigurations
 ## Easy setup = open the github in lab machine
 ### You need these websites open on your 2k12 for your lab steps
 	* https://github.com/redcanaryco/invoke-atomicredteam/wiki/Installing-Invoke-AtomicRedTeam
