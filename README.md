@@ -49,5 +49,5 @@ This may interupt your class interaction
 	1. Read ATTACK- link, Read Atomic link, then execute
 	2. Getprereqs, Invoke-AtomicTest T####.### -GetPrereqs
 	3. Close extra command prompt windows
-## Up arrow is your friend in powershell commnad line
+## Up arrow is your friend in powershell command line
 ## For Lab T1555.003-6 Prereq install Firefox first
