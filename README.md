@@ -39,8 +39,8 @@ This may interupt your class interaction
 ## Lab - general problems in lab 
 *	You must do a few steps out of order to reduce frustration RUN POWERSHELL AS ADMIN
 *	[Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12
-*	Install InvokeAtomic ( watch the next line wrap)
-*	IEX (IWR 'https://raw.githubusercontent.com/redcanaryco/invoke-atomicredteam/master/install-atomicredteam.ps1' -UseBasicParsing); Install-AtomicRedTeam -getAtomics
+	Install InvokeAtomic ( watch the next line wrap)
+	IEX (IWR 'https://raw.githubusercontent.com/redcanaryco/invoke-atomicredteam/master/install-atomicredteam.ps1' -UseBasicParsing); Install-AtomicRedTeam -getAtomics
 ## If you close your powershell window
 *	You must re-set path
 *	Import-Module "C:\AtomicRedTeam\invoke-atomicredteam\Invoke-AtomicRedTeam.psd1" -Force
