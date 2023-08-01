@@ -1,0 +1,4140 @@
+{
+	"name": "Atomic Red Team - Test Difficulty (Windows)",
+	"versions": {
+		"attack": "13",
+		"navigator": "4.8.2",
+		"layer": "4.4"
+	},
+	"domain": "enterprise-attack",
+	"description": "",
+	"filters": {
+		"platforms": [
+			"Linux",
+			"macOS",
+			"Windows",
+			"Network",
+			"PRE",
+			"Containers",
+			"Office 365",
+			"SaaS",
+			"Google Workspace",
+			"IaaS",
+			"Azure AD"
+		]
+	},
+	"sorting": 0,
+	"layout": {
+		"layout": "side",
+		"aggregateFunction": "average",
+		"showID": false,
+		"showName": true,
+		"showAggregateScores": false,
+		"countUnscored": false
+	},
+	"hideDisabled": false,
+	"techniques": [
+		{
+			"techniqueID": "T1113",
+			"tactic": "collection",
+			"score": 2.6666666666666665,
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": [],
+			"links": [
+				{
+					"label": "View Atomic",
+					"url": "https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1113/T1113.md"
+				}
+			],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1037",
+			"tactic": "persistence",
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": [],
+			"links": [
+				{
+					"label": "Contribute a Test!",
+					"url": "https://github.com/redcanaryco/atomic-red-team/wiki/Contributing"
+				}
+			],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1037",
+			"tactic": "privilege-escalation",
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": [],
+			"links": [
+				{
+					"label": "Contribute a Test!",
+					"url": "https://github.com/redcanaryco/atomic-red-team/wiki/Contributing"
+				}
+			],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1037.001",
+			"tactic": "persistence",
+			"score": 2,
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": [],
+			"links": [
+				{
+					"label": "View Atomic",
+					"url": "https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1037.001/T1037.001.md"
+				}
+			],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1037.001",
+			"tactic": "privilege-escalation",
+			"score": 2,
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": [],
+			"links": [
+				{
+					"label": "View Atomic",
+					"url": "https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1037.001/T1037.001.md"
+				}
+			],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1037.003",
+			"tactic": "persistence",
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": [],
+			"links": [
+				{
+					"label": "Contribute a Test!",
+					"url": "https://github.com/redcanaryco/atomic-red-team/wiki/Contributing"
+				}
+			],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1037.003",
+			"tactic": "privilege-escalation",
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": [],
+			"links": [
+				{
+					"label": "Contribute a Test!",
+					"url": "https://github.com/redcanaryco/atomic-red-team/wiki/Contributing"
+				}
+			],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1557.002",
+			"tactic": "credential-access",
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": [],
+			"links": [
+				{
+					"label": "Contribute a Test!",
+					"url": "https://github.com/redcanaryco/atomic-red-team/wiki/Contributing"
+				}
+			],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1557.002",
+			"tactic": "collection",
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": [],
+			"links": [
+				{
+					"label": "Contribute a Test!",
+					"url": "https://github.com/redcanaryco/atomic-red-team/wiki/Contributing"
+				}
+			],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1003",
+			"tactic": "credential-access",
+			"score": 3,
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": [],
+			"links": [
+				{
+					"label": "View Atomic",
+					"url": "https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1003/T1003.md"
+				}
+			],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1003.005",
+			"tactic": "credential-access",
+			"score": 0,
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": [],
+			"links": [
+				{
+					"label": "View Atomic",
+					"url": "https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1003.005/T1003.005.md"
+				}
+			],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1003.006",
+			"tactic": "credential-access",
+			"score": 4,
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": [],
+			"links": [
+				{
+					"label": "View Atomic",
+					"url": "https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1003.006/T1003.006.md"
+				}
+			],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1003.004",
+			"tactic": "credential-access",
+			"score": 7,
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": [],
+			"links": [
+				{
+					"label": "View Atomic",
+					"url": "https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1003.004/T1003.004.md"
+				}
+			],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1003.002",
+			"tactic": "credential-access",
+			"score": 2.5714285714285716,
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": [],
+			"links": [
+				{
+					"label": "View Atomic",
+					"url": "https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1003.002/T1003.002.md"
+				}
+			],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1129",
+			"tactic": "execution",
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": [],
+			"links": [
+				{
+					"label": "Contribute a Test!",
+					"url": "https://github.com/redcanaryco/atomic-red-team/wiki/Contributing"
+				}
+			],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1006",
+			"tactic": "defense-evasion",
+			"score": 4,
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": [],
+			"links": [
+				{
+					"label": "View Atomic",
+					"url": "https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1006/T1006.md"
+				}
+			],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1014",
+			"tactic": "defense-evasion",
+			"score": 7,
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": [],
+			"links": [
+				{
+					"label": "View Atomic",
+					"url": "https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1014/T1014.md"
+				}
+			],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1123",
+			"tactic": "collection",
+			"score": 0.6666666666666666,
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": [],
+			"links": [
+				{
+					"label": "View Atomic",
+					"url": "https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1123/T1123.md"
+				}
+			],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1539",
+			"tactic": "credential-access",
+			"score": 2.3333333333333335,
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": [],
+			"links": [
+				{
+					"label": "View Atomic",
+					"url": "https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1539/T1539.md"
+				}
+			],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1114.001",
+			"tactic": "collection",
+			"score": 3,
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": [],
+			"links": [
+				{
+					"label": "View Atomic",
+					"url": "https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1114.001/T1114.001.md"
+				}
+			],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1114.002",
+			"tactic": "collection",
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": [],
+			"links": [
+				{
+					"label": "Contribute a Test!",
+					"url": "https://github.com/redcanaryco/atomic-red-team/wiki/Contributing"
+				}
+			],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1561.001",
+			"tactic": "impact",
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": [],
+			"links": [
+				{
+					"label": "Contribute a Test!",
+					"url": "https://github.com/redcanaryco/atomic-red-team/wiki/Contributing"
+				}
+			],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1025",
+			"tactic": "collection",
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": [],
+			"links": [
+				{
+					"label": "Contribute a Test!",
+					"url": "https://github.com/redcanaryco/atomic-red-team/wiki/Contributing"
+				}
+			],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1547",
+			"tactic": "persistence",
+			"score": 2,
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": [],
+			"links": [
+				{
+					"label": "View Atomic",
+					"url": "https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1547/T1547.md"
+				}
+			],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1547",
+			"tactic": "privilege-escalation",
+			"score": 2,
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": [],
+			"links": [
+				{
+					"label": "View Atomic",
+					"url": "https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1547/T1547.md"
+				}
+			],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1547.014",
+			"tactic": "persistence",
+			"score": 3.3333333333333335,
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": [],
+			"links": [
+				{
+					"label": "View Atomic",
+					"url": "https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1547.014/T1547.014.md"
+				}
+			],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1547.014",
+			"tactic": "privilege-escalation",
+			"score": 3.3333333333333335,
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": [],
+			"links": [
+				{
+					"label": "View Atomic",
+					"url": "https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1547.014/T1547.014.md"
+				}
+			],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1547.002",
+			"tactic": "persistence",
+			"score": 2,
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": [],
+			"links": [
+				{
+					"label": "View Atomic",
+					"url": "https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1547.002/T1547.002.md"
+				}
+			],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1547.002",
+			"tactic": "privilege-escalation",
+			"score": 2,
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": [],
+			"links": [
+				{
+					"label": "View Atomic",
+					"url": "https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1547.002/T1547.002.md"
+				}
+			],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1547.008",
+			"tactic": "persistence",
+			"score": 5,
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": [],
+			"links": [
+				{
+					"label": "View Atomic",
+					"url": "https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1547.008/T1547.008.md"
+				}
+			],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1547.008",
+			"tactic": "privilege-escalation",
+			"score": 5,
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": [],
+			"links": [
+				{
+					"label": "View Atomic",
+					"url": "https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1547.008/T1547.008.md"
+				}
+			],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1547.012",
+			"tactic": "persistence",
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": [],
+			"links": [
+				{
+					"label": "Contribute a Test!",
+					"url": "https://github.com/redcanaryco/atomic-red-team/wiki/Contributing"
+				}
+			],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1547.012",
+			"tactic": "privilege-escalation",
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": [],
+			"links": [
+				{
+					"label": "Contribute a Test!",
+					"url": "https://github.com/redcanaryco/atomic-red-team/wiki/Contributing"
+				}
+			],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1547.005",
+			"tactic": "persistence",
+			"score": 4,
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": [],
+			"links": [
+				{
+					"label": "View Atomic",
+					"url": "https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1547.005/T1547.005.md"
+				}
+			],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1547.005",
+			"tactic": "privilege-escalation",
+			"score": 4,
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": [],
+			"links": [
+				{
+					"label": "View Atomic",
+					"url": "https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1547.005/T1547.005.md"
+				}
+			],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1547.003",
+			"tactic": "persistence",
+			"score": 2,
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": [],
+			"links": [
+				{
+					"label": "View Atomic",
+					"url": "https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1547.003/T1547.003.md"
+				}
+			],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1547.003",
+			"tactic": "privilege-escalation",
+			"score": 2,
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": [],
+			"links": [
+				{
+					"label": "View Atomic",
+					"url": "https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1547.003/T1547.003.md"
+				}
+			],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1547.004",
+			"tactic": "persistence",
+			"score": 2,
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": [],
+			"links": [
+				{
+					"label": "View Atomic",
+					"url": "https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1547.004/T1547.004.md"
+				}
+			],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1547.004",
+			"tactic": "privilege-escalation",
+			"score": 2,
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": [],
+			"links": [
+				{
+					"label": "View Atomic",
+					"url": "https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1547.004/T1547.004.md"
+				}
+			],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1489",
+			"tactic": "impact",
+			"score": 3.3333333333333335,
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": [],
+			"links": [
+				{
+					"label": "View Atomic",
+					"url": "https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1489/T1489.md"
+				}
+			],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1564",
+			"tactic": "defense-evasion",
+			"score": 2.25,
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": [],
+			"links": [
+				{
+					"label": "View Atomic",
+					"url": "https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1564/T1564.md"
+				}
+			],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1564.005",
+			"tactic": "defense-evasion",
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": [],
+			"links": [
+				{
+					"label": "Contribute a Test!",
+					"url": "https://github.com/redcanaryco/atomic-red-team/wiki/Contributing"
+				}
+			],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1564.001",
+			"tactic": "defense-evasion",
+			"score": 1.75,
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": [],
+			"links": [
+				{
+					"label": "View Atomic",
+					"url": "https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1564.001/T1564.001.md"
+				}
+			],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1564.004",
+			"tactic": "defense-evasion",
+			"score": 2.75,
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": [],
+			"links": [
+				{
+					"label": "View Atomic",
+					"url": "https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1564.004/T1564.004.md"
+				}
+			],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1564.006",
+			"tactic": "defense-evasion",
+			"score": 5.666666666666667,
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": [],
+			"links": [
+				{
+					"label": "View Atomic",
+					"url": "https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1564.006/T1564.006.md"
+				}
+			],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1564.007",
+			"tactic": "defense-evasion",
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": [],
+			"links": [
+				{
+					"label": "Contribute a Test!",
+					"url": "https://github.com/redcanaryco/atomic-red-team/wiki/Contributing"
+				}
+			],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1080",
+			"tactic": "lateral-movement",
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": [],
+			"links": [
+				{
+					"label": "Contribute a Test!",
+					"url": "https://github.com/redcanaryco/atomic-red-team/wiki/Contributing"
+				}
+			],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1137",
+			"tactic": "persistence",
+			"score": 0,
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": [],
+			"links": [
+				{
+					"label": "View Atomic",
+					"url": "https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1137/T1137.md"
+				}
+			],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1137.006",
+			"tactic": "persistence",
+			"score": 3,
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": [],
+			"links": [
+				{
+					"label": "View Atomic",
+					"url": "https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1137.006/T1137.006.md"
+				}
+			],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1137.001",
+			"tactic": "persistence",
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": [],
+			"links": [
+				{
+					"label": "Contribute a Test!",
+					"url": "https://github.com/redcanaryco/atomic-red-team/wiki/Contributing"
+				}
+			],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1137.002",
+			"tactic": "persistence",
+			"score": 3,
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": [],
+			"links": [
+				{
+					"label": "View Atomic",
+					"url": "https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1137.002/T1137.002.md"
+				}
+			],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1137.003",
+			"tactic": "persistence",
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": [],
+			"links": [
+				{
+					"label": "Contribute a Test!",
+					"url": "https://github.com/redcanaryco/atomic-red-team/wiki/Contributing"
+				}
+			],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1137.004",
+			"tactic": "persistence",
+			"score": 2,
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": [],
+			"links": [
+				{
+					"label": "View Atomic",
+					"url": "https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1137.004/T1137.004.md"
+				}
+			],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1137.005",
+			"tactic": "persistence",
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": [],
+			"links": [
+				{
+					"label": "Contribute a Test!",
+					"url": "https://github.com/redcanaryco/atomic-red-team/wiki/Contributing"
+				}
+			],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1135",
+			"tactic": "discovery",
+			"score": 1.8888888888888888,
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": [],
+			"links": [
+				{
+					"label": "View Atomic",
+					"url": "https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1135/T1135.md"
+				}
+			],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1071.002",
+			"tactic": "command-and-control",
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": [],
+			"links": [
+				{
+					"label": "Contribute a Test!",
+					"url": "https://github.com/redcanaryco/atomic-red-team/wiki/Contributing"
+				}
+			],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1071.003",
+			"tactic": "command-and-control",
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": [],
+			"links": [
+				{
+					"label": "Contribute a Test!",
+					"url": "https://github.com/redcanaryco/atomic-red-team/wiki/Contributing"
+				}
+			],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1176",
+			"tactic": "persistence",
+			"score": 2.4,
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": [],
+			"links": [
+				{
+					"label": "View Atomic",
+					"url": "https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1176/T1176.md"
+				}
+			],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1106",
+			"tactic": "execution",
+			"score": 1.25,
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": [],
+			"links": [
+				{
+					"label": "View Atomic",
+					"url": "https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1106/T1106.md"
+				}
+			],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1202",
+			"tactic": "defense-evasion",
+			"score": 2,
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": [],
+			"links": [
+				{
+					"label": "View Atomic",
+					"url": "https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1202/T1202.md"
+				}
+			],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1562.009",
+			"tactic": "defense-evasion",
+			"score": 2,
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": [],
+			"links": [
+				{
+					"label": "View Atomic",
+					"url": "https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1562.009/T1562.009.md"
+				}
+			],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1558.004",
+			"tactic": "credential-access",
+			"score": 1,
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": [],
+			"links": [
+				{
+					"label": "View Atomic",
+					"url": "https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1558.004/T1558.004.md"
+				}
+			],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1558.001",
+			"tactic": "credential-access",
+			"score": 3,
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": [],
+			"links": [
+				{
+					"label": "View Atomic",
+					"url": "https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1558.001/T1558.001.md"
+				}
+			],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1558.002",
+			"tactic": "credential-access",
+			"score": 3,
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": [],
+			"links": [
+				{
+					"label": "View Atomic",
+					"url": "https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1558.002/T1558.002.md"
+				}
+			],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1555",
+			"tactic": "credential-access",
+			"score": 0.125,
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": [],
+			"links": [
+				{
+					"label": "View Atomic",
+					"url": "https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1555/T1555.md"
+				}
+			],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1555.003",
+			"tactic": "credential-access",
+			"score": 1.875,
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": [],
+			"links": [
+				{
+					"label": "View Atomic",
+					"url": "https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1555.003/T1555.003.md"
+				}
+			],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1555.005",
+			"tactic": "credential-access",
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": [],
+			"links": [
+				{
+					"label": "Contribute a Test!",
+					"url": "https://github.com/redcanaryco/atomic-red-team/wiki/Contributing"
+				}
+			],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1567.001",
+			"tactic": "exfiltration",
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": [],
+			"links": [
+				{
+					"label": "Contribute a Test!",
+					"url": "https://github.com/redcanaryco/atomic-red-team/wiki/Contributing"
+				}
+			],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1036.007",
+			"tactic": "defense-evasion",
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": [],
+			"links": [
+				{
+					"label": "Contribute a Test!",
+					"url": "https://github.com/redcanaryco/atomic-red-team/wiki/Contributing"
+				}
+			],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1036.001",
+			"tactic": "defense-evasion",
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": [],
+			"links": [
+				{
+					"label": "Contribute a Test!",
+					"url": "https://github.com/redcanaryco/atomic-red-team/wiki/Contributing"
+				}
+			],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1036.004",
+			"tactic": "defense-evasion",
+			"score": 2.3333333333333335,
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": [],
+			"links": [
+				{
+					"label": "View Atomic",
+					"url": "https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1036.004/T1036.004.md"
+				}
+			],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1036.005",
+			"tactic": "defense-evasion",
+			"score": 2,
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": [],
+			"links": [
+				{
+					"label": "View Atomic",
+					"url": "https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1036.005/T1036.005.md"
+				}
+			],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1036.002",
+			"tactic": "defense-evasion",
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": [],
+			"links": [
+				{
+					"label": "Contribute a Test!",
+					"url": "https://github.com/redcanaryco/atomic-red-team/wiki/Contributing"
+				}
+			],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1552.001",
+			"tactic": "credential-access",
+			"score": 0.8333333333333334,
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": [],
+			"links": [
+				{
+					"label": "View Atomic",
+					"url": "https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1552.001/T1552.001.md"
+				}
+			],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1552.002",
+			"tactic": "credential-access",
+			"score": 0,
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": [],
+			"links": [
+				{
+					"label": "View Atomic",
+					"url": "https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1552.002/T1552.002.md"
+				}
+			],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1552.006",
+			"tactic": "credential-access",
+			"score": 3,
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": [],
+			"links": [
+				{
+					"label": "View Atomic",
+					"url": "https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1552.006/T1552.006.md"
+				}
+			],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1055.004",
+			"tactic": "defense-evasion",
+			"score": 5,
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": [],
+			"links": [
+				{
+					"label": "View Atomic",
+					"url": "https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1055.004/T1055.004.md"
+				}
+			],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1055.004",
+			"tactic": "privilege-escalation",
+			"score": 5,
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": [],
+			"links": [
+				{
+					"label": "View Atomic",
+					"url": "https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1055.004/T1055.004.md"
+				}
+			],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1055.011",
+			"tactic": "defense-evasion",
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": [],
+			"links": [
+				{
+					"label": "Contribute a Test!",
+					"url": "https://github.com/redcanaryco/atomic-red-team/wiki/Contributing"
+				}
+			],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1055.011",
+			"tactic": "privilege-escalation",
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": [],
+			"links": [
+				{
+					"label": "Contribute a Test!",
+					"url": "https://github.com/redcanaryco/atomic-red-team/wiki/Contributing"
+				}
+			],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1055.002",
+			"tactic": "defense-evasion",
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": [],
+			"links": [
+				{
+					"label": "Contribute a Test!",
+					"url": "https://github.com/redcanaryco/atomic-red-team/wiki/Contributing"
+				}
+			],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1055.002",
+			"tactic": "privilege-escalation",
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": [],
+			"links": [
+				{
+					"label": "Contribute a Test!",
+					"url": "https://github.com/redcanaryco/atomic-red-team/wiki/Contributing"
+				}
+			],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1055.013",
+			"tactic": "defense-evasion",
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": [],
+			"links": [
+				{
+					"label": "Contribute a Test!",
+					"url": "https://github.com/redcanaryco/atomic-red-team/wiki/Contributing"
+				}
+			],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1055.013",
+			"tactic": "privilege-escalation",
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": [],
+			"links": [
+				{
+					"label": "Contribute a Test!",
+					"url": "https://github.com/redcanaryco/atomic-red-team/wiki/Contributing"
+				}
+			],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1055.003",
+			"tactic": "defense-evasion",
+			"score": 0,
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": [],
+			"links": [
+				{
+					"label": "View Atomic",
+					"url": "https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1055.003/T1055.003.md"
+				}
+			],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1055.003",
+			"tactic": "privilege-escalation",
+			"score": 0,
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": [],
+			"links": [
+				{
+					"label": "View Atomic",
+					"url": "https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1055.003/T1055.003.md"
+				}
+			],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1055.005",
+			"tactic": "defense-evasion",
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": [],
+			"links": [
+				{
+					"label": "Contribute a Test!",
+					"url": "https://github.com/redcanaryco/atomic-red-team/wiki/Contributing"
+				}
+			],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1055.005",
+			"tactic": "privilege-escalation",
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": [],
+			"links": [
+				{
+					"label": "Contribute a Test!",
+					"url": "https://github.com/redcanaryco/atomic-red-team/wiki/Contributing"
+				}
+			],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1205.001",
+			"tactic": "defense-evasion",
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": [],
+			"links": [
+				{
+					"label": "Contribute a Test!",
+					"url": "https://github.com/redcanaryco/atomic-red-team/wiki/Contributing"
+				}
+			],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1205.001",
+			"tactic": "persistence",
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": [],
+			"links": [
+				{
+					"label": "Contribute a Test!",
+					"url": "https://github.com/redcanaryco/atomic-red-team/wiki/Contributing"
+				}
+			],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1205.001",
+			"tactic": "command-and-control",
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": [],
+			"links": [
+				{
+					"label": "Contribute a Test!",
+					"url": "https://github.com/redcanaryco/atomic-red-team/wiki/Contributing"
+				}
+			],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1620",
+			"tactic": "defense-evasion",
+			"score": 0,
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": [],
+			"links": [
+				{
+					"label": "View Atomic",
+					"url": "https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1620/T1620.md"
+				}
+			],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1029",
+			"tactic": "exfiltration",
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": [],
+			"links": [
+				{
+					"label": "Contribute a Test!",
+					"url": "https://github.com/redcanaryco/atomic-red-team/wiki/Contributing"
+				}
+			],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1572",
+			"tactic": "command-and-control",
+			"score": 2.75,
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": [],
+			"links": [
+				{
+					"label": "View Atomic",
+					"url": "https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1572/T1572.md"
+				}
+			],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1550",
+			"tactic": "defense-evasion",
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": [],
+			"links": [
+				{
+					"label": "Contribute a Test!",
+					"url": "https://github.com/redcanaryco/atomic-red-team/wiki/Contributing"
+				}
+			],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1550",
+			"tactic": "lateral-movement",
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": [],
+			"links": [
+				{
+					"label": "Contribute a Test!",
+					"url": "https://github.com/redcanaryco/atomic-red-team/wiki/Contributing"
+				}
+			],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1550.002",
+			"tactic": "defense-evasion",
+			"score": 4,
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": [],
+			"links": [
+				{
+					"label": "View Atomic",
+					"url": "https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1550.002/T1550.002.md"
+				}
+			],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1550.002",
+			"tactic": "lateral-movement",
+			"score": 4,
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": [],
+			"links": [
+				{
+					"label": "View Atomic",
+					"url": "https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1550.002/T1550.002.md"
+				}
+			],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1550.003",
+			"tactic": "defense-evasion",
+			"score": 5,
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": [],
+			"links": [
+				{
+					"label": "View Atomic",
+					"url": "https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1550.003/T1550.003.md"
+				}
+			],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1550.003",
+			"tactic": "lateral-movement",
+			"score": 5,
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": [],
+			"links": [
+				{
+					"label": "View Atomic",
+					"url": "https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1550.003/T1550.003.md"
+				}
+			],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1011",
+			"tactic": "exfiltration",
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": [],
+			"links": [
+				{
+					"label": "Contribute a Test!",
+					"url": "https://github.com/redcanaryco/atomic-red-team/wiki/Contributing"
+				}
+			],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1560",
+			"tactic": "collection",
+			"score": 2,
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": [],
+			"links": [
+				{
+					"label": "View Atomic",
+					"url": "https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1560/T1560.md"
+				}
+			],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1560.003",
+			"tactic": "collection",
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": [],
+			"links": [
+				{
+					"label": "Contribute a Test!",
+					"url": "https://github.com/redcanaryco/atomic-red-team/wiki/Contributing"
+				}
+			],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1560.002",
+			"tactic": "collection",
+			"score": 3,
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": [],
+			"links": [
+				{
+					"label": "View Atomic",
+					"url": "https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1560.002/T1560.002.md"
+				}
+			],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1185",
+			"tactic": "collection",
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": [],
+			"links": [
+				{
+					"label": "Contribute a Test!",
+					"url": "https://github.com/redcanaryco/atomic-red-team/wiki/Contributing"
+				}
+			],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1021.005",
+			"tactic": "lateral-movement",
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": [],
+			"links": [
+				{
+					"label": "Contribute a Test!",
+					"url": "https://github.com/redcanaryco/atomic-red-team/wiki/Contributing"
+				}
+			],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1021.006",
+			"tactic": "lateral-movement",
+			"score": 2.3333333333333335,
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": [],
+			"links": [
+				{
+					"label": "View Atomic",
+					"url": "https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1021.006/T1021.006.md"
+				}
+			],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1563",
+			"tactic": "lateral-movement",
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": [],
+			"links": [
+				{
+					"label": "Contribute a Test!",
+					"url": "https://github.com/redcanaryco/atomic-red-team/wiki/Contributing"
+				}
+			],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1563.002",
+			"tactic": "lateral-movement",
+			"score": 4,
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": [],
+			"links": [
+				{
+					"label": "View Atomic",
+					"url": "https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1563.002/T1563.002.md"
+				}
+			],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1092",
+			"tactic": "command-and-control",
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": [],
+			"links": [
+				{
+					"label": "Contribute a Test!",
+					"url": "https://github.com/redcanaryco/atomic-red-team/wiki/Contributing"
+				}
+			],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1016.001",
+			"tactic": "discovery",
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": [],
+			"links": [
+				{
+					"label": "Contribute a Test!",
+					"url": "https://github.com/redcanaryco/atomic-red-team/wiki/Contributing"
+				}
+			],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1087.003",
+			"tactic": "discovery",
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": [],
+			"links": [
+				{
+					"label": "Contribute a Test!",
+					"url": "https://github.com/redcanaryco/atomic-red-team/wiki/Contributing"
+				}
+			],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1090",
+			"tactic": "command-and-control",
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": [],
+			"links": [
+				{
+					"label": "Contribute a Test!",
+					"url": "https://github.com/redcanaryco/atomic-red-team/wiki/Contributing"
+				}
+			],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1090.004",
+			"tactic": "command-and-control",
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": [],
+			"links": [
+				{
+					"label": "Contribute a Test!",
+					"url": "https://github.com/redcanaryco/atomic-red-team/wiki/Contributing"
+				}
+			],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1090.002",
+			"tactic": "command-and-control",
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": [],
+			"links": [
+				{
+					"label": "Contribute a Test!",
+					"url": "https://github.com/redcanaryco/atomic-red-team/wiki/Contributing"
+				}
+			],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1090.001",
+			"tactic": "command-and-control",
+			"score": 2.6666666666666665,
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": [],
+			"links": [
+				{
+					"label": "View Atomic",
+					"url": "https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1090.001/T1090.001.md"
+				}
+			],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1090.003",
+			"tactic": "command-and-control",
+			"score": 1.5,
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": [],
+			"links": [
+				{
+					"label": "View Atomic",
+					"url": "https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1090.003/T1090.003.md"
+				}
+			],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1059.007",
+			"tactic": "execution",
+			"score": 5,
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": [],
+			"links": [
+				{
+					"label": "View Atomic",
+					"url": "https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1059.007/T1059.007.md"
+				}
+			],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1059.006",
+			"tactic": "execution",
+			"score": 3,
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": [],
+			"links": [
+				{
+					"label": "View Atomic",
+					"url": "https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1059.006/T1059.006.md"
+				}
+			],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1059.003",
+			"tactic": "execution",
+			"score": 3,
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": [],
+			"links": [
+				{
+					"label": "View Atomic",
+					"url": "https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1059.003/T1059.003.md"
+				}
+			],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1020",
+			"tactic": "exfiltration",
+			"score": 2,
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": [],
+			"links": [
+				{
+					"label": "View Atomic",
+					"url": "https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1020/T1020.md"
+				}
+			],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1070.006",
+			"tactic": "defense-evasion",
+			"score": 3.875,
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": [],
+			"links": [
+				{
+					"label": "View Atomic",
+					"url": "https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1070.006/T1070.006.md"
+				}
+			],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1568",
+			"tactic": "command-and-control",
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": [],
+			"links": [
+				{
+					"label": "Contribute a Test!",
+					"url": "https://github.com/redcanaryco/atomic-red-team/wiki/Contributing"
+				}
+			],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1568.003",
+			"tactic": "command-and-control",
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": [],
+			"links": [
+				{
+					"label": "Contribute a Test!",
+					"url": "https://github.com/redcanaryco/atomic-red-team/wiki/Contributing"
+				}
+			],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1568.002",
+			"tactic": "command-and-control",
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": [],
+			"links": [
+				{
+					"label": "Contribute a Test!",
+					"url": "https://github.com/redcanaryco/atomic-red-team/wiki/Contributing"
+				}
+			],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1568.001",
+			"tactic": "command-and-control",
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": [],
+			"links": [
+				{
+					"label": "Contribute a Test!",
+					"url": "https://github.com/redcanaryco/atomic-red-team/wiki/Contributing"
+				}
+			],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1074.002",
+			"tactic": "collection",
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": [],
+			"links": [
+				{
+					"label": "Contribute a Test!",
+					"url": "https://github.com/redcanaryco/atomic-red-team/wiki/Contributing"
+				}
+			],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1542",
+			"tactic": "defense-evasion",
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": [],
+			"links": [
+				{
+					"label": "Contribute a Test!",
+					"url": "https://github.com/redcanaryco/atomic-red-team/wiki/Contributing"
+				}
+			],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1542",
+			"tactic": "persistence",
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": [],
+			"links": [
+				{
+					"label": "Contribute a Test!",
+					"url": "https://github.com/redcanaryco/atomic-red-team/wiki/Contributing"
+				}
+			],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1542.003",
+			"tactic": "persistence",
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": [],
+			"links": [
+				{
+					"label": "Contribute a Test!",
+					"url": "https://github.com/redcanaryco/atomic-red-team/wiki/Contributing"
+				}
+			],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1542.003",
+			"tactic": "defense-evasion",
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": [],
+			"links": [
+				{
+					"label": "Contribute a Test!",
+					"url": "https://github.com/redcanaryco/atomic-red-team/wiki/Contributing"
+				}
+			],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1542.001",
+			"tactic": "persistence",
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": [],
+			"links": [
+				{
+					"label": "Contribute a Test!",
+					"url": "https://github.com/redcanaryco/atomic-red-team/wiki/Contributing"
+				}
+			],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1542.001",
+			"tactic": "defense-evasion",
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": [],
+			"links": [
+				{
+					"label": "Contribute a Test!",
+					"url": "https://github.com/redcanaryco/atomic-red-team/wiki/Contributing"
+				}
+			],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1497",
+			"tactic": "defense-evasion",
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": [],
+			"links": [
+				{
+					"label": "Contribute a Test!",
+					"url": "https://github.com/redcanaryco/atomic-red-team/wiki/Contributing"
+				}
+			],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1497",
+			"tactic": "discovery",
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": [],
+			"links": [
+				{
+					"label": "Contribute a Test!",
+					"url": "https://github.com/redcanaryco/atomic-red-team/wiki/Contributing"
+				}
+			],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1497.001",
+			"tactic": "defense-evasion",
+			"score": 0.5,
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": [],
+			"links": [
+				{
+					"label": "View Atomic",
+					"url": "https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1497.001/T1497.001.md"
+				}
+			],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1497.001",
+			"tactic": "discovery",
+			"score": 0.5,
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": [],
+			"links": [
+				{
+					"label": "View Atomic",
+					"url": "https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1497.001/T1497.001.md"
+				}
+			],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1497.003",
+			"tactic": "defense-evasion",
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": [],
+			"links": [
+				{
+					"label": "Contribute a Test!",
+					"url": "https://github.com/redcanaryco/atomic-red-team/wiki/Contributing"
+				}
+			],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1497.003",
+			"tactic": "discovery",
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": [],
+			"links": [
+				{
+					"label": "Contribute a Test!",
+					"url": "https://github.com/redcanaryco/atomic-red-team/wiki/Contributing"
+				}
+			],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1497.002",
+			"tactic": "defense-evasion",
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": [],
+			"links": [
+				{
+					"label": "Contribute a Test!",
+					"url": "https://github.com/redcanaryco/atomic-red-team/wiki/Contributing"
+				}
+			],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1497.002",
+			"tactic": "discovery",
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": [],
+			"links": [
+				{
+					"label": "Contribute a Test!",
+					"url": "https://github.com/redcanaryco/atomic-red-team/wiki/Contributing"
+				}
+			],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1102",
+			"tactic": "command-and-control",
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": [],
+			"links": [
+				{
+					"label": "Contribute a Test!",
+					"url": "https://github.com/redcanaryco/atomic-red-team/wiki/Contributing"
+				}
+			],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1102.002",
+			"tactic": "command-and-control",
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": [],
+			"links": [
+				{
+					"label": "Contribute a Test!",
+					"url": "https://github.com/redcanaryco/atomic-red-team/wiki/Contributing"
+				}
+			],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1102.001",
+			"tactic": "command-and-control",
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": [],
+			"links": [
+				{
+					"label": "Contribute a Test!",
+					"url": "https://github.com/redcanaryco/atomic-red-team/wiki/Contributing"
+				}
+			],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1102.003",
+			"tactic": "command-and-control",
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": [],
+			"links": [
+				{
+					"label": "Contribute a Test!",
+					"url": "https://github.com/redcanaryco/atomic-red-team/wiki/Contributing"
+				}
+			],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1104",
+			"tactic": "command-and-control",
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": [],
+			"links": [
+				{
+					"label": "Contribute a Test!",
+					"url": "https://github.com/redcanaryco/atomic-red-team/wiki/Contributing"
+				}
+			],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1480",
+			"tactic": "defense-evasion",
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": [],
+			"links": [
+				{
+					"label": "Contribute a Test!",
+					"url": "https://github.com/redcanaryco/atomic-red-team/wiki/Contributing"
+				}
+			],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1480.001",
+			"tactic": "defense-evasion",
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": [],
+			"links": [
+				{
+					"label": "Contribute a Test!",
+					"url": "https://github.com/redcanaryco/atomic-red-team/wiki/Contributing"
+				}
+			],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1204.001",
+			"tactic": "execution",
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": [],
+			"links": [
+				{
+					"label": "Contribute a Test!",
+					"url": "https://github.com/redcanaryco/atomic-red-team/wiki/Contributing"
+				}
+			],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1072",
+			"tactic": "execution",
+			"score": 7,
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": [],
+			"links": [
+				{
+					"label": "View Atomic",
+					"url": "https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1072/T1072.md"
+				}
+			],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1072",
+			"tactic": "lateral-movement",
+			"score": 7,
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": [],
+			"links": [
+				{
+					"label": "View Atomic",
+					"url": "https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1072/T1072.md"
+				}
+			],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1606.002",
+			"tactic": "credential-access",
+			"score": 3,
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": [],
+			"links": [
+				{
+					"label": "View Atomic",
+					"url": "https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1606.002/T1606.002.md"
+				}
+			],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1606.001",
+			"tactic": "credential-access",
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": [],
+			"links": [
+				{
+					"label": "Contribute a Test!",
+					"url": "https://github.com/redcanaryco/atomic-red-team/wiki/Contributing"
+				}
+			],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1554",
+			"tactic": "persistence",
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": [],
+			"links": [
+				{
+					"label": "Contribute a Test!",
+					"url": "https://github.com/redcanaryco/atomic-red-team/wiki/Contributing"
+				}
+			],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1210",
+			"tactic": "lateral-movement",
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": [],
+			"links": [
+				{
+					"label": "Contribute a Test!",
+					"url": "https://github.com/redcanaryco/atomic-red-team/wiki/Contributing"
+				}
+			],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1048.002",
+			"tactic": "exfiltration",
+			"score": 3.5,
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": [],
+			"links": [
+				{
+					"label": "View Atomic",
+					"url": "https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1048.002/T1048.002.md"
+				}
+			],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1048.001",
+			"tactic": "exfiltration",
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": [],
+			"links": [
+				{
+					"label": "Contribute a Test!",
+					"url": "https://github.com/redcanaryco/atomic-red-team/wiki/Contributing"
+				}
+			],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1566.001",
+			"tactic": "initial-access",
+			"score": 1.5,
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": [],
+			"links": [
+				{
+					"label": "View Atomic",
+					"url": "https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1566.001/T1566.001.md"
+				}
+			],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1566.003",
+			"tactic": "initial-access",
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": [],
+			"links": [
+				{
+					"label": "Contribute a Test!",
+					"url": "https://github.com/redcanaryco/atomic-red-team/wiki/Contributing"
+				}
+			],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1559.001",
+			"tactic": "execution",
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": [],
+			"links": [
+				{
+					"label": "Contribute a Test!",
+					"url": "https://github.com/redcanaryco/atomic-red-team/wiki/Contributing"
+				}
+			],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1001",
+			"tactic": "command-and-control",
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": [],
+			"links": [
+				{
+					"label": "Contribute a Test!",
+					"url": "https://github.com/redcanaryco/atomic-red-team/wiki/Contributing"
+				}
+			],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1001.001",
+			"tactic": "command-and-control",
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": [],
+			"links": [
+				{
+					"label": "Contribute a Test!",
+					"url": "https://github.com/redcanaryco/atomic-red-team/wiki/Contributing"
+				}
+			],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1001.003",
+			"tactic": "command-and-control",
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": [],
+			"links": [
+				{
+					"label": "Contribute a Test!",
+					"url": "https://github.com/redcanaryco/atomic-red-team/wiki/Contributing"
+				}
+			],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1001.002",
+			"tactic": "command-and-control",
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": [],
+			"links": [
+				{
+					"label": "Contribute a Test!",
+					"url": "https://github.com/redcanaryco/atomic-red-team/wiki/Contributing"
+				}
+			],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1574.012",
+			"tactic": "persistence",
+			"score": 3.6666666666666665,
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": [],
+			"links": [
+				{
+					"label": "View Atomic",
+					"url": "https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1574.012/T1574.012.md"
+				}
+			],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1574.012",
+			"tactic": "privilege-escalation",
+			"score": 3.6666666666666665,
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": [],
+			"links": [
+				{
+					"label": "View Atomic",
+					"url": "https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1574.012/T1574.012.md"
+				}
+			],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1574.012",
+			"tactic": "defense-evasion",
+			"score": 3.6666666666666665,
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": [],
+			"links": [
+				{
+					"label": "View Atomic",
+					"url": "https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1574.012/T1574.012.md"
+				}
+			],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1574.001",
+			"tactic": "persistence",
+			"score": 2,
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": [],
+			"links": [
+				{
+					"label": "View Atomic",
+					"url": "https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1574.001/T1574.001.md"
+				}
+			],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1574.001",
+			"tactic": "privilege-escalation",
+			"score": 2,
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": [],
+			"links": [
+				{
+					"label": "View Atomic",
+					"url": "https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1574.001/T1574.001.md"
+				}
+			],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1574.001",
+			"tactic": "defense-evasion",
+			"score": 2,
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": [],
+			"links": [
+				{
+					"label": "View Atomic",
+					"url": "https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1574.001/T1574.001.md"
+				}
+			],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1574.002",
+			"tactic": "persistence",
+			"score": 5,
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": [],
+			"links": [
+				{
+					"label": "View Atomic",
+					"url": "https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1574.002/T1574.002.md"
+				}
+			],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1574.002",
+			"tactic": "privilege-escalation",
+			"score": 5,
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": [],
+			"links": [
+				{
+					"label": "View Atomic",
+					"url": "https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1574.002/T1574.002.md"
+				}
+			],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1574.002",
+			"tactic": "defense-evasion",
+			"score": 5,
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": [],
+			"links": [
+				{
+					"label": "View Atomic",
+					"url": "https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1574.002/T1574.002.md"
+				}
+			],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1574.005",
+			"tactic": "persistence",
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": [],
+			"links": [
+				{
+					"label": "Contribute a Test!",
+					"url": "https://github.com/redcanaryco/atomic-red-team/wiki/Contributing"
+				}
+			],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1574.005",
+			"tactic": "privilege-escalation",
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": [],
+			"links": [
+				{
+					"label": "Contribute a Test!",
+					"url": "https://github.com/redcanaryco/atomic-red-team/wiki/Contributing"
+				}
+			],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1574.005",
+			"tactic": "defense-evasion",
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": [],
+			"links": [
+				{
+					"label": "Contribute a Test!",
+					"url": "https://github.com/redcanaryco/atomic-red-team/wiki/Contributing"
+				}
+			],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1574.007",
+			"tactic": "persistence",
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": [],
+			"links": [
+				{
+					"label": "Contribute a Test!",
+					"url": "https://github.com/redcanaryco/atomic-red-team/wiki/Contributing"
+				}
+			],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1574.007",
+			"tactic": "privilege-escalation",
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": [],
+			"links": [
+				{
+					"label": "Contribute a Test!",
+					"url": "https://github.com/redcanaryco/atomic-red-team/wiki/Contributing"
+				}
+			],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1574.007",
+			"tactic": "defense-evasion",
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": [],
+			"links": [
+				{
+					"label": "Contribute a Test!",
+					"url": "https://github.com/redcanaryco/atomic-red-team/wiki/Contributing"
+				}
+			],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1574.008",
+			"tactic": "persistence",
+			"score": 0,
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": [],
+			"links": [
+				{
+					"label": "View Atomic",
+					"url": "https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1574.008/T1574.008.md"
+				}
+			],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1574.008",
+			"tactic": "privilege-escalation",
+			"score": 0,
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": [],
+			"links": [
+				{
+					"label": "View Atomic",
+					"url": "https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1574.008/T1574.008.md"
+				}
+			],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1574.008",
+			"tactic": "defense-evasion",
+			"score": 0,
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": [],
+			"links": [
+				{
+					"label": "View Atomic",
+					"url": "https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1574.008/T1574.008.md"
+				}
+			],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1574.009",
+			"tactic": "persistence",
+			"score": 4,
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": [],
+			"links": [
+				{
+					"label": "View Atomic",
+					"url": "https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1574.009/T1574.009.md"
+				}
+			],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1574.009",
+			"tactic": "privilege-escalation",
+			"score": 4,
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": [],
+			"links": [
+				{
+					"label": "View Atomic",
+					"url": "https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1574.009/T1574.009.md"
+				}
+			],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1574.009",
+			"tactic": "defense-evasion",
+			"score": 4,
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": [],
+			"links": [
+				{
+					"label": "View Atomic",
+					"url": "https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1574.009/T1574.009.md"
+				}
+			],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1574.010",
+			"tactic": "persistence",
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": [],
+			"links": [
+				{
+					"label": "Contribute a Test!",
+					"url": "https://github.com/redcanaryco/atomic-red-team/wiki/Contributing"
+				}
+			],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1574.010",
+			"tactic": "privilege-escalation",
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": [],
+			"links": [
+				{
+					"label": "Contribute a Test!",
+					"url": "https://github.com/redcanaryco/atomic-red-team/wiki/Contributing"
+				}
+			],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1574.010",
+			"tactic": "defense-evasion",
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": [],
+			"links": [
+				{
+					"label": "Contribute a Test!",
+					"url": "https://github.com/redcanaryco/atomic-red-team/wiki/Contributing"
+				}
+			],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1574.011",
+			"tactic": "persistence",
+			"score": 3.5,
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": [],
+			"links": [
+				{
+					"label": "View Atomic",
+					"url": "https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1574.011/T1574.011.md"
+				}
+			],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1574.011",
+			"tactic": "privilege-escalation",
+			"score": 3.5,
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": [],
+			"links": [
+				{
+					"label": "View Atomic",
+					"url": "https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1574.011/T1574.011.md"
+				}
+			],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1574.011",
+			"tactic": "defense-evasion",
+			"score": 3.5,
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": [],
+			"links": [
+				{
+					"label": "View Atomic",
+					"url": "https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1574.011/T1574.011.md"
+				}
+			],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1078.001",
+			"tactic": "defense-evasion",
+			"score": 3.3333333333333335,
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": [],
+			"links": [
+				{
+					"label": "View Atomic",
+					"url": "https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1078.001/T1078.001.md"
+				}
+			],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1078.001",
+			"tactic": "persistence",
+			"score": 3.3333333333333335,
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": [],
+			"links": [
+				{
+					"label": "View Atomic",
+					"url": "https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1078.001/T1078.001.md"
+				}
+			],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1078.001",
+			"tactic": "privilege-escalation",
+			"score": 3.3333333333333335,
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": [],
+			"links": [
+				{
+					"label": "View Atomic",
+					"url": "https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1078.001/T1078.001.md"
+				}
+			],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1078.001",
+			"tactic": "initial-access",
+			"score": 3.3333333333333335,
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": [],
+			"links": [
+				{
+					"label": "View Atomic",
+					"url": "https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1078.001/T1078.001.md"
+				}
+			],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1027.001",
+			"tactic": "defense-evasion",
+			"score": 5,
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": [],
+			"links": [
+				{
+					"label": "View Atomic",
+					"url": "https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1027.001/T1027.001.md"
+				}
+			],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1027.004",
+			"tactic": "defense-evasion",
+			"score": 4.6,
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": [],
+			"links": [
+				{
+					"label": "View Atomic",
+					"url": "https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1027.004/T1027.004.md"
+				}
+			],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1027.006",
+			"tactic": "defense-evasion",
+			"score": 3,
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": [],
+			"links": [
+				{
+					"label": "View Atomic",
+					"url": "https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1027.006/T1027.006.md"
+				}
+			],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1027.003",
+			"tactic": "defense-evasion",
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": [],
+			"links": [
+				{
+					"label": "Contribute a Test!",
+					"url": "https://github.com/redcanaryco/atomic-red-team/wiki/Contributing"
+				}
+			],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1546.009",
+			"tactic": "privilege-escalation",
+			"score": 5,
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": [],
+			"links": [
+				{
+					"label": "View Atomic",
+					"url": "https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1546.009/T1546.009.md"
+				}
+			],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1546.009",
+			"tactic": "persistence",
+			"score": 5,
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": [],
+			"links": [
+				{
+					"label": "View Atomic",
+					"url": "https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1546.009/T1546.009.md"
+				}
+			],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1546.011",
+			"tactic": "privilege-escalation",
+			"score": 3.6666666666666665,
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": [],
+			"links": [
+				{
+					"label": "View Atomic",
+					"url": "https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1546.011/T1546.011.md"
+				}
+			],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1546.011",
+			"tactic": "persistence",
+			"score": 3.6666666666666665,
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": [],
+			"links": [
+				{
+					"label": "View Atomic",
+					"url": "https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1546.011/T1546.011.md"
+				}
+			],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1546.001",
+			"tactic": "privilege-escalation",
+			"score": 4,
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": [],
+			"links": [
+				{
+					"label": "View Atomic",
+					"url": "https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1546.001/T1546.001.md"
+				}
+			],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1546.001",
+			"tactic": "persistence",
+			"score": 4,
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": [],
+			"links": [
+				{
+					"label": "View Atomic",
+					"url": "https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1546.001/T1546.001.md"
+				}
+			],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1546.012",
+			"tactic": "privilege-escalation",
+			"score": 4,
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": [],
+			"links": [
+				{
+					"label": "View Atomic",
+					"url": "https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1546.012/T1546.012.md"
+				}
+			],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1546.012",
+			"tactic": "persistence",
+			"score": 4,
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": [],
+			"links": [
+				{
+					"label": "View Atomic",
+					"url": "https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1546.012/T1546.012.md"
+				}
+			],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1546.007",
+			"tactic": "privilege-escalation",
+			"score": 7,
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": [],
+			"links": [
+				{
+					"label": "View Atomic",
+					"url": "https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1546.007/T1546.007.md"
+				}
+			],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1546.007",
+			"tactic": "persistence",
+			"score": 7,
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": [],
+			"links": [
+				{
+					"label": "View Atomic",
+					"url": "https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1546.007/T1546.007.md"
+				}
+			],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1187",
+			"tactic": "credential-access",
+			"score": 1.5,
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": [],
+			"links": [
+				{
+					"label": "View Atomic",
+					"url": "https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1187/T1187.md"
+				}
+			],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1553",
+			"tactic": "defense-evasion",
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": [],
+			"links": [
+				{
+					"label": "Contribute a Test!",
+					"url": "https://github.com/redcanaryco/atomic-red-team/wiki/Contributing"
+				}
+			],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1553.006",
+			"tactic": "defense-evasion",
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": [],
+			"links": [
+				{
+					"label": "Contribute a Test!",
+					"url": "https://github.com/redcanaryco/atomic-red-team/wiki/Contributing"
+				}
+			],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1553.004",
+			"tactic": "defense-evasion",
+			"score": 4.333333333333333,
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": [],
+			"links": [
+				{
+					"label": "View Atomic",
+					"url": "https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1553.004/T1553.004.md"
+				}
+			],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1553.003",
+			"tactic": "defense-evasion",
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": [],
+			"links": [
+				{
+					"label": "Contribute a Test!",
+					"url": "https://github.com/redcanaryco/atomic-red-team/wiki/Contributing"
+				}
+			],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1573",
+			"tactic": "command-and-control",
+			"score": 2,
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": [],
+			"links": [
+				{
+					"label": "View Atomic",
+					"url": "https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1573/T1573.md"
+				}
+			],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1573.002",
+			"tactic": "command-and-control",
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": [],
+			"links": [
+				{
+					"label": "Contribute a Test!",
+					"url": "https://github.com/redcanaryco/atomic-red-team/wiki/Contributing"
+				}
+			],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1573.001",
+			"tactic": "command-and-control",
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": [],
+			"links": [
+				{
+					"label": "Contribute a Test!",
+					"url": "https://github.com/redcanaryco/atomic-red-team/wiki/Contributing"
+				}
+			],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1056",
+			"tactic": "collection",
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": [],
+			"links": [
+				{
+					"label": "Contribute a Test!",
+					"url": "https://github.com/redcanaryco/atomic-red-team/wiki/Contributing"
+				}
+			],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1056",
+			"tactic": "credential-access",
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": [],
+			"links": [
+				{
+					"label": "Contribute a Test!",
+					"url": "https://github.com/redcanaryco/atomic-red-team/wiki/Contributing"
+				}
+			],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1056.004",
+			"tactic": "collection",
+			"score": 5,
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": [],
+			"links": [
+				{
+					"label": "View Atomic",
+					"url": "https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1056.004/T1056.004.md"
+				}
+			],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1056.004",
+			"tactic": "credential-access",
+			"score": 5,
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": [],
+			"links": [
+				{
+					"label": "View Atomic",
+					"url": "https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1056.004/T1056.004.md"
+				}
+			],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1056.001",
+			"tactic": "collection",
+			"score": 4.142857142857143,
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": [],
+			"links": [
+				{
+					"label": "View Atomic",
+					"url": "https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1056.001/T1056.001.md"
+				}
+			],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1056.001",
+			"tactic": "credential-access",
+			"score": 4.142857142857143,
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": [],
+			"links": [
+				{
+					"label": "View Atomic",
+					"url": "https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1056.001/T1056.001.md"
+				}
+			],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1056.003",
+			"tactic": "collection",
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": [],
+			"links": [
+				{
+					"label": "Contribute a Test!",
+					"url": "https://github.com/redcanaryco/atomic-red-team/wiki/Contributing"
+				}
+			],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1056.003",
+			"tactic": "credential-access",
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": [],
+			"links": [
+				{
+					"label": "Contribute a Test!",
+					"url": "https://github.com/redcanaryco/atomic-red-team/wiki/Contributing"
+				}
+			],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1030",
+			"tactic": "exfiltration",
+			"score": 3,
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": [],
+			"links": [
+				{
+					"label": "View Atomic",
+					"url": "https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1030/T1030.md"
+				}
+			],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1499",
+			"tactic": "impact",
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": [],
+			"links": [
+				{
+					"label": "Contribute a Test!",
+					"url": "https://github.com/redcanaryco/atomic-red-team/wiki/Contributing"
+				}
+			],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1614",
+			"tactic": "discovery",
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": [],
+			"links": [
+				{
+					"label": "Contribute a Test!",
+					"url": "https://github.com/redcanaryco/atomic-red-team/wiki/Contributing"
+				}
+			],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1614.001",
+			"tactic": "discovery",
+			"score": 0.3333333333333333,
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": [],
+			"links": [
+				{
+					"label": "View Atomic",
+					"url": "https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1614.001/T1614.001.md"
+				}
+			],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1132.002",
+			"tactic": "command-and-control",
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": [],
+			"links": [
+				{
+					"label": "Contribute a Test!",
+					"url": "https://github.com/redcanaryco/atomic-red-team/wiki/Contributing"
+				}
+			],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1132.001",
+			"tactic": "command-and-control",
+			"score": 2,
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": [],
+			"links": [
+				{
+					"label": "View Atomic",
+					"url": "https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1132.001/T1132.001.md"
+				}
+			],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1569.002",
+			"tactic": "execution",
+			"score": 4.333333333333333,
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": [],
+			"links": [
+				{
+					"label": "View Atomic",
+					"url": "https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1569.002/T1569.002.md"
+				}
+			],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1213",
+			"tactic": "collection",
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": [],
+			"links": [
+				{
+					"label": "Contribute a Test!",
+					"url": "https://github.com/redcanaryco/atomic-red-team/wiki/Contributing"
+				}
+			],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1213.002",
+			"tactic": "collection",
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": [],
+			"links": [
+				{
+					"label": "Contribute a Test!",
+					"url": "https://github.com/redcanaryco/atomic-red-team/wiki/Contributing"
+				}
+			],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1505.004",
+			"tactic": "persistence",
+			"score": 4,
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": [],
+			"links": [
+				{
+					"label": "View Atomic",
+					"url": "https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1505.004/T1505.004.md"
+				}
+			],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1505.001",
+			"tactic": "persistence",
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": [],
+			"links": [
+				{
+					"label": "Contribute a Test!",
+					"url": "https://github.com/redcanaryco/atomic-red-team/wiki/Contributing"
+				}
+			],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1505.002",
+			"tactic": "persistence",
+			"score": 7,
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": [],
+			"links": [
+				{
+					"label": "View Atomic",
+					"url": "https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1505.002/T1505.002.md"
+				}
+			],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1485",
+			"tactic": "impact",
+			"score": 2,
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": [],
+			"links": [
+				{
+					"label": "View Atomic",
+					"url": "https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1485/T1485.md"
+				}
+			],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1498",
+			"tactic": "impact",
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": [],
+			"links": [
+				{
+					"label": "Contribute a Test!",
+					"url": "https://github.com/redcanaryco/atomic-red-team/wiki/Contributing"
+				}
+			],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1134",
+			"tactic": "defense-evasion",
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": [],
+			"links": [
+				{
+					"label": "Contribute a Test!",
+					"url": "https://github.com/redcanaryco/atomic-red-team/wiki/Contributing"
+				}
+			],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1134",
+			"tactic": "privilege-escalation",
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": [],
+			"links": [
+				{
+					"label": "Contribute a Test!",
+					"url": "https://github.com/redcanaryco/atomic-red-team/wiki/Contributing"
+				}
+			],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1134.004",
+			"tactic": "defense-evasion",
+			"score": 4.6,
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": [],
+			"links": [
+				{
+					"label": "View Atomic",
+					"url": "https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1134.004/T1134.004.md"
+				}
+			],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1134.004",
+			"tactic": "privilege-escalation",
+			"score": 4.6,
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": [],
+			"links": [
+				{
+					"label": "View Atomic",
+					"url": "https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1134.004/T1134.004.md"
+				}
+			],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1134.005",
+			"tactic": "defense-evasion",
+			"score": 7,
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": [],
+			"links": [
+				{
+					"label": "View Atomic",
+					"url": "https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1134.005/T1134.005.md"
+				}
+			],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1134.005",
+			"tactic": "privilege-escalation",
+			"score": 7,
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": [],
+			"links": [
+				{
+					"label": "View Atomic",
+					"url": "https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1134.005/T1134.005.md"
+				}
+			],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1136.002",
+			"tactic": "persistence",
+			"score": 2.4,
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": [],
+			"links": [
+				{
+					"label": "View Atomic",
+					"url": "https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1136.002/T1136.002.md"
+				}
+			],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1518",
+			"tactic": "discovery",
+			"score": 0,
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": [],
+			"links": [
+				{
+					"label": "View Atomic",
+					"url": "https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1518/T1518.md"
+				}
+			],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1052",
+			"tactic": "exfiltration",
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": [],
+			"links": [
+				{
+					"label": "Contribute a Test!",
+					"url": "https://github.com/redcanaryco/atomic-red-team/wiki/Contributing"
+				}
+			],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1052.001",
+			"tactic": "exfiltration",
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": [],
+			"links": [
+				{
+					"label": "Contribute a Test!",
+					"url": "https://github.com/redcanaryco/atomic-red-team/wiki/Contributing"
+				}
+			],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1484",
+			"tactic": "defense-evasion",
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": [],
+			"links": [
+				{
+					"label": "Contribute a Test!",
+					"url": "https://github.com/redcanaryco/atomic-red-team/wiki/Contributing"
+				}
+			],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1484",
+			"tactic": "privilege-escalation",
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": [],
+			"links": [
+				{
+					"label": "Contribute a Test!",
+					"url": "https://github.com/redcanaryco/atomic-red-team/wiki/Contributing"
+				}
+			],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1484.001",
+			"tactic": "defense-evasion",
+			"score": 2,
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": [],
+			"links": [
+				{
+					"label": "View Atomic",
+					"url": "https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1484.001/T1484.001.md"
+				}
+			],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1484.001",
+			"tactic": "privilege-escalation",
+			"score": 2,
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": [],
+			"links": [
+				{
+					"label": "View Atomic",
+					"url": "https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1484.001/T1484.001.md"
+				}
+			],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1220",
+			"tactic": "defense-evasion",
+			"score": 4.25,
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": [],
+			"links": [
+				{
+					"label": "View Atomic",
+					"url": "https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1220/T1220.md"
+				}
+			],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1008",
+			"tactic": "command-and-control",
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": [],
+			"links": [
+				{
+					"label": "Contribute a Test!",
+					"url": "https://github.com/redcanaryco/atomic-red-team/wiki/Contributing"
+				}
+			],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1556.001",
+			"tactic": "credential-access",
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": [],
+			"links": [
+				{
+					"label": "Contribute a Test!",
+					"url": "https://github.com/redcanaryco/atomic-red-team/wiki/Contributing"
+				}
+			],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1556.001",
+			"tactic": "defense-evasion",
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": [],
+			"links": [
+				{
+					"label": "Contribute a Test!",
+					"url": "https://github.com/redcanaryco/atomic-red-team/wiki/Contributing"
+				}
+			],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1556.001",
+			"tactic": "persistence",
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": [],
+			"links": [
+				{
+					"label": "Contribute a Test!",
+					"url": "https://github.com/redcanaryco/atomic-red-team/wiki/Contributing"
+				}
+			],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1556.002",
+			"tactic": "credential-access",
+			"score": 5,
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": [],
+			"links": [
+				{
+					"label": "View Atomic",
+					"url": "https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1556.002/T1556.002.md"
+				}
+			],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1556.002",
+			"tactic": "defense-evasion",
+			"score": 5,
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": [],
+			"links": [
+				{
+					"label": "View Atomic",
+					"url": "https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1556.002/T1556.002.md"
+				}
+			],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1556.002",
+			"tactic": "persistence",
+			"score": 5,
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": [],
+			"links": [
+				{
+					"label": "View Atomic",
+					"url": "https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1556.002/T1556.002.md"
+				}
+			],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1127",
+			"tactic": "defense-evasion",
+			"score": 5,
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": [],
+			"links": [
+				{
+					"label": "View Atomic",
+					"url": "https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1127/T1127.md"
+				}
+			],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1127.001",
+			"tactic": "defense-evasion",
+			"score": 5,
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": [],
+			"links": [
+				{
+					"label": "View Atomic",
+					"url": "https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1127.001/T1127.001.md"
+				}
+			],
+			"showSubtechniques": false
+		}
+	],
+	"gradient": {
+		"colors": [
+			"#ff6666ff",
+			"#ffe766ff",
+			"#8ec843ff"
+		],
+		"minValue": 0,
+		"maxValue": 100
+	},
+	"legendItems": [],
+	"metadata": [],
+	"links": [],
+	"showTacticRowBackground": false,
+	"tacticRowBackground": "#dddddd",
+	"selectTechniquesAcrossTactics": false,
+	"selectSubtechniquesWithParent": false
+}
