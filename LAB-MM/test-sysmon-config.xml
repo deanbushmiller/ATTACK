@@ -1,0 +1,23 @@
+<Sysmon schemaversion="4.82">
+  <!-- Capture all hashes -->
+  <HashAlgorithms>*</HashAlgorithms>
+  <EventFiltering>
+    <!-- Log all drivers except if the signature -->
+    <!-- contains Microsoft or Windows -->
+    <DriverLoad onmatch="exclude">
+      <Signature condition="contains">microsoft</Signature>
+      <Signature condition="contains">windows</Signature>
+    </DriverLoad>
+    <!-- Do not log process termination -->
+    <ProcessTerminate onmatch="include" />
+    <!-- Log network connection if the destination port equal 443 -->
+    <!-- or 80, and process isn't InternetExplorer -->
+    <NetworkConnect onmatch="include">
+      <DestinationPort>443</DestinationPort>
+      <DestinationPort>80</DestinationPort>
+    </NetworkConnect>
+    <NetworkConnect onmatch="exclude">
+      <Image condition="end with">iexplore.exe</Image>
+    </NetworkConnect>
+  </EventFiltering>
+</Sysmon>
