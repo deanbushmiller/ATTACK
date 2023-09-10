@@ -1,0 +1,4915 @@
+Clear event logs:
+Right click each log |select the command 
+Clear Log... from the context menu
+
+Fix the crappy powershell default error color
+$Host.PrivateData.ErrorForegroundColor = 'Yellow'
+
+setup AtomicredTeam for this Admin session in powershell
+Import-Module "C:\AtomicRedTeam\invoke-atomicredteam\Invoke-AtomicRedTeam.psd1" -Force
+
+After first test navigate to:
+C:\Users\Administrator\AppData\Local\Temp\
+might add number to end
+very new powershell
+Import-Module "C:\AtomicRedTeam\invoke-atomicredteam\Invoke-AtomicRedTeam.psd1" -Force
+Template for command (up arrow is your friend)
+Invoke-AtomicTest T####.00# -GetPrereqs
+Invoke-AtomicTest T####.00# -TestNumbers #
+Part 1
+Execution
+Invoke-AtomicTest T1204.002 -TestNumbers 1
+Why did it fail? What can you do about it?
+
+Invoke-AtomicTest T1204.002 -TestNumbers 8
+goto C:\Users\Administrator\AppData\Local\Temp
+Drill down to the numbered directory What artifact do you see?
+
+Persistence
+Invoke-AtomicTest T1543.003 -TestNumbers 2
+Privilege Escalation
+Invoke-AtomicTest T1055.001 -TestNumbers 1
+Part 2
+Defense Evasion
+Invoke-AtomicTest T1564.001 -TestNumbers 3
+Discovery
+Invoke-AtomicTest T1518.001 -TestNumbers 1
+Invoke-AtomicTest T1518.001 -TestNumbers 2
+Invoke-AtomicTest T1518.001 -TestNumbers 5
+Lateral Movement
+Collection
+Invoke-AtomicTest T1113 -TestNumbers 6
+Command and Control
+Invoke-AtomicTest T1106 -TestNumbers 9very new powershell
+Import-Module "C:\AtomicRedTeam\invoke-atomicredteam\Invoke-AtomicRedTeam.psd1" -Force
+Template for command (up arrow is your friend)
+Invoke-AtomicTest T####.00# -GetPrereqs
+Invoke-AtomicTest T####.00# -TestNumbers #
+Part 1
+Execution
+Invoke-AtomicTest T1204.002 -TestNumbers 1
+Why did it fail? What can you do about it?
+
+Invoke-AtomicTest T1204.002 -TestNumbers 8
+goto C:\Users\Administrator\AppData\Local\Temp
+Drill down to the numbered directory What artifact do you see?
+
+Persistence
+Invoke-AtomicTest T1543.003 -TestNumbers 2
+Privilege Escalation
+Invoke-AtomicTest T1055.001 -TestNumbers 1
+Part 2
+Defense Evasion
+Invoke-AtomicTest T1564.001 -TestNumbers 3
+Discovery
+Invoke-AtomicTest T1518.001 -TestNumbers 1
+Invoke-AtomicTest T1518.001 -TestNumbers 2
+Invoke-AtomicTest T1518.001 -TestNumbers 5
+Lateral Movement
+Collection
+Invoke-AtomicTest T1113 -TestNumbers 6
+Command and Control
+Invoke-AtomicTest T1106 -TestNumbers 9very new powershell
+Import-Module "C:\AtomicRedTeam\invoke-atomicredteam\Invoke-AtomicRedTeam.psd1" -Force
+Template for command (up arrow is your friend)
+Invoke-AtomicTest T####.00# -GetPrereqs
+Invoke-AtomicTest T####.00# -TestNumbers #
+Part 1
+Execution
+Invoke-AtomicTest T1204.002 -TestNumbers 1
+Why did it fail? What can you do about it?
+
+Invoke-AtomicTest T1204.002 -TestNumbers 8
+goto C:\Users\Administrator\AppData\Local\Temp
+Drill down to the numbered directory What artifact do you see?
+
+Persistence
+Invoke-AtomicTest T1543.003 -TestNumbers 2
+Privilege Escalation
+Invoke-AtomicTest T1055.001 -TestNumbers 1
+Part 2
+Defense Evasion
+Invoke-AtomicTest T1564.001 -TestNumbers 3
+Discovery
+Invoke-AtomicTest T1518.001 -TestNumbers 1
+Invoke-AtomicTest T1518.001 -TestNumbers 2
+Invoke-AtomicTest T1518.001 -TestNumbers 5
+Lateral Movement
+Collection
+Invoke-AtomicTest T1113 -TestNumbers 6
+Command and Control
+Invoke-AtomicTest T1106 -TestNumbers 9very new powershell
+Import-Module "C:\AtomicRedTeam\invoke-atomicredteam\Invoke-AtomicRedTeam.psd1" -Force
+Template for command (up arrow is your friend)
+Invoke-AtomicTest T####.00# -GetPrereqs
+Invoke-AtomicTest T####.00# -TestNumbers #
+Part 1
+Execution
+Invoke-AtomicTest T1204.002 -TestNumbers 1
+Why did it fail? What can you do about it?
+
+Invoke-AtomicTest T1204.002 -TestNumbers 8
+goto C:\Users\Administrator\AppData\Local\Temp
+Drill down to the numbered directory What artifact do you see?
+
+Persistence
+Invoke-AtomicTest T1543.003 -TestNumbers 2
+Privilege Escalation
+Invoke-AtomicTest T1055.001 -TestNumbers 1
+Part 2
+Defense Evasion
+Invoke-AtomicTest T1564.001 -TestNumbers 3
+Discovery
+Invoke-AtomicTest T1518.001 -TestNumbers 1
+Invoke-AtomicTest T1518.001 -TestNumbers 2
+Invoke-AtomicTest T1518.001 -TestNumbers 5
+Lateral Movement
+Collection
+Invoke-AtomicTest T1113 -TestNumbers 6
+Command and Control
+Invoke-AtomicTest T1106 -TestNumbers 9very new powershell
+Import-Module "C:\AtomicRedTeam\invoke-atomicredteam\Invoke-AtomicRedTeam.psd1" -Force
+Template for command (up arrow is your friend)
+Invoke-AtomicTest T####.00# -GetPrereqs
+Invoke-AtomicTest T####.00# -TestNumbers #
+Part 1
+Execution
+Invoke-AtomicTest T1204.002 -TestNumbers 1
+Why did it fail? What can you do about it?
+
+Invoke-AtomicTest T1204.002 -TestNumbers 8
+goto C:\Users\Administrator\AppData\Local\Temp
+Drill down to the numbered directory What artifact do you see?
+
+Persistence
+Invoke-AtomicTest T1543.003 -TestNumbers 2
+Privilege Escalation
+Invoke-AtomicTest T1055.001 -TestNumbers 1
+Part 2
+Defense Evasion
+Invoke-AtomicTest T1564.001 -TestNumbers 3
+Discovery
+Invoke-AtomicTest T1518.001 -TestNumbers 1
+Invoke-AtomicTest T1518.001 -TestNumbers 2
+Invoke-AtomicTest T1518.001 -TestNumbers 5
+Lateral Movement
+Collection
+Invoke-AtomicTest T1113 -TestNumbers 6
+Command and Control
+Invoke-AtomicTest T1106 -TestNumbers 9very new powershell
+Import-Module "C:\AtomicRedTeam\invoke-atomicredteam\Invoke-AtomicRedTeam.psd1" -Force
+Template for command (up arrow is your friend)
+Invoke-AtomicTest T####.00# -GetPrereqs
+Invoke-AtomicTest T####.00# -TestNumbers #
+Part 1
+Execution
+Invoke-AtomicTest T1204.002 -TestNumbers 1
+Why did it fail? What can you do about it?
+
+Invoke-AtomicTest T1204.002 -TestNumbers 8
+goto C:\Users\Administrator\AppData\Local\Temp
+Drill down to the numbered directory What artifact do you see?
+
+Persistence
+Invoke-AtomicTest T1543.003 -TestNumbers 2
+Privilege Escalation
+Invoke-AtomicTest T1055.001 -TestNumbers 1
+Part 2
+Defense Evasion
+Invoke-AtomicTest T1564.001 -TestNumbers 3
+Discovery
+Invoke-AtomicTest T1518.001 -TestNumbers 1
+Invoke-AtomicTest T1518.001 -TestNumbers 2
+Invoke-AtomicTest T1518.001 -TestNumbers 5
+Lateral Movement
+Collection
+Invoke-AtomicTest T1113 -TestNumbers 6
+Command and Control
+Invoke-AtomicTest T1106 -TestNumbers 9very new powershell
+Import-Module "C:\AtomicRedTeam\invoke-atomicredteam\Invoke-AtomicRedTeam.psd1" -Force
+Template for command (up arrow is your friend)
+Invoke-AtomicTest T####.00# -GetPrereqs
+Invoke-AtomicTest T####.00# -TestNumbers #
+Part 1
+Execution
+Invoke-AtomicTest T1204.002 -TestNumbers 1
+Why did it fail? What can you do about it?
+
+Invoke-AtomicTest T1204.002 -TestNumbers 8
+goto C:\Users\Administrator\AppData\Local\Temp
+Drill down to the numbered directory What artifact do you see?
+
+Persistence
+Invoke-AtomicTest T1543.003 -TestNumbers 2
+Privilege Escalation
+Invoke-AtomicTest T1055.001 -TestNumbers 1
+Part 2
+Defense Evasion
+Invoke-AtomicTest T1564.001 -TestNumbers 3
+Discovery
+Invoke-AtomicTest T1518.001 -TestNumbers 1
+Invoke-AtomicTest T1518.001 -TestNumbers 2
+Invoke-AtomicTest T1518.001 -TestNumbers 5
+Lateral Movement
+Collection
+Invoke-AtomicTest T1113 -TestNumbers 6
+Command and Control
+Invoke-AtomicTest T1106 -TestNumbers 9very new powershell
+Import-Module "C:\AtomicRedTeam\invoke-atomicredteam\Invoke-AtomicRedTeam.psd1" -Force
+Template for command (up arrow is your friend)
+Invoke-AtomicTest T####.00# -GetPrereqs
+Invoke-AtomicTest T####.00# -TestNumbers #
+Part 1
+Execution
+Invoke-AtomicTest T1204.002 -TestNumbers 1
+Why did it fail? What can you do about it?
+
+Invoke-AtomicTest T1204.002 -TestNumbers 8
+goto C:\Users\Administrator\AppData\Local\Temp
+Drill down to the numbered directory What artifact do you see?
+
+Persistence
+Invoke-AtomicTest T1543.003 -TestNumbers 2
+Privilege Escalation
+Invoke-AtomicTest T1055.001 -TestNumbers 1
+Part 2
+Defense Evasion
+Invoke-AtomicTest T1564.001 -TestNumbers 3
+Discovery
+Invoke-AtomicTest T1518.001 -TestNumbers 1
+Invoke-AtomicTest T1518.001 -TestNumbers 2
+Invoke-AtomicTest T1518.001 -TestNumbers 5
+Lateral Movement
+Collection
+Invoke-AtomicTest T1113 -TestNumbers 6
+Command and Control
+Invoke-AtomicTest T1106 -TestNumbers 9very new powershell
+Import-Module "C:\AtomicRedTeam\invoke-atomicredteam\Invoke-AtomicRedTeam.psd1" -Force
+Template for command (up arrow is your friend)
+Invoke-AtomicTest T####.00# -GetPrereqs
+Invoke-AtomicTest T####.00# -TestNumbers #
+Part 1
+Execution
+Invoke-AtomicTest T1204.002 -TestNumbers 1
+Why did it fail? What can you do about it?
+
+Invoke-AtomicTest T1204.002 -TestNumbers 8
+goto C:\Users\Administrator\AppData\Local\Temp
+Drill down to the numbered directory What artifact do you see?
+
+Persistence
+Invoke-AtomicTest T1543.003 -TestNumbers 2
+Privilege Escalation
+Invoke-AtomicTest T1055.001 -TestNumbers 1
+Part 2
+Defense Evasion
+Invoke-AtomicTest T1564.001 -TestNumbers 3
+Discovery
+Invoke-AtomicTest T1518.001 -TestNumbers 1
+Invoke-AtomicTest T1518.001 -TestNumbers 2
+Invoke-AtomicTest T1518.001 -TestNumbers 5
+Lateral Movement
+Collection
+Invoke-AtomicTest T1113 -TestNumbers 6
+Command and Control
+Invoke-AtomicTest T1106 -TestNumbers 9very new powershell
+Import-Module "C:\AtomicRedTeam\invoke-atomicredteam\Invoke-AtomicRedTeam.psd1" -Force
+Template for command (up arrow is your friend)
+Invoke-AtomicTest T####.00# -GetPrereqs
+Invoke-AtomicTest T####.00# -TestNumbers #
+Part 1
+Execution
+Invoke-AtomicTest T1204.002 -TestNumbers 1
+Why did it fail? What can you do about it?
+
+Invoke-AtomicTest T1204.002 -TestNumbers 8
+goto C:\Users\Administrator\AppData\Local\Temp
+Drill down to the numbered directory What artifact do you see?
+
+Persistence
+Invoke-AtomicTest T1543.003 -TestNumbers 2
+Privilege Escalation
+Invoke-AtomicTest T1055.001 -TestNumbers 1
+Part 2
+Defense Evasion
+Invoke-AtomicTest T1564.001 -TestNumbers 3
+Discovery
+Invoke-AtomicTest T1518.001 -TestNumbers 1
+Invoke-AtomicTest T1518.001 -TestNumbers 2
+Invoke-AtomicTest T1518.001 -TestNumbers 5
+Lateral Movement
+Collection
+Invoke-AtomicTest T1113 -TestNumbers 6
+Command and Control
+Invoke-AtomicTest T1106 -TestNumbers 9very new powershell
+Import-Module "C:\AtomicRedTeam\invoke-atomicredteam\Invoke-AtomicRedTeam.psd1" -Force
+Template for command (up arrow is your friend)
+Invoke-AtomicTest T####.00# -GetPrereqs
+Invoke-AtomicTest T####.00# -TestNumbers #
+Part 1
+Execution
+Invoke-AtomicTest T1204.002 -TestNumbers 1
+Why did it fail? What can you do about it?
+
+Invoke-AtomicTest T1204.002 -TestNumbers 8
+goto C:\Users\Administrator\AppData\Local\Temp
+Drill down to the numbered directory What artifact do you see?
+
+Persistence
+Invoke-AtomicTest T1543.003 -TestNumbers 2
+Privilege Escalation
+Invoke-AtomicTest T1055.001 -TestNumbers 1
+Part 2
+Defense Evasion
+Invoke-AtomicTest T1564.001 -TestNumbers 3
+Discovery
+Invoke-AtomicTest T1518.001 -TestNumbers 1
+Invoke-AtomicTest T1518.001 -TestNumbers 2
+Invoke-AtomicTest T1518.001 -TestNumbers 5
+Lateral Movement
+Collection
+Invoke-AtomicTest T1113 -TestNumbers 6
+Command and Control
+Invoke-AtomicTest T1106 -TestNumbers 9very new powershell
+Import-Module "C:\AtomicRedTeam\invoke-atomicredteam\Invoke-AtomicRedTeam.psd1" -Force
+Template for command (up arrow is your friend)
+Invoke-AtomicTest T####.00# -GetPrereqs
+Invoke-AtomicTest T####.00# -TestNumbers #
+Part 1
+Execution
+Invoke-AtomicTest T1204.002 -TestNumbers 1
+Why did it fail? What can you do about it?
+
+Invoke-AtomicTest T1204.002 -TestNumbers 8
+goto C:\Users\Administrator\AppData\Local\Temp
+Drill down to the numbered directory What artifact do you see?
+
+Persistence
+Invoke-AtomicTest T1543.003 -TestNumbers 2
+Privilege Escalation
+Invoke-AtomicTest T1055.001 -TestNumbers 1
+Part 2
+Defense Evasion
+Invoke-AtomicTest T1564.001 -TestNumbers 3
+Discovery
+Invoke-AtomicTest T1518.001 -TestNumbers 1
+Invoke-AtomicTest T1518.001 -TestNumbers 2
+Invoke-AtomicTest T1518.001 -TestNumbers 5
+Lateral Movement
+Collection
+Invoke-AtomicTest T1113 -TestNumbers 6
+Command and Control
+Invoke-AtomicTest T1106 -TestNumbers 9very new powershell
+Import-Module "C:\AtomicRedTeam\invoke-atomicredteam\Invoke-AtomicRedTeam.psd1" -Force
+Template for command (up arrow is your friend)
+Invoke-AtomicTest T####.00# -GetPrereqs
+Invoke-AtomicTest T####.00# -TestNumbers #
+Part 1
+Execution
+Invoke-AtomicTest T1204.002 -TestNumbers 1
+Why did it fail? What can you do about it?
+
+Invoke-AtomicTest T1204.002 -TestNumbers 8
+goto C:\Users\Administrator\AppData\Local\Temp
+Drill down to the numbered directory What artifact do you see?
+
+Persistence
+Invoke-AtomicTest T1543.003 -TestNumbers 2
+Privilege Escalation
+Invoke-AtomicTest T1055.001 -TestNumbers 1
+Part 2
+Defense Evasion
+Invoke-AtomicTest T1564.001 -TestNumbers 3
+Discovery
+Invoke-AtomicTest T1518.001 -TestNumbers 1
+Invoke-AtomicTest T1518.001 -TestNumbers 2
+Invoke-AtomicTest T1518.001 -TestNumbers 5
+Lateral Movement
+Collection
+Invoke-AtomicTest T1113 -TestNumbers 6
+Command and Control
+Invoke-AtomicTest T1106 -TestNumbers 9very new powershell
+Import-Module "C:\AtomicRedTeam\invoke-atomicredteam\Invoke-AtomicRedTeam.psd1" -Force
+Template for command (up arrow is your friend)
+Invoke-AtomicTest T####.00# -GetPrereqs
+Invoke-AtomicTest T####.00# -TestNumbers #
+Part 1
+Execution
+Invoke-AtomicTest T1204.002 -TestNumbers 1
+Why did it fail? What can you do about it?
+
+Invoke-AtomicTest T1204.002 -TestNumbers 8
+goto C:\Users\Administrator\AppData\Local\Temp
+Drill down to the numbered directory What artifact do you see?
+
+Persistence
+Invoke-AtomicTest T1543.003 -TestNumbers 2
+Privilege Escalation
+Invoke-AtomicTest T1055.001 -TestNumbers 1
+Part 2
+Defense Evasion
+Invoke-AtomicTest T1564.001 -TestNumbers 3
+Discovery
+Invoke-AtomicTest T1518.001 -TestNumbers 1
+Invoke-AtomicTest T1518.001 -TestNumbers 2
+Invoke-AtomicTest T1518.001 -TestNumbers 5
+Lateral Movement
+Collection
+Invoke-AtomicTest T1113 -TestNumbers 6
+Command and Control
+Invoke-AtomicTest T1106 -TestNumbers 9very new powershell
+Import-Module "C:\AtomicRedTeam\invoke-atomicredteam\Invoke-AtomicRedTeam.psd1" -Force
+Template for command (up arrow is your friend)
+Invoke-AtomicTest T####.00# -GetPrereqs
+Invoke-AtomicTest T####.00# -TestNumbers #
+Part 1
+Execution
+Invoke-AtomicTest T1204.002 -TestNumbers 1
+Why did it fail? What can you do about it?
+
+Invoke-AtomicTest T1204.002 -TestNumbers 8
+goto C:\Users\Administrator\AppData\Local\Temp
+Drill down to the numbered directory What artifact do you see?
+
+Persistence
+Invoke-AtomicTest T1543.003 -TestNumbers 2
+Privilege Escalation
+Invoke-AtomicTest T1055.001 -TestNumbers 1
+Part 2
+Defense Evasion
+Invoke-AtomicTest T1564.001 -TestNumbers 3
+Discovery
+Invoke-AtomicTest T1518.001 -TestNumbers 1
+Invoke-AtomicTest T1518.001 -TestNumbers 2
+Invoke-AtomicTest T1518.001 -TestNumbers 5
+Lateral Movement
+Collection
+Invoke-AtomicTest T1113 -TestNumbers 6
+Command and Control
+Invoke-AtomicTest T1106 -TestNumbers 9very new powershell
+Import-Module "C:\AtomicRedTeam\invoke-atomicredteam\Invoke-AtomicRedTeam.psd1" -Force
+Template for command (up arrow is your friend)
+Invoke-AtomicTest T####.00# -GetPrereqs
+Invoke-AtomicTest T####.00# -TestNumbers #
+Part 1
+Execution
+Invoke-AtomicTest T1204.002 -TestNumbers 1
+Why did it fail? What can you do about it?
+
+Invoke-AtomicTest T1204.002 -TestNumbers 8
+goto C:\Users\Administrator\AppData\Local\Temp
+Drill down to the numbered directory What artifact do you see?
+
+Persistence
+Invoke-AtomicTest T1543.003 -TestNumbers 2
+Privilege Escalation
+Invoke-AtomicTest T1055.001 -TestNumbers 1
+Part 2
+Defense Evasion
+Invoke-AtomicTest T1564.001 -TestNumbers 3
+Discovery
+Invoke-AtomicTest T1518.001 -TestNumbers 1
+Invoke-AtomicTest T1518.001 -TestNumbers 2
+Invoke-AtomicTest T1518.001 -TestNumbers 5
+Lateral Movement
+Collection
+Invoke-AtomicTest T1113 -TestNumbers 6
+Command and Control
+Invoke-AtomicTest T1106 -TestNumbers 9very new powershell
+Import-Module "C:\AtomicRedTeam\invoke-atomicredteam\Invoke-AtomicRedTeam.psd1" -Force
+Template for command (up arrow is your friend)
+Invoke-AtomicTest T####.00# -GetPrereqs
+Invoke-AtomicTest T####.00# -TestNumbers #
+Part 1
+Execution
+Invoke-AtomicTest T1204.002 -TestNumbers 1
+Why did it fail? What can you do about it?
+
+Invoke-AtomicTest T1204.002 -TestNumbers 8
+goto C:\Users\Administrator\AppData\Local\Temp
+Drill down to the numbered directory What artifact do you see?
+
+Persistence
+Invoke-AtomicTest T1543.003 -TestNumbers 2
+Privilege Escalation
+Invoke-AtomicTest T1055.001 -TestNumbers 1
+Part 2
+Defense Evasion
+Invoke-AtomicTest T1564.001 -TestNumbers 3
+Discovery
+Invoke-AtomicTest T1518.001 -TestNumbers 1
+Invoke-AtomicTest T1518.001 -TestNumbers 2
+Invoke-AtomicTest T1518.001 -TestNumbers 5
+Lateral Movement
+Collection
+Invoke-AtomicTest T1113 -TestNumbers 6
+Command and Control
+Invoke-AtomicTest T1106 -TestNumbers 9very new powershell
+Import-Module "C:\AtomicRedTeam\invoke-atomicredteam\Invoke-AtomicRedTeam.psd1" -Force
+Template for command (up arrow is your friend)
+Invoke-AtomicTest T####.00# -GetPrereqs
+Invoke-AtomicTest T####.00# -TestNumbers #
+Part 1
+Execution
+Invoke-AtomicTest T1204.002 -TestNumbers 1
+Why did it fail? What can you do about it?
+
+Invoke-AtomicTest T1204.002 -TestNumbers 8
+goto C:\Users\Administrator\AppData\Local\Temp
+Drill down to the numbered directory What artifact do you see?
+
+Persistence
+Invoke-AtomicTest T1543.003 -TestNumbers 2
+Privilege Escalation
+Invoke-AtomicTest T1055.001 -TestNumbers 1
+Part 2
+Defense Evasion
+Invoke-AtomicTest T1564.001 -TestNumbers 3
+Discovery
+Invoke-AtomicTest T1518.001 -TestNumbers 1
+Invoke-AtomicTest T1518.001 -TestNumbers 2
+Invoke-AtomicTest T1518.001 -TestNumbers 5
+Lateral Movement
+Collection
+Invoke-AtomicTest T1113 -TestNumbers 6
+Command and Control
+Invoke-AtomicTest T1106 -TestNumbers 9very new powershell
+Import-Module "C:\AtomicRedTeam\invoke-atomicredteam\Invoke-AtomicRedTeam.psd1" -Force
+Template for command (up arrow is your friend)
+Invoke-AtomicTest T####.00# -GetPrereqs
+Invoke-AtomicTest T####.00# -TestNumbers #
+Part 1
+Execution
+Invoke-AtomicTest T1204.002 -TestNumbers 1
+Why did it fail? What can you do about it?
+
+Invoke-AtomicTest T1204.002 -TestNumbers 8
+goto C:\Users\Administrator\AppData\Local\Temp
+Drill down to the numbered directory What artifact do you see?
+
+Persistence
+Invoke-AtomicTest T1543.003 -TestNumbers 2
+Privilege Escalation
+Invoke-AtomicTest T1055.001 -TestNumbers 1
+Part 2
+Defense Evasion
+Invoke-AtomicTest T1564.001 -TestNumbers 3
+Discovery
+Invoke-AtomicTest T1518.001 -TestNumbers 1
+Invoke-AtomicTest T1518.001 -TestNumbers 2
+Invoke-AtomicTest T1518.001 -TestNumbers 5
+Lateral Movement
+Collection
+Invoke-AtomicTest T1113 -TestNumbers 6
+Command and Control
+Invoke-AtomicTest T1106 -TestNumbers 9very new powershell
+Import-Module "C:\AtomicRedTeam\invoke-atomicredteam\Invoke-AtomicRedTeam.psd1" -Force
+Template for command (up arrow is your friend)
+Invoke-AtomicTest T####.00# -GetPrereqs
+Invoke-AtomicTest T####.00# -TestNumbers #
+Part 1
+Execution
+Invoke-AtomicTest T1204.002 -TestNumbers 1
+Why did it fail? What can you do about it?
+
+Invoke-AtomicTest T1204.002 -TestNumbers 8
+goto C:\Users\Administrator\AppData\Local\Temp
+Drill down to the numbered directory What artifact do you see?
+
+Persistence
+Invoke-AtomicTest T1543.003 -TestNumbers 2
+Privilege Escalation
+Invoke-AtomicTest T1055.001 -TestNumbers 1
+Part 2
+Defense Evasion
+Invoke-AtomicTest T1564.001 -TestNumbers 3
+Discovery
+Invoke-AtomicTest T1518.001 -TestNumbers 1
+Invoke-AtomicTest T1518.001 -TestNumbers 2
+Invoke-AtomicTest T1518.001 -TestNumbers 5
+Lateral Movement
+Collection
+Invoke-AtomicTest T1113 -TestNumbers 6
+Command and Control
+Invoke-AtomicTest T1106 -TestNumbers 9very new powershell
+Import-Module "C:\AtomicRedTeam\invoke-atomicredteam\Invoke-AtomicRedTeam.psd1" -Force
+Template for command (up arrow is your friend)
+Invoke-AtomicTest T####.00# -GetPrereqs
+Invoke-AtomicTest T####.00# -TestNumbers #
+Part 1
+Execution
+Invoke-AtomicTest T1204.002 -TestNumbers 1
+Why did it fail? What can you do about it?
+
+Invoke-AtomicTest T1204.002 -TestNumbers 8
+goto C:\Users\Administrator\AppData\Local\Temp
+Drill down to the numbered directory What artifact do you see?
+
+Persistence
+Invoke-AtomicTest T1543.003 -TestNumbers 2
+Privilege Escalation
+Invoke-AtomicTest T1055.001 -TestNumbers 1
+Part 2
+Defense Evasion
+Invoke-AtomicTest T1564.001 -TestNumbers 3
+Discovery
+Invoke-AtomicTest T1518.001 -TestNumbers 1
+Invoke-AtomicTest T1518.001 -TestNumbers 2
+Invoke-AtomicTest T1518.001 -TestNumbers 5
+Lateral Movement
+Collection
+Invoke-AtomicTest T1113 -TestNumbers 6
+Command and Control
+Invoke-AtomicTest T1106 -TestNumbers 9very new powershell
+Import-Module "C:\AtomicRedTeam\invoke-atomicredteam\Invoke-AtomicRedTeam.psd1" -Force
+Template for command (up arrow is your friend)
+Invoke-AtomicTest T####.00# -GetPrereqs
+Invoke-AtomicTest T####.00# -TestNumbers #
+Part 1
+Execution
+Invoke-AtomicTest T1204.002 -TestNumbers 1
+Why did it fail? What can you do about it?
+
+Invoke-AtomicTest T1204.002 -TestNumbers 8
+goto C:\Users\Administrator\AppData\Local\Temp
+Drill down to the numbered directory What artifact do you see?
+
+Persistence
+Invoke-AtomicTest T1543.003 -TestNumbers 2
+Privilege Escalation
+Invoke-AtomicTest T1055.001 -TestNumbers 1
+Part 2
+Defense Evasion
+Invoke-AtomicTest T1564.001 -TestNumbers 3
+Discovery
+Invoke-AtomicTest T1518.001 -TestNumbers 1
+Invoke-AtomicTest T1518.001 -TestNumbers 2
+Invoke-AtomicTest T1518.001 -TestNumbers 5
+Lateral Movement
+Collection
+Invoke-AtomicTest T1113 -TestNumbers 6
+Command and Control
+Invoke-AtomicTest T1106 -TestNumbers 9very new powershell
+Import-Module "C:\AtomicRedTeam\invoke-atomicredteam\Invoke-AtomicRedTeam.psd1" -Force
+Template for command (up arrow is your friend)
+Invoke-AtomicTest T####.00# -GetPrereqs
+Invoke-AtomicTest T####.00# -TestNumbers #
+Part 1
+Execution
+Invoke-AtomicTest T1204.002 -TestNumbers 1
+Why did it fail? What can you do about it?
+
+Invoke-AtomicTest T1204.002 -TestNumbers 8
+goto C:\Users\Administrator\AppData\Local\Temp
+Drill down to the numbered directory What artifact do you see?
+
+Persistence
+Invoke-AtomicTest T1543.003 -TestNumbers 2
+Privilege Escalation
+Invoke-AtomicTest T1055.001 -TestNumbers 1
+Part 2
+Defense Evasion
+Invoke-AtomicTest T1564.001 -TestNumbers 3
+Discovery
+Invoke-AtomicTest T1518.001 -TestNumbers 1
+Invoke-AtomicTest T1518.001 -TestNumbers 2
+Invoke-AtomicTest T1518.001 -TestNumbers 5
+Lateral Movement
+Collection
+Invoke-AtomicTest T1113 -TestNumbers 6
+Command and Control
+Invoke-AtomicTest T1106 -TestNumbers 9very new powershell
+Import-Module "C:\AtomicRedTeam\invoke-atomicredteam\Invoke-AtomicRedTeam.psd1" -Force
+Template for command (up arrow is your friend)
+Invoke-AtomicTest T####.00# -GetPrereqs
+Invoke-AtomicTest T####.00# -TestNumbers #
+Part 1
+Execution
+Invoke-AtomicTest T1204.002 -TestNumbers 1
+Why did it fail? What can you do about it?
+
+Invoke-AtomicTest T1204.002 -TestNumbers 8
+goto C:\Users\Administrator\AppData\Local\Temp
+Drill down to the numbered directory What artifact do you see?
+
+Persistence
+Invoke-AtomicTest T1543.003 -TestNumbers 2
+Privilege Escalation
+Invoke-AtomicTest T1055.001 -TestNumbers 1
+Part 2
+Defense Evasion
+Invoke-AtomicTest T1564.001 -TestNumbers 3
+Discovery
+Invoke-AtomicTest T1518.001 -TestNumbers 1
+Invoke-AtomicTest T1518.001 -TestNumbers 2
+Invoke-AtomicTest T1518.001 -TestNumbers 5
+Lateral Movement
+Collection
+Invoke-AtomicTest T1113 -TestNumbers 6
+Command and Control
+Invoke-AtomicTest T1106 -TestNumbers 9very new powershell
+Import-Module "C:\AtomicRedTeam\invoke-atomicredteam\Invoke-AtomicRedTeam.psd1" -Force
+Template for command (up arrow is your friend)
+Invoke-AtomicTest T####.00# -GetPrereqs
+Invoke-AtomicTest T####.00# -TestNumbers #
+Part 1
+Execution
+Invoke-AtomicTest T1204.002 -TestNumbers 1
+Why did it fail? What can you do about it?
+
+Invoke-AtomicTest T1204.002 -TestNumbers 8
+goto C:\Users\Administrator\AppData\Local\Temp
+Drill down to the numbered directory What artifact do you see?
+
+Persistence
+Invoke-AtomicTest T1543.003 -TestNumbers 2
+Privilege Escalation
+Invoke-AtomicTest T1055.001 -TestNumbers 1
+Part 2
+Defense Evasion
+Invoke-AtomicTest T1564.001 -TestNumbers 3
+Discovery
+Invoke-AtomicTest T1518.001 -TestNumbers 1
+Invoke-AtomicTest T1518.001 -TestNumbers 2
+Invoke-AtomicTest T1518.001 -TestNumbers 5
+Lateral Movement
+Collection
+Invoke-AtomicTest T1113 -TestNumbers 6
+Command and Control
+Invoke-AtomicTest T1106 -TestNumbers 9very new powershell
+Import-Module "C:\AtomicRedTeam\invoke-atomicredteam\Invoke-AtomicRedTeam.psd1" -Force
+Template for command (up arrow is your friend)
+Invoke-AtomicTest T####.00# -GetPrereqs
+Invoke-AtomicTest T####.00# -TestNumbers #
+Part 1
+Execution
+Invoke-AtomicTest T1204.002 -TestNumbers 1
+Why did it fail? What can you do about it?
+
+Invoke-AtomicTest T1204.002 -TestNumbers 8
+goto C:\Users\Administrator\AppData\Local\Temp
+Drill down to the numbered directory What artifact do you see?
+
+Persistence
+Invoke-AtomicTest T1543.003 -TestNumbers 2
+Privilege Escalation
+Invoke-AtomicTest T1055.001 -TestNumbers 1
+Part 2
+Defense Evasion
+Invoke-AtomicTest T1564.001 -TestNumbers 3
+Discovery
+Invoke-AtomicTest T1518.001 -TestNumbers 1
+Invoke-AtomicTest T1518.001 -TestNumbers 2
+Invoke-AtomicTest T1518.001 -TestNumbers 5
+Lateral Movement
+Collection
+Invoke-AtomicTest T1113 -TestNumbers 6
+Command and Control
+Invoke-AtomicTest T1106 -TestNumbers 9very new powershell
+Import-Module "C:\AtomicRedTeam\invoke-atomicredteam\Invoke-AtomicRedTeam.psd1" -Force
+Template for command (up arrow is your friend)
+Invoke-AtomicTest T####.00# -GetPrereqs
+Invoke-AtomicTest T####.00# -TestNumbers #
+Part 1
+Execution
+Invoke-AtomicTest T1204.002 -TestNumbers 1
+Why did it fail? What can you do about it?
+
+Invoke-AtomicTest T1204.002 -TestNumbers 8
+goto C:\Users\Administrator\AppData\Local\Temp
+Drill down to the numbered directory What artifact do you see?
+
+Persistence
+Invoke-AtomicTest T1543.003 -TestNumbers 2
+Privilege Escalation
+Invoke-AtomicTest T1055.001 -TestNumbers 1
+Part 2
+Defense Evasion
+Invoke-AtomicTest T1564.001 -TestNumbers 3
+Discovery
+Invoke-AtomicTest T1518.001 -TestNumbers 1
+Invoke-AtomicTest T1518.001 -TestNumbers 2
+Invoke-AtomicTest T1518.001 -TestNumbers 5
+Lateral Movement
+Collection
+Invoke-AtomicTest T1113 -TestNumbers 6
+Command and Control
+Invoke-AtomicTest T1106 -TestNumbers 9very new powershell
+Import-Module "C:\AtomicRedTeam\invoke-atomicredteam\Invoke-AtomicRedTeam.psd1" -Force
+Template for command (up arrow is your friend)
+Invoke-AtomicTest T####.00# -GetPrereqs
+Invoke-AtomicTest T####.00# -TestNumbers #
+Part 1
+Execution
+Invoke-AtomicTest T1204.002 -TestNumbers 1
+Why did it fail? What can you do about it?
+
+Invoke-AtomicTest T1204.002 -TestNumbers 8
+goto C:\Users\Administrator\AppData\Local\Temp
+Drill down to the numbered directory What artifact do you see?
+
+Persistence
+Invoke-AtomicTest T1543.003 -TestNumbers 2
+Privilege Escalation
+Invoke-AtomicTest T1055.001 -TestNumbers 1
+Part 2
+Defense Evasion
+Invoke-AtomicTest T1564.001 -TestNumbers 3
+Discovery
+Invoke-AtomicTest T1518.001 -TestNumbers 1
+Invoke-AtomicTest T1518.001 -TestNumbers 2
+Invoke-AtomicTest T1518.001 -TestNumbers 5
+Lateral Movement
+Collection
+Invoke-AtomicTest T1113 -TestNumbers 6
+Command and Control
+Invoke-AtomicTest T1106 -TestNumbers 9very new powershell
+Import-Module "C:\AtomicRedTeam\invoke-atomicredteam\Invoke-AtomicRedTeam.psd1" -Force
+Template for command (up arrow is your friend)
+Invoke-AtomicTest T####.00# -GetPrereqs
+Invoke-AtomicTest T####.00# -TestNumbers #
+Part 1
+Execution
+Invoke-AtomicTest T1204.002 -TestNumbers 1
+Why did it fail? What can you do about it?
+
+Invoke-AtomicTest T1204.002 -TestNumbers 8
+goto C:\Users\Administrator\AppData\Local\Temp
+Drill down to the numbered directory What artifact do you see?
+
+Persistence
+Invoke-AtomicTest T1543.003 -TestNumbers 2
+Privilege Escalation
+Invoke-AtomicTest T1055.001 -TestNumbers 1
+Part 2
+Defense Evasion
+Invoke-AtomicTest T1564.001 -TestNumbers 3
+Discovery
+Invoke-AtomicTest T1518.001 -TestNumbers 1
+Invoke-AtomicTest T1518.001 -TestNumbers 2
+Invoke-AtomicTest T1518.001 -TestNumbers 5
+Lateral Movement
+Collection
+Invoke-AtomicTest T1113 -TestNumbers 6
+Command and Control
+Invoke-AtomicTest T1106 -TestNumbers 9very new powershell
+Import-Module "C:\AtomicRedTeam\invoke-atomicredteam\Invoke-AtomicRedTeam.psd1" -Force
+Template for command (up arrow is your friend)
+Invoke-AtomicTest T####.00# -GetPrereqs
+Invoke-AtomicTest T####.00# -TestNumbers #
+Part 1
+Execution
+Invoke-AtomicTest T1204.002 -TestNumbers 1
+Why did it fail? What can you do about it?
+
+Invoke-AtomicTest T1204.002 -TestNumbers 8
+goto C:\Users\Administrator\AppData\Local\Temp
+Drill down to the numbered directory What artifact do you see?
+
+Persistence
+Invoke-AtomicTest T1543.003 -TestNumbers 2
+Privilege Escalation
+Invoke-AtomicTest T1055.001 -TestNumbers 1
+Part 2
+Defense Evasion
+Invoke-AtomicTest T1564.001 -TestNumbers 3
+Discovery
+Invoke-AtomicTest T1518.001 -TestNumbers 1
+Invoke-AtomicTest T1518.001 -TestNumbers 2
+Invoke-AtomicTest T1518.001 -TestNumbers 5
+Lateral Movement
+Collection
+Invoke-AtomicTest T1113 -TestNumbers 6
+Command and Control
+Invoke-AtomicTest T1106 -TestNumbers 9very new powershell
+Import-Module "C:\AtomicRedTeam\invoke-atomicredteam\Invoke-AtomicRedTeam.psd1" -Force
+Template for command (up arrow is your friend)
+Invoke-AtomicTest T####.00# -GetPrereqs
+Invoke-AtomicTest T####.00# -TestNumbers #
+Part 1
+Execution
+Invoke-AtomicTest T1204.002 -TestNumbers 1
+Why did it fail? What can you do about it?
+
+Invoke-AtomicTest T1204.002 -TestNumbers 8
+goto C:\Users\Administrator\AppData\Local\Temp
+Drill down to the numbered directory What artifact do you see?
+
+Persistence
+Invoke-AtomicTest T1543.003 -TestNumbers 2
+Privilege Escalation
+Invoke-AtomicTest T1055.001 -TestNumbers 1
+Part 2
+Defense Evasion
+Invoke-AtomicTest T1564.001 -TestNumbers 3
+Discovery
+Invoke-AtomicTest T1518.001 -TestNumbers 1
+Invoke-AtomicTest T1518.001 -TestNumbers 2
+Invoke-AtomicTest T1518.001 -TestNumbers 5
+Lateral Movement
+Collection
+Invoke-AtomicTest T1113 -TestNumbers 6
+Command and Control
+Invoke-AtomicTest T1106 -TestNumbers 9very new powershell
+Import-Module "C:\AtomicRedTeam\invoke-atomicredteam\Invoke-AtomicRedTeam.psd1" -Force
+Template for command (up arrow is your friend)
+Invoke-AtomicTest T####.00# -GetPrereqs
+Invoke-AtomicTest T####.00# -TestNumbers #
+Part 1
+Execution
+Invoke-AtomicTest T1204.002 -TestNumbers 1
+Why did it fail? What can you do about it?
+
+Invoke-AtomicTest T1204.002 -TestNumbers 8
+goto C:\Users\Administrator\AppData\Local\Temp
+Drill down to the numbered directory What artifact do you see?
+
+Persistence
+Invoke-AtomicTest T1543.003 -TestNumbers 2
+Privilege Escalation
+Invoke-AtomicTest T1055.001 -TestNumbers 1
+Part 2
+Defense Evasion
+Invoke-AtomicTest T1564.001 -TestNumbers 3
+Discovery
+Invoke-AtomicTest T1518.001 -TestNumbers 1
+Invoke-AtomicTest T1518.001 -TestNumbers 2
+Invoke-AtomicTest T1518.001 -TestNumbers 5
+Lateral Movement
+Collection
+Invoke-AtomicTest T1113 -TestNumbers 6
+Command and Control
+Invoke-AtomicTest T1106 -TestNumbers 9very new powershell
+Import-Module "C:\AtomicRedTeam\invoke-atomicredteam\Invoke-AtomicRedTeam.psd1" -Force
+Template for command (up arrow is your friend)
+Invoke-AtomicTest T####.00# -GetPrereqs
+Invoke-AtomicTest T####.00# -TestNumbers #
+Part 1
+Execution
+Invoke-AtomicTest T1204.002 -TestNumbers 1
+Why did it fail? What can you do about it?
+
+Invoke-AtomicTest T1204.002 -TestNumbers 8
+goto C:\Users\Administrator\AppData\Local\Temp
+Drill down to the numbered directory What artifact do you see?
+
+Persistence
+Invoke-AtomicTest T1543.003 -TestNumbers 2
+Privilege Escalation
+Invoke-AtomicTest T1055.001 -TestNumbers 1
+Part 2
+Defense Evasion
+Invoke-AtomicTest T1564.001 -TestNumbers 3
+Discovery
+Invoke-AtomicTest T1518.001 -TestNumbers 1
+Invoke-AtomicTest T1518.001 -TestNumbers 2
+Invoke-AtomicTest T1518.001 -TestNumbers 5
+Lateral Movement
+Collection
+Invoke-AtomicTest T1113 -TestNumbers 6
+Command and Control
+Invoke-AtomicTest T1106 -TestNumbers 9very new powershell
+Import-Module "C:\AtomicRedTeam\invoke-atomicredteam\Invoke-AtomicRedTeam.psd1" -Force
+Template for command (up arrow is your friend)
+Invoke-AtomicTest T####.00# -GetPrereqs
+Invoke-AtomicTest T####.00# -TestNumbers #
+Part 1
+Execution
+Invoke-AtomicTest T1204.002 -TestNumbers 1
+Why did it fail? What can you do about it?
+
+Invoke-AtomicTest T1204.002 -TestNumbers 8
+goto C:\Users\Administrator\AppData\Local\Temp
+Drill down to the numbered directory What artifact do you see?
+
+Persistence
+Invoke-AtomicTest T1543.003 -TestNumbers 2
+Privilege Escalation
+Invoke-AtomicTest T1055.001 -TestNumbers 1
+Part 2
+Defense Evasion
+Invoke-AtomicTest T1564.001 -TestNumbers 3
+Discovery
+Invoke-AtomicTest T1518.001 -TestNumbers 1
+Invoke-AtomicTest T1518.001 -TestNumbers 2
+Invoke-AtomicTest T1518.001 -TestNumbers 5
+Lateral Movement
+Collection
+Invoke-AtomicTest T1113 -TestNumbers 6
+Command and Control
+Invoke-AtomicTest T1106 -TestNumbers 9very new powershell
+Import-Module "C:\AtomicRedTeam\invoke-atomicredteam\Invoke-AtomicRedTeam.psd1" -Force
+Template for command (up arrow is your friend)
+Invoke-AtomicTest T####.00# -GetPrereqs
+Invoke-AtomicTest T####.00# -TestNumbers #
+Part 1
+Execution
+Invoke-AtomicTest T1204.002 -TestNumbers 1
+Why did it fail? What can you do about it?
+
+Invoke-AtomicTest T1204.002 -TestNumbers 8
+goto C:\Users\Administrator\AppData\Local\Temp
+Drill down to the numbered directory What artifact do you see?
+
+Persistence
+Invoke-AtomicTest T1543.003 -TestNumbers 2
+Privilege Escalation
+Invoke-AtomicTest T1055.001 -TestNumbers 1
+Part 2
+Defense Evasion
+Invoke-AtomicTest T1564.001 -TestNumbers 3
+Discovery
+Invoke-AtomicTest T1518.001 -TestNumbers 1
+Invoke-AtomicTest T1518.001 -TestNumbers 2
+Invoke-AtomicTest T1518.001 -TestNumbers 5
+Lateral Movement
+Collection
+Invoke-AtomicTest T1113 -TestNumbers 6
+Command and Control
+Invoke-AtomicTest T1106 -TestNumbers 9very new powershell
+Import-Module "C:\AtomicRedTeam\invoke-atomicredteam\Invoke-AtomicRedTeam.psd1" -Force
+Template for command (up arrow is your friend)
+Invoke-AtomicTest T####.00# -GetPrereqs
+Invoke-AtomicTest T####.00# -TestNumbers #
+Part 1
+Execution
+Invoke-AtomicTest T1204.002 -TestNumbers 1
+Why did it fail? What can you do about it?
+
+Invoke-AtomicTest T1204.002 -TestNumbers 8
+goto C:\Users\Administrator\AppData\Local\Temp
+Drill down to the numbered directory What artifact do you see?
+
+Persistence
+Invoke-AtomicTest T1543.003 -TestNumbers 2
+Privilege Escalation
+Invoke-AtomicTest T1055.001 -TestNumbers 1
+Part 2
+Defense Evasion
+Invoke-AtomicTest T1564.001 -TestNumbers 3
+Discovery
+Invoke-AtomicTest T1518.001 -TestNumbers 1
+Invoke-AtomicTest T1518.001 -TestNumbers 2
+Invoke-AtomicTest T1518.001 -TestNumbers 5
+Lateral Movement
+Collection
+Invoke-AtomicTest T1113 -TestNumbers 6
+Command and Control
+Invoke-AtomicTest T1106 -TestNumbers 9very new powershell
+Import-Module "C:\AtomicRedTeam\invoke-atomicredteam\Invoke-AtomicRedTeam.psd1" -Force
+Template for command (up arrow is your friend)
+Invoke-AtomicTest T####.00# -GetPrereqs
+Invoke-AtomicTest T####.00# -TestNumbers #
+Part 1
+Execution
+Invoke-AtomicTest T1204.002 -TestNumbers 1
+Why did it fail? What can you do about it?
+
+Invoke-AtomicTest T1204.002 -TestNumbers 8
+goto C:\Users\Administrator\AppData\Local\Temp
+Drill down to the numbered directory What artifact do you see?
+
+Persistence
+Invoke-AtomicTest T1543.003 -TestNumbers 2
+Privilege Escalation
+Invoke-AtomicTest T1055.001 -TestNumbers 1
+Part 2
+Defense Evasion
+Invoke-AtomicTest T1564.001 -TestNumbers 3
+Discovery
+Invoke-AtomicTest T1518.001 -TestNumbers 1
+Invoke-AtomicTest T1518.001 -TestNumbers 2
+Invoke-AtomicTest T1518.001 -TestNumbers 5
+Lateral Movement
+Collection
+Invoke-AtomicTest T1113 -TestNumbers 6
+Command and Control
+Invoke-AtomicTest T1106 -TestNumbers 9very new powershell
+Import-Module "C:\AtomicRedTeam\invoke-atomicredteam\Invoke-AtomicRedTeam.psd1" -Force
+Template for command (up arrow is your friend)
+Invoke-AtomicTest T####.00# -GetPrereqs
+Invoke-AtomicTest T####.00# -TestNumbers #
+Part 1
+Execution
+Invoke-AtomicTest T1204.002 -TestNumbers 1
+Why did it fail? What can you do about it?
+
+Invoke-AtomicTest T1204.002 -TestNumbers 8
+goto C:\Users\Administrator\AppData\Local\Temp
+Drill down to the numbered directory What artifact do you see?
+
+Persistence
+Invoke-AtomicTest T1543.003 -TestNumbers 2
+Privilege Escalation
+Invoke-AtomicTest T1055.001 -TestNumbers 1
+Part 2
+Defense Evasion
+Invoke-AtomicTest T1564.001 -TestNumbers 3
+Discovery
+Invoke-AtomicTest T1518.001 -TestNumbers 1
+Invoke-AtomicTest T1518.001 -TestNumbers 2
+Invoke-AtomicTest T1518.001 -TestNumbers 5
+Lateral Movement
+Collection
+Invoke-AtomicTest T1113 -TestNumbers 6
+Command and Control
+Invoke-AtomicTest T1106 -TestNumbers 9very new powershell
+Import-Module "C:\AtomicRedTeam\invoke-atomicredteam\Invoke-AtomicRedTeam.psd1" -Force
+Template for command (up arrow is your friend)
+Invoke-AtomicTest T####.00# -GetPrereqs
+Invoke-AtomicTest T####.00# -TestNumbers #
+Part 1
+Execution
+Invoke-AtomicTest T1204.002 -TestNumbers 1
+Why did it fail? What can you do about it?
+
+Invoke-AtomicTest T1204.002 -TestNumbers 8
+goto C:\Users\Administrator\AppData\Local\Temp
+Drill down to the numbered directory What artifact do you see?
+
+Persistence
+Invoke-AtomicTest T1543.003 -TestNumbers 2
+Privilege Escalation
+Invoke-AtomicTest T1055.001 -TestNumbers 1
+Part 2
+Defense Evasion
+Invoke-AtomicTest T1564.001 -TestNumbers 3
+Discovery
+Invoke-AtomicTest T1518.001 -TestNumbers 1
+Invoke-AtomicTest T1518.001 -TestNumbers 2
+Invoke-AtomicTest T1518.001 -TestNumbers 5
+Lateral Movement
+Collection
+Invoke-AtomicTest T1113 -TestNumbers 6
+Command and Control
+Invoke-AtomicTest T1106 -TestNumbers 9very new powershell
+Import-Module "C:\AtomicRedTeam\invoke-atomicredteam\Invoke-AtomicRedTeam.psd1" -Force
+Template for command (up arrow is your friend)
+Invoke-AtomicTest T####.00# -GetPrereqs
+Invoke-AtomicTest T####.00# -TestNumbers #
+Part 1
+Execution
+Invoke-AtomicTest T1204.002 -TestNumbers 1
+Why did it fail? What can you do about it?
+
+Invoke-AtomicTest T1204.002 -TestNumbers 8
+goto C:\Users\Administrator\AppData\Local\Temp
+Drill down to the numbered directory What artifact do you see?
+
+Persistence
+Invoke-AtomicTest T1543.003 -TestNumbers 2
+Privilege Escalation
+Invoke-AtomicTest T1055.001 -TestNumbers 1
+Part 2
+Defense Evasion
+Invoke-AtomicTest T1564.001 -TestNumbers 3
+Discovery
+Invoke-AtomicTest T1518.001 -TestNumbers 1
+Invoke-AtomicTest T1518.001 -TestNumbers 2
+Invoke-AtomicTest T1518.001 -TestNumbers 5
+Lateral Movement
+Collection
+Invoke-AtomicTest T1113 -TestNumbers 6
+Command and Control
+Invoke-AtomicTest T1106 -TestNumbers 9very new powershell
+Import-Module "C:\AtomicRedTeam\invoke-atomicredteam\Invoke-AtomicRedTeam.psd1" -Force
+Template for command (up arrow is your friend)
+Invoke-AtomicTest T####.00# -GetPrereqs
+Invoke-AtomicTest T####.00# -TestNumbers #
+Part 1
+Execution
+Invoke-AtomicTest T1204.002 -TestNumbers 1
+Why did it fail? What can you do about it?
+
+Invoke-AtomicTest T1204.002 -TestNumbers 8
+goto C:\Users\Administrator\AppData\Local\Temp
+Drill down to the numbered directory What artifact do you see?
+
+Persistence
+Invoke-AtomicTest T1543.003 -TestNumbers 2
+Privilege Escalation
+Invoke-AtomicTest T1055.001 -TestNumbers 1
+Part 2
+Defense Evasion
+Invoke-AtomicTest T1564.001 -TestNumbers 3
+Discovery
+Invoke-AtomicTest T1518.001 -TestNumbers 1
+Invoke-AtomicTest T1518.001 -TestNumbers 2
+Invoke-AtomicTest T1518.001 -TestNumbers 5
+Lateral Movement
+Collection
+Invoke-AtomicTest T1113 -TestNumbers 6
+Command and Control
+Invoke-AtomicTest T1106 -TestNumbers 9very new powershell
+Import-Module "C:\AtomicRedTeam\invoke-atomicredteam\Invoke-AtomicRedTeam.psd1" -Force
+Template for command (up arrow is your friend)
+Invoke-AtomicTest T####.00# -GetPrereqs
+Invoke-AtomicTest T####.00# -TestNumbers #
+Part 1
+Execution
+Invoke-AtomicTest T1204.002 -TestNumbers 1
+Why did it fail? What can you do about it?
+
+Invoke-AtomicTest T1204.002 -TestNumbers 8
+goto C:\Users\Administrator\AppData\Local\Temp
+Drill down to the numbered directory What artifact do you see?
+
+Persistence
+Invoke-AtomicTest T1543.003 -TestNumbers 2
+Privilege Escalation
+Invoke-AtomicTest T1055.001 -TestNumbers 1
+Part 2
+Defense Evasion
+Invoke-AtomicTest T1564.001 -TestNumbers 3
+Discovery
+Invoke-AtomicTest T1518.001 -TestNumbers 1
+Invoke-AtomicTest T1518.001 -TestNumbers 2
+Invoke-AtomicTest T1518.001 -TestNumbers 5
+Lateral Movement
+Collection
+Invoke-AtomicTest T1113 -TestNumbers 6
+Command and Control
+Invoke-AtomicTest T1106 -TestNumbers 9very new powershell
+Import-Module "C:\AtomicRedTeam\invoke-atomicredteam\Invoke-AtomicRedTeam.psd1" -Force
+Template for command (up arrow is your friend)
+Invoke-AtomicTest T####.00# -GetPrereqs
+Invoke-AtomicTest T####.00# -TestNumbers #
+Part 1
+Execution
+Invoke-AtomicTest T1204.002 -TestNumbers 1
+Why did it fail? What can you do about it?
+
+Invoke-AtomicTest T1204.002 -TestNumbers 8
+goto C:\Users\Administrator\AppData\Local\Temp
+Drill down to the numbered directory What artifact do you see?
+
+Persistence
+Invoke-AtomicTest T1543.003 -TestNumbers 2
+Privilege Escalation
+Invoke-AtomicTest T1055.001 -TestNumbers 1
+Part 2
+Defense Evasion
+Invoke-AtomicTest T1564.001 -TestNumbers 3
+Discovery
+Invoke-AtomicTest T1518.001 -TestNumbers 1
+Invoke-AtomicTest T1518.001 -TestNumbers 2
+Invoke-AtomicTest T1518.001 -TestNumbers 5
+Lateral Movement
+Collection
+Invoke-AtomicTest T1113 -TestNumbers 6
+Command and Control
+Invoke-AtomicTest T1106 -TestNumbers 9very new powershell
+Import-Module "C:\AtomicRedTeam\invoke-atomicredteam\Invoke-AtomicRedTeam.psd1" -Force
+Template for command (up arrow is your friend)
+Invoke-AtomicTest T####.00# -GetPrereqs
+Invoke-AtomicTest T####.00# -TestNumbers #
+Part 1
+Execution
+Invoke-AtomicTest T1204.002 -TestNumbers 1
+Why did it fail? What can you do about it?
+
+Invoke-AtomicTest T1204.002 -TestNumbers 8
+goto C:\Users\Administrator\AppData\Local\Temp
+Drill down to the numbered directory What artifact do you see?
+
+Persistence
+Invoke-AtomicTest T1543.003 -TestNumbers 2
+Privilege Escalation
+Invoke-AtomicTest T1055.001 -TestNumbers 1
+Part 2
+Defense Evasion
+Invoke-AtomicTest T1564.001 -TestNumbers 3
+Discovery
+Invoke-AtomicTest T1518.001 -TestNumbers 1
+Invoke-AtomicTest T1518.001 -TestNumbers 2
+Invoke-AtomicTest T1518.001 -TestNumbers 5
+Lateral Movement
+Collection
+Invoke-AtomicTest T1113 -TestNumbers 6
+Command and Control
+Invoke-AtomicTest T1106 -TestNumbers 9very new powershell
+Import-Module "C:\AtomicRedTeam\invoke-atomicredteam\Invoke-AtomicRedTeam.psd1" -Force
+Template for command (up arrow is your friend)
+Invoke-AtomicTest T####.00# -GetPrereqs
+Invoke-AtomicTest T####.00# -TestNumbers #
+Part 1
+Execution
+Invoke-AtomicTest T1204.002 -TestNumbers 1
+Why did it fail? What can you do about it?
+
+Invoke-AtomicTest T1204.002 -TestNumbers 8
+goto C:\Users\Administrator\AppData\Local\Temp
+Drill down to the numbered directory What artifact do you see?
+
+Persistence
+Invoke-AtomicTest T1543.003 -TestNumbers 2
+Privilege Escalation
+Invoke-AtomicTest T1055.001 -TestNumbers 1
+Part 2
+Defense Evasion
+Invoke-AtomicTest T1564.001 -TestNumbers 3
+Discovery
+Invoke-AtomicTest T1518.001 -TestNumbers 1
+Invoke-AtomicTest T1518.001 -TestNumbers 2
+Invoke-AtomicTest T1518.001 -TestNumbers 5
+Lateral Movement
+Collection
+Invoke-AtomicTest T1113 -TestNumbers 6
+Command and Control
+Invoke-AtomicTest T1106 -TestNumbers 9very new powershell
+Import-Module "C:\AtomicRedTeam\invoke-atomicredteam\Invoke-AtomicRedTeam.psd1" -Force
+Template for command (up arrow is your friend)
+Invoke-AtomicTest T####.00# -GetPrereqs
+Invoke-AtomicTest T####.00# -TestNumbers #
+Part 1
+Execution
+Invoke-AtomicTest T1204.002 -TestNumbers 1
+Why did it fail? What can you do about it?
+
+Invoke-AtomicTest T1204.002 -TestNumbers 8
+goto C:\Users\Administrator\AppData\Local\Temp
+Drill down to the numbered directory What artifact do you see?
+
+Persistence
+Invoke-AtomicTest T1543.003 -TestNumbers 2
+Privilege Escalation
+Invoke-AtomicTest T1055.001 -TestNumbers 1
+Part 2
+Defense Evasion
+Invoke-AtomicTest T1564.001 -TestNumbers 3
+Discovery
+Invoke-AtomicTest T1518.001 -TestNumbers 1
+Invoke-AtomicTest T1518.001 -TestNumbers 2
+Invoke-AtomicTest T1518.001 -TestNumbers 5
+Lateral Movement
+Collection
+Invoke-AtomicTest T1113 -TestNumbers 6
+Command and Control
+Invoke-AtomicTest T1106 -TestNumbers 9very new powershell
+Import-Module "C:\AtomicRedTeam\invoke-atomicredteam\Invoke-AtomicRedTeam.psd1" -Force
+Template for command (up arrow is your friend)
+Invoke-AtomicTest T####.00# -GetPrereqs
+Invoke-AtomicTest T####.00# -TestNumbers #
+Part 1
+Execution
+Invoke-AtomicTest T1204.002 -TestNumbers 1
+Why did it fail? What can you do about it?
+
+Invoke-AtomicTest T1204.002 -TestNumbers 8
+goto C:\Users\Administrator\AppData\Local\Temp
+Drill down to the numbered directory What artifact do you see?
+
+Persistence
+Invoke-AtomicTest T1543.003 -TestNumbers 2
+Privilege Escalation
+Invoke-AtomicTest T1055.001 -TestNumbers 1
+Part 2
+Defense Evasion
+Invoke-AtomicTest T1564.001 -TestNumbers 3
+Discovery
+Invoke-AtomicTest T1518.001 -TestNumbers 1
+Invoke-AtomicTest T1518.001 -TestNumbers 2
+Invoke-AtomicTest T1518.001 -TestNumbers 5
+Lateral Movement
+Collection
+Invoke-AtomicTest T1113 -TestNumbers 6
+Command and Control
+Invoke-AtomicTest T1106 -TestNumbers 9very new powershell
+Import-Module "C:\AtomicRedTeam\invoke-atomicredteam\Invoke-AtomicRedTeam.psd1" -Force
+Template for command (up arrow is your friend)
+Invoke-AtomicTest T####.00# -GetPrereqs
+Invoke-AtomicTest T####.00# -TestNumbers #
+Part 1
+Execution
+Invoke-AtomicTest T1204.002 -TestNumbers 1
+Why did it fail? What can you do about it?
+
+Invoke-AtomicTest T1204.002 -TestNumbers 8
+goto C:\Users\Administrator\AppData\Local\Temp
+Drill down to the numbered directory What artifact do you see?
+
+Persistence
+Invoke-AtomicTest T1543.003 -TestNumbers 2
+Privilege Escalation
+Invoke-AtomicTest T1055.001 -TestNumbers 1
+Part 2
+Defense Evasion
+Invoke-AtomicTest T1564.001 -TestNumbers 3
+Discovery
+Invoke-AtomicTest T1518.001 -TestNumbers 1
+Invoke-AtomicTest T1518.001 -TestNumbers 2
+Invoke-AtomicTest T1518.001 -TestNumbers 5
+Lateral Movement
+Collection
+Invoke-AtomicTest T1113 -TestNumbers 6
+Command and Control
+Invoke-AtomicTest T1106 -TestNumbers 9very new powershell
+Import-Module "C:\AtomicRedTeam\invoke-atomicredteam\Invoke-AtomicRedTeam.psd1" -Force
+Template for command (up arrow is your friend)
+Invoke-AtomicTest T####.00# -GetPrereqs
+Invoke-AtomicTest T####.00# -TestNumbers #
+Part 1
+Execution
+Invoke-AtomicTest T1204.002 -TestNumbers 1
+Why did it fail? What can you do about it?
+
+Invoke-AtomicTest T1204.002 -TestNumbers 8
+goto C:\Users\Administrator\AppData\Local\Temp
+Drill down to the numbered directory What artifact do you see?
+
+Persistence
+Invoke-AtomicTest T1543.003 -TestNumbers 2
+Privilege Escalation
+Invoke-AtomicTest T1055.001 -TestNumbers 1
+Part 2
+Defense Evasion
+Invoke-AtomicTest T1564.001 -TestNumbers 3
+Discovery
+Invoke-AtomicTest T1518.001 -TestNumbers 1
+Invoke-AtomicTest T1518.001 -TestNumbers 2
+Invoke-AtomicTest T1518.001 -TestNumbers 5
+Lateral Movement
+Collection
+Invoke-AtomicTest T1113 -TestNumbers 6
+Command and Control
+Invoke-AtomicTest T1106 -TestNumbers 9very new powershell
+Import-Module "C:\AtomicRedTeam\invoke-atomicredteam\Invoke-AtomicRedTeam.psd1" -Force
+Template for command (up arrow is your friend)
+Invoke-AtomicTest T####.00# -GetPrereqs
+Invoke-AtomicTest T####.00# -TestNumbers #
+Part 1
+Execution
+Invoke-AtomicTest T1204.002 -TestNumbers 1
+Why did it fail? What can you do about it?
+
+Invoke-AtomicTest T1204.002 -TestNumbers 8
+goto C:\Users\Administrator\AppData\Local\Temp
+Drill down to the numbered directory What artifact do you see?
+
+Persistence
+Invoke-AtomicTest T1543.003 -TestNumbers 2
+Privilege Escalation
+Invoke-AtomicTest T1055.001 -TestNumbers 1
+Part 2
+Defense Evasion
+Invoke-AtomicTest T1564.001 -TestNumbers 3
+Discovery
+Invoke-AtomicTest T1518.001 -TestNumbers 1
+Invoke-AtomicTest T1518.001 -TestNumbers 2
+Invoke-AtomicTest T1518.001 -TestNumbers 5
+Lateral Movement
+Collection
+Invoke-AtomicTest T1113 -TestNumbers 6
+Command and Control
+Invoke-AtomicTest T1106 -TestNumbers 9very new powershell
+Import-Module "C:\AtomicRedTeam\invoke-atomicredteam\Invoke-AtomicRedTeam.psd1" -Force
+Template for command (up arrow is your friend)
+Invoke-AtomicTest T####.00# -GetPrereqs
+Invoke-AtomicTest T####.00# -TestNumbers #
+Part 1
+Execution
+Invoke-AtomicTest T1204.002 -TestNumbers 1
+Why did it fail? What can you do about it?
+
+Invoke-AtomicTest T1204.002 -TestNumbers 8
+goto C:\Users\Administrator\AppData\Local\Temp
+Drill down to the numbered directory What artifact do you see?
+
+Persistence
+Invoke-AtomicTest T1543.003 -TestNumbers 2
+Privilege Escalation
+Invoke-AtomicTest T1055.001 -TestNumbers 1
+Part 2
+Defense Evasion
+Invoke-AtomicTest T1564.001 -TestNumbers 3
+Discovery
+Invoke-AtomicTest T1518.001 -TestNumbers 1
+Invoke-AtomicTest T1518.001 -TestNumbers 2
+Invoke-AtomicTest T1518.001 -TestNumbers 5
+Lateral Movement
+Collection
+Invoke-AtomicTest T1113 -TestNumbers 6
+Command and Control
+Invoke-AtomicTest T1106 -TestNumbers 9very new powershell
+Import-Module "C:\AtomicRedTeam\invoke-atomicredteam\Invoke-AtomicRedTeam.psd1" -Force
+Template for command (up arrow is your friend)
+Invoke-AtomicTest T####.00# -GetPrereqs
+Invoke-AtomicTest T####.00# -TestNumbers #
+Part 1
+Execution
+Invoke-AtomicTest T1204.002 -TestNumbers 1
+Why did it fail? What can you do about it?
+
+Invoke-AtomicTest T1204.002 -TestNumbers 8
+goto C:\Users\Administrator\AppData\Local\Temp
+Drill down to the numbered directory What artifact do you see?
+
+Persistence
+Invoke-AtomicTest T1543.003 -TestNumbers 2
+Privilege Escalation
+Invoke-AtomicTest T1055.001 -TestNumbers 1
+Part 2
+Defense Evasion
+Invoke-AtomicTest T1564.001 -TestNumbers 3
+Discovery
+Invoke-AtomicTest T1518.001 -TestNumbers 1
+Invoke-AtomicTest T1518.001 -TestNumbers 2
+Invoke-AtomicTest T1518.001 -TestNumbers 5
+Lateral Movement
+Collection
+Invoke-AtomicTest T1113 -TestNumbers 6
+Command and Control
+Invoke-AtomicTest T1106 -TestNumbers 9very new powershell
+Import-Module "C:\AtomicRedTeam\invoke-atomicredteam\Invoke-AtomicRedTeam.psd1" -Force
+Template for command (up arrow is your friend)
+Invoke-AtomicTest T####.00# -GetPrereqs
+Invoke-AtomicTest T####.00# -TestNumbers #
+Part 1
+Execution
+Invoke-AtomicTest T1204.002 -TestNumbers 1
+Why did it fail? What can you do about it?
+
+Invoke-AtomicTest T1204.002 -TestNumbers 8
+goto C:\Users\Administrator\AppData\Local\Temp
+Drill down to the numbered directory What artifact do you see?
+
+Persistence
+Invoke-AtomicTest T1543.003 -TestNumbers 2
+Privilege Escalation
+Invoke-AtomicTest T1055.001 -TestNumbers 1
+Part 2
+Defense Evasion
+Invoke-AtomicTest T1564.001 -TestNumbers 3
+Discovery
+Invoke-AtomicTest T1518.001 -TestNumbers 1
+Invoke-AtomicTest T1518.001 -TestNumbers 2
+Invoke-AtomicTest T1518.001 -TestNumbers 5
+Lateral Movement
+Collection
+Invoke-AtomicTest T1113 -TestNumbers 6
+Command and Control
+Invoke-AtomicTest T1106 -TestNumbers 9very new powershell
+Import-Module "C:\AtomicRedTeam\invoke-atomicredteam\Invoke-AtomicRedTeam.psd1" -Force
+Template for command (up arrow is your friend)
+Invoke-AtomicTest T####.00# -GetPrereqs
+Invoke-AtomicTest T####.00# -TestNumbers #
+Part 1
+Execution
+Invoke-AtomicTest T1204.002 -TestNumbers 1
+Why did it fail? What can you do about it?
+
+Invoke-AtomicTest T1204.002 -TestNumbers 8
+goto C:\Users\Administrator\AppData\Local\Temp
+Drill down to the numbered directory What artifact do you see?
+
+Persistence
+Invoke-AtomicTest T1543.003 -TestNumbers 2
+Privilege Escalation
+Invoke-AtomicTest T1055.001 -TestNumbers 1
+Part 2
+Defense Evasion
+Invoke-AtomicTest T1564.001 -TestNumbers 3
+Discovery
+Invoke-AtomicTest T1518.001 -TestNumbers 1
+Invoke-AtomicTest T1518.001 -TestNumbers 2
+Invoke-AtomicTest T1518.001 -TestNumbers 5
+Lateral Movement
+Collection
+Invoke-AtomicTest T1113 -TestNumbers 6
+Command and Control
+Invoke-AtomicTest T1106 -TestNumbers 9very new powershell
+Import-Module "C:\AtomicRedTeam\invoke-atomicredteam\Invoke-AtomicRedTeam.psd1" -Force
+Template for command (up arrow is your friend)
+Invoke-AtomicTest T####.00# -GetPrereqs
+Invoke-AtomicTest T####.00# -TestNumbers #
+Part 1
+Execution
+Invoke-AtomicTest T1204.002 -TestNumbers 1
+Why did it fail? What can you do about it?
+
+Invoke-AtomicTest T1204.002 -TestNumbers 8
+goto C:\Users\Administrator\AppData\Local\Temp
+Drill down to the numbered directory What artifact do you see?
+
+Persistence
+Invoke-AtomicTest T1543.003 -TestNumbers 2
+Privilege Escalation
+Invoke-AtomicTest T1055.001 -TestNumbers 1
+Part 2
+Defense Evasion
+Invoke-AtomicTest T1564.001 -TestNumbers 3
+Discovery
+Invoke-AtomicTest T1518.001 -TestNumbers 1
+Invoke-AtomicTest T1518.001 -TestNumbers 2
+Invoke-AtomicTest T1518.001 -TestNumbers 5
+Lateral Movement
+Collection
+Invoke-AtomicTest T1113 -TestNumbers 6
+Command and Control
+Invoke-AtomicTest T1106 -TestNumbers 9very new powershell
+Import-Module "C:\AtomicRedTeam\invoke-atomicredteam\Invoke-AtomicRedTeam.psd1" -Force
+Template for command (up arrow is your friend)
+Invoke-AtomicTest T####.00# -GetPrereqs
+Invoke-AtomicTest T####.00# -TestNumbers #
+Part 1
+Execution
+Invoke-AtomicTest T1204.002 -TestNumbers 1
+Why did it fail? What can you do about it?
+
+Invoke-AtomicTest T1204.002 -TestNumbers 8
+goto C:\Users\Administrator\AppData\Local\Temp
+Drill down to the numbered directory What artifact do you see?
+
+Persistence
+Invoke-AtomicTest T1543.003 -TestNumbers 2
+Privilege Escalation
+Invoke-AtomicTest T1055.001 -TestNumbers 1
+Part 2
+Defense Evasion
+Invoke-AtomicTest T1564.001 -TestNumbers 3
+Discovery
+Invoke-AtomicTest T1518.001 -TestNumbers 1
+Invoke-AtomicTest T1518.001 -TestNumbers 2
+Invoke-AtomicTest T1518.001 -TestNumbers 5
+Lateral Movement
+Collection
+Invoke-AtomicTest T1113 -TestNumbers 6
+Command and Control
+Invoke-AtomicTest T1106 -TestNumbers 9very new powershell
+Import-Module "C:\AtomicRedTeam\invoke-atomicredteam\Invoke-AtomicRedTeam.psd1" -Force
+Template for command (up arrow is your friend)
+Invoke-AtomicTest T####.00# -GetPrereqs
+Invoke-AtomicTest T####.00# -TestNumbers #
+Part 1
+Execution
+Invoke-AtomicTest T1204.002 -TestNumbers 1
+Why did it fail? What can you do about it?
+
+Invoke-AtomicTest T1204.002 -TestNumbers 8
+goto C:\Users\Administrator\AppData\Local\Temp
+Drill down to the numbered directory What artifact do you see?
+
+Persistence
+Invoke-AtomicTest T1543.003 -TestNumbers 2
+Privilege Escalation
+Invoke-AtomicTest T1055.001 -TestNumbers 1
+Part 2
+Defense Evasion
+Invoke-AtomicTest T1564.001 -TestNumbers 3
+Discovery
+Invoke-AtomicTest T1518.001 -TestNumbers 1
+Invoke-AtomicTest T1518.001 -TestNumbers 2
+Invoke-AtomicTest T1518.001 -TestNumbers 5
+Lateral Movement
+Collection
+Invoke-AtomicTest T1113 -TestNumbers 6
+Command and Control
+Invoke-AtomicTest T1106 -TestNumbers 9very new powershell
+Import-Module "C:\AtomicRedTeam\invoke-atomicredteam\Invoke-AtomicRedTeam.psd1" -Force
+Template for command (up arrow is your friend)
+Invoke-AtomicTest T####.00# -GetPrereqs
+Invoke-AtomicTest T####.00# -TestNumbers #
+Part 1
+Execution
+Invoke-AtomicTest T1204.002 -TestNumbers 1
+Why did it fail? What can you do about it?
+
+Invoke-AtomicTest T1204.002 -TestNumbers 8
+goto C:\Users\Administrator\AppData\Local\Temp
+Drill down to the numbered directory What artifact do you see?
+
+Persistence
+Invoke-AtomicTest T1543.003 -TestNumbers 2
+Privilege Escalation
+Invoke-AtomicTest T1055.001 -TestNumbers 1
+Part 2
+Defense Evasion
+Invoke-AtomicTest T1564.001 -TestNumbers 3
+Discovery
+Invoke-AtomicTest T1518.001 -TestNumbers 1
+Invoke-AtomicTest T1518.001 -TestNumbers 2
+Invoke-AtomicTest T1518.001 -TestNumbers 5
+Lateral Movement
+Collection
+Invoke-AtomicTest T1113 -TestNumbers 6
+Command and Control
+Invoke-AtomicTest T1106 -TestNumbers 9very new powershell
+Import-Module "C:\AtomicRedTeam\invoke-atomicredteam\Invoke-AtomicRedTeam.psd1" -Force
+Template for command (up arrow is your friend)
+Invoke-AtomicTest T####.00# -GetPrereqs
+Invoke-AtomicTest T####.00# -TestNumbers #
+Part 1
+Execution
+Invoke-AtomicTest T1204.002 -TestNumbers 1
+Why did it fail? What can you do about it?
+
+Invoke-AtomicTest T1204.002 -TestNumbers 8
+goto C:\Users\Administrator\AppData\Local\Temp
+Drill down to the numbered directory What artifact do you see?
+
+Persistence
+Invoke-AtomicTest T1543.003 -TestNumbers 2
+Privilege Escalation
+Invoke-AtomicTest T1055.001 -TestNumbers 1
+Part 2
+Defense Evasion
+Invoke-AtomicTest T1564.001 -TestNumbers 3
+Discovery
+Invoke-AtomicTest T1518.001 -TestNumbers 1
+Invoke-AtomicTest T1518.001 -TestNumbers 2
+Invoke-AtomicTest T1518.001 -TestNumbers 5
+Lateral Movement
+Collection
+Invoke-AtomicTest T1113 -TestNumbers 6
+Command and Control
+Invoke-AtomicTest T1106 -TestNumbers 9very new powershell
+Import-Module "C:\AtomicRedTeam\invoke-atomicredteam\Invoke-AtomicRedTeam.psd1" -Force
+Template for command (up arrow is your friend)
+Invoke-AtomicTest T####.00# -GetPrereqs
+Invoke-AtomicTest T####.00# -TestNumbers #
+Part 1
+Execution
+Invoke-AtomicTest T1204.002 -TestNumbers 1
+Why did it fail? What can you do about it?
+
+Invoke-AtomicTest T1204.002 -TestNumbers 8
+goto C:\Users\Administrator\AppData\Local\Temp
+Drill down to the numbered directory What artifact do you see?
+
+Persistence
+Invoke-AtomicTest T1543.003 -TestNumbers 2
+Privilege Escalation
+Invoke-AtomicTest T1055.001 -TestNumbers 1
+Part 2
+Defense Evasion
+Invoke-AtomicTest T1564.001 -TestNumbers 3
+Discovery
+Invoke-AtomicTest T1518.001 -TestNumbers 1
+Invoke-AtomicTest T1518.001 -TestNumbers 2
+Invoke-AtomicTest T1518.001 -TestNumbers 5
+Lateral Movement
+Collection
+Invoke-AtomicTest T1113 -TestNumbers 6
+Command and Control
+Invoke-AtomicTest T1106 -TestNumbers 9very new powershell
+Import-Module "C:\AtomicRedTeam\invoke-atomicredteam\Invoke-AtomicRedTeam.psd1" -Force
+Template for command (up arrow is your friend)
+Invoke-AtomicTest T####.00# -GetPrereqs
+Invoke-AtomicTest T####.00# -TestNumbers #
+Part 1
+Execution
+Invoke-AtomicTest T1204.002 -TestNumbers 1
+Why did it fail? What can you do about it?
+
+Invoke-AtomicTest T1204.002 -TestNumbers 8
+goto C:\Users\Administrator\AppData\Local\Temp
+Drill down to the numbered directory What artifact do you see?
+
+Persistence
+Invoke-AtomicTest T1543.003 -TestNumbers 2
+Privilege Escalation
+Invoke-AtomicTest T1055.001 -TestNumbers 1
+Part 2
+Defense Evasion
+Invoke-AtomicTest T1564.001 -TestNumbers 3
+Discovery
+Invoke-AtomicTest T1518.001 -TestNumbers 1
+Invoke-AtomicTest T1518.001 -TestNumbers 2
+Invoke-AtomicTest T1518.001 -TestNumbers 5
+Lateral Movement
+Collection
+Invoke-AtomicTest T1113 -TestNumbers 6
+Command and Control
+Invoke-AtomicTest T1106 -TestNumbers 9very new powershell
+Import-Module "C:\AtomicRedTeam\invoke-atomicredteam\Invoke-AtomicRedTeam.psd1" -Force
+Template for command (up arrow is your friend)
+Invoke-AtomicTest T####.00# -GetPrereqs
+Invoke-AtomicTest T####.00# -TestNumbers #
+Part 1
+Execution
+Invoke-AtomicTest T1204.002 -TestNumbers 1
+Why did it fail? What can you do about it?
+
+Invoke-AtomicTest T1204.002 -TestNumbers 8
+goto C:\Users\Administrator\AppData\Local\Temp
+Drill down to the numbered directory What artifact do you see?
+
+Persistence
+Invoke-AtomicTest T1543.003 -TestNumbers 2
+Privilege Escalation
+Invoke-AtomicTest T1055.001 -TestNumbers 1
+Part 2
+Defense Evasion
+Invoke-AtomicTest T1564.001 -TestNumbers 3
+Discovery
+Invoke-AtomicTest T1518.001 -TestNumbers 1
+Invoke-AtomicTest T1518.001 -TestNumbers 2
+Invoke-AtomicTest T1518.001 -TestNumbers 5
+Lateral Movement
+Collection
+Invoke-AtomicTest T1113 -TestNumbers 6
+Command and Control
+Invoke-AtomicTest T1106 -TestNumbers 9very new powershell
+Import-Module "C:\AtomicRedTeam\invoke-atomicredteam\Invoke-AtomicRedTeam.psd1" -Force
+Template for command (up arrow is your friend)
+Invoke-AtomicTest T####.00# -GetPrereqs
+Invoke-AtomicTest T####.00# -TestNumbers #
+Part 1
+Execution
+Invoke-AtomicTest T1204.002 -TestNumbers 1
+Why did it fail? What can you do about it?
+
+Invoke-AtomicTest T1204.002 -TestNumbers 8
+goto C:\Users\Administrator\AppData\Local\Temp
+Drill down to the numbered directory What artifact do you see?
+
+Persistence
+Invoke-AtomicTest T1543.003 -TestNumbers 2
+Privilege Escalation
+Invoke-AtomicTest T1055.001 -TestNumbers 1
+Part 2
+Defense Evasion
+Invoke-AtomicTest T1564.001 -TestNumbers 3
+Discovery
+Invoke-AtomicTest T1518.001 -TestNumbers 1
+Invoke-AtomicTest T1518.001 -TestNumbers 2
+Invoke-AtomicTest T1518.001 -TestNumbers 5
+Lateral Movement
+Collection
+Invoke-AtomicTest T1113 -TestNumbers 6
+Command and Control
+Invoke-AtomicTest T1106 -TestNumbers 9very new powershell
+Import-Module "C:\AtomicRedTeam\invoke-atomicredteam\Invoke-AtomicRedTeam.psd1" -Force
+Template for command (up arrow is your friend)
+Invoke-AtomicTest T####.00# -GetPrereqs
+Invoke-AtomicTest T####.00# -TestNumbers #
+Part 1
+Execution
+Invoke-AtomicTest T1204.002 -TestNumbers 1
+Why did it fail? What can you do about it?
+
+Invoke-AtomicTest T1204.002 -TestNumbers 8
+goto C:\Users\Administrator\AppData\Local\Temp
+Drill down to the numbered directory What artifact do you see?
+
+Persistence
+Invoke-AtomicTest T1543.003 -TestNumbers 2
+Privilege Escalation
+Invoke-AtomicTest T1055.001 -TestNumbers 1
+Part 2
+Defense Evasion
+Invoke-AtomicTest T1564.001 -TestNumbers 3
+Discovery
+Invoke-AtomicTest T1518.001 -TestNumbers 1
+Invoke-AtomicTest T1518.001 -TestNumbers 2
+Invoke-AtomicTest T1518.001 -TestNumbers 5
+Lateral Movement
+Collection
+Invoke-AtomicTest T1113 -TestNumbers 6
+Command and Control
+Invoke-AtomicTest T1106 -TestNumbers 9very new powershell
+Import-Module "C:\AtomicRedTeam\invoke-atomicredteam\Invoke-AtomicRedTeam.psd1" -Force
+Template for command (up arrow is your friend)
+Invoke-AtomicTest T####.00# -GetPrereqs
+Invoke-AtomicTest T####.00# -TestNumbers #
+Part 1
+Execution
+Invoke-AtomicTest T1204.002 -TestNumbers 1
+Why did it fail? What can you do about it?
+
+Invoke-AtomicTest T1204.002 -TestNumbers 8
+goto C:\Users\Administrator\AppData\Local\Temp
+Drill down to the numbered directory What artifact do you see?
+
+Persistence
+Invoke-AtomicTest T1543.003 -TestNumbers 2
+Privilege Escalation
+Invoke-AtomicTest T1055.001 -TestNumbers 1
+Part 2
+Defense Evasion
+Invoke-AtomicTest T1564.001 -TestNumbers 3
+Discovery
+Invoke-AtomicTest T1518.001 -TestNumbers 1
+Invoke-AtomicTest T1518.001 -TestNumbers 2
+Invoke-AtomicTest T1518.001 -TestNumbers 5
+Lateral Movement
+Collection
+Invoke-AtomicTest T1113 -TestNumbers 6
+Command and Control
+Invoke-AtomicTest T1106 -TestNumbers 9very new powershell
+Import-Module "C:\AtomicRedTeam\invoke-atomicredteam\Invoke-AtomicRedTeam.psd1" -Force
+Template for command (up arrow is your friend)
+Invoke-AtomicTest T####.00# -GetPrereqs
+Invoke-AtomicTest T####.00# -TestNumbers #
+Part 1
+Execution
+Invoke-AtomicTest T1204.002 -TestNumbers 1
+Why did it fail? What can you do about it?
+
+Invoke-AtomicTest T1204.002 -TestNumbers 8
+goto C:\Users\Administrator\AppData\Local\Temp
+Drill down to the numbered directory What artifact do you see?
+
+Persistence
+Invoke-AtomicTest T1543.003 -TestNumbers 2
+Privilege Escalation
+Invoke-AtomicTest T1055.001 -TestNumbers 1
+Part 2
+Defense Evasion
+Invoke-AtomicTest T1564.001 -TestNumbers 3
+Discovery
+Invoke-AtomicTest T1518.001 -TestNumbers 1
+Invoke-AtomicTest T1518.001 -TestNumbers 2
+Invoke-AtomicTest T1518.001 -TestNumbers 5
+Lateral Movement
+Collection
+Invoke-AtomicTest T1113 -TestNumbers 6
+Command and Control
+Invoke-AtomicTest T1106 -TestNumbers 9very new powershell
+Import-Module "C:\AtomicRedTeam\invoke-atomicredteam\Invoke-AtomicRedTeam.psd1" -Force
+Template for command (up arrow is your friend)
+Invoke-AtomicTest T####.00# -GetPrereqs
+Invoke-AtomicTest T####.00# -TestNumbers #
+Part 1
+Execution
+Invoke-AtomicTest T1204.002 -TestNumbers 1
+Why did it fail? What can you do about it?
+
+Invoke-AtomicTest T1204.002 -TestNumbers 8
+goto C:\Users\Administrator\AppData\Local\Temp
+Drill down to the numbered directory What artifact do you see?
+
+Persistence
+Invoke-AtomicTest T1543.003 -TestNumbers 2
+Privilege Escalation
+Invoke-AtomicTest T1055.001 -TestNumbers 1
+Part 2
+Defense Evasion
+Invoke-AtomicTest T1564.001 -TestNumbers 3
+Discovery
+Invoke-AtomicTest T1518.001 -TestNumbers 1
+Invoke-AtomicTest T1518.001 -TestNumbers 2
+Invoke-AtomicTest T1518.001 -TestNumbers 5
+Lateral Movement
+Collection
+Invoke-AtomicTest T1113 -TestNumbers 6
+Command and Control
+Invoke-AtomicTest T1106 -TestNumbers 9very new powershell
+Import-Module "C:\AtomicRedTeam\invoke-atomicredteam\Invoke-AtomicRedTeam.psd1" -Force
+Template for command (up arrow is your friend)
+Invoke-AtomicTest T####.00# -GetPrereqs
+Invoke-AtomicTest T####.00# -TestNumbers #
+Part 1
+Execution
+Invoke-AtomicTest T1204.002 -TestNumbers 1
+Why did it fail? What can you do about it?
+
+Invoke-AtomicTest T1204.002 -TestNumbers 8
+goto C:\Users\Administrator\AppData\Local\Temp
+Drill down to the numbered directory What artifact do you see?
+
+Persistence
+Invoke-AtomicTest T1543.003 -TestNumbers 2
+Privilege Escalation
+Invoke-AtomicTest T1055.001 -TestNumbers 1
+Part 2
+Defense Evasion
+Invoke-AtomicTest T1564.001 -TestNumbers 3
+Discovery
+Invoke-AtomicTest T1518.001 -TestNumbers 1
+Invoke-AtomicTest T1518.001 -TestNumbers 2
+Invoke-AtomicTest T1518.001 -TestNumbers 5
+Lateral Movement
+Collection
+Invoke-AtomicTest T1113 -TestNumbers 6
+Command and Control
+Invoke-AtomicTest T1106 -TestNumbers 9very new powershell
+Import-Module "C:\AtomicRedTeam\invoke-atomicredteam\Invoke-AtomicRedTeam.psd1" -Force
+Template for command (up arrow is your friend)
+Invoke-AtomicTest T####.00# -GetPrereqs
+Invoke-AtomicTest T####.00# -TestNumbers #
+Part 1
+Execution
+Invoke-AtomicTest T1204.002 -TestNumbers 1
+Why did it fail? What can you do about it?
+
+Invoke-AtomicTest T1204.002 -TestNumbers 8
+goto C:\Users\Administrator\AppData\Local\Temp
+Drill down to the numbered directory What artifact do you see?
+
+Persistence
+Invoke-AtomicTest T1543.003 -TestNumbers 2
+Privilege Escalation
+Invoke-AtomicTest T1055.001 -TestNumbers 1
+Part 2
+Defense Evasion
+Invoke-AtomicTest T1564.001 -TestNumbers 3
+Discovery
+Invoke-AtomicTest T1518.001 -TestNumbers 1
+Invoke-AtomicTest T1518.001 -TestNumbers 2
+Invoke-AtomicTest T1518.001 -TestNumbers 5
+Lateral Movement
+Collection
+Invoke-AtomicTest T1113 -TestNumbers 6
+Command and Control
+Invoke-AtomicTest T1106 -TestNumbers 9very new powershell
+Import-Module "C:\AtomicRedTeam\invoke-atomicredteam\Invoke-AtomicRedTeam.psd1" -Force
+Template for command (up arrow is your friend)
+Invoke-AtomicTest T####.00# -GetPrereqs
+Invoke-AtomicTest T####.00# -TestNumbers #
+Part 1
+Execution
+Invoke-AtomicTest T1204.002 -TestNumbers 1
+Why did it fail? What can you do about it?
+
+Invoke-AtomicTest T1204.002 -TestNumbers 8
+goto C:\Users\Administrator\AppData\Local\Temp
+Drill down to the numbered directory What artifact do you see?
+
+Persistence
+Invoke-AtomicTest T1543.003 -TestNumbers 2
+Privilege Escalation
+Invoke-AtomicTest T1055.001 -TestNumbers 1
+Part 2
+Defense Evasion
+Invoke-AtomicTest T1564.001 -TestNumbers 3
+Discovery
+Invoke-AtomicTest T1518.001 -TestNumbers 1
+Invoke-AtomicTest T1518.001 -TestNumbers 2
+Invoke-AtomicTest T1518.001 -TestNumbers 5
+Lateral Movement
+Collection
+Invoke-AtomicTest T1113 -TestNumbers 6
+Command and Control
+Invoke-AtomicTest T1106 -TestNumbers 9very new powershell
+Import-Module "C:\AtomicRedTeam\invoke-atomicredteam\Invoke-AtomicRedTeam.psd1" -Force
+Template for command (up arrow is your friend)
+Invoke-AtomicTest T####.00# -GetPrereqs
+Invoke-AtomicTest T####.00# -TestNumbers #
+Part 1
+Execution
+Invoke-AtomicTest T1204.002 -TestNumbers 1
+Why did it fail? What can you do about it?
+
+Invoke-AtomicTest T1204.002 -TestNumbers 8
+goto C:\Users\Administrator\AppData\Local\Temp
+Drill down to the numbered directory What artifact do you see?
+
+Persistence
+Invoke-AtomicTest T1543.003 -TestNumbers 2
+Privilege Escalation
+Invoke-AtomicTest T1055.001 -TestNumbers 1
+Part 2
+Defense Evasion
+Invoke-AtomicTest T1564.001 -TestNumbers 3
+Discovery
+Invoke-AtomicTest T1518.001 -TestNumbers 1
+Invoke-AtomicTest T1518.001 -TestNumbers 2
+Invoke-AtomicTest T1518.001 -TestNumbers 5
+Lateral Movement
+Collection
+Invoke-AtomicTest T1113 -TestNumbers 6
+Command and Control
+Invoke-AtomicTest T1106 -TestNumbers 9very new powershell
+Import-Module "C:\AtomicRedTeam\invoke-atomicredteam\Invoke-AtomicRedTeam.psd1" -Force
+Template for command (up arrow is your friend)
+Invoke-AtomicTest T####.00# -GetPrereqs
+Invoke-AtomicTest T####.00# -TestNumbers #
+Part 1
+Execution
+Invoke-AtomicTest T1204.002 -TestNumbers 1
+Why did it fail? What can you do about it?
+
+Invoke-AtomicTest T1204.002 -TestNumbers 8
+goto C:\Users\Administrator\AppData\Local\Temp
+Drill down to the numbered directory What artifact do you see?
+
+Persistence
+Invoke-AtomicTest T1543.003 -TestNumbers 2
+Privilege Escalation
+Invoke-AtomicTest T1055.001 -TestNumbers 1
+Part 2
+Defense Evasion
+Invoke-AtomicTest T1564.001 -TestNumbers 3
+Discovery
+Invoke-AtomicTest T1518.001 -TestNumbers 1
+Invoke-AtomicTest T1518.001 -TestNumbers 2
+Invoke-AtomicTest T1518.001 -TestNumbers 5
+Lateral Movement
+Collection
+Invoke-AtomicTest T1113 -TestNumbers 6
+Command and Control
+Invoke-AtomicTest T1106 -TestNumbers 9very new powershell
+Import-Module "C:\AtomicRedTeam\invoke-atomicredteam\Invoke-AtomicRedTeam.psd1" -Force
+Template for command (up arrow is your friend)
+Invoke-AtomicTest T####.00# -GetPrereqs
+Invoke-AtomicTest T####.00# -TestNumbers #
+Part 1
+Execution
+Invoke-AtomicTest T1204.002 -TestNumbers 1
+Why did it fail? What can you do about it?
+
+Invoke-AtomicTest T1204.002 -TestNumbers 8
+goto C:\Users\Administrator\AppData\Local\Temp
+Drill down to the numbered directory What artifact do you see?
+
+Persistence
+Invoke-AtomicTest T1543.003 -TestNumbers 2
+Privilege Escalation
+Invoke-AtomicTest T1055.001 -TestNumbers 1
+Part 2
+Defense Evasion
+Invoke-AtomicTest T1564.001 -TestNumbers 3
+Discovery
+Invoke-AtomicTest T1518.001 -TestNumbers 1
+Invoke-AtomicTest T1518.001 -TestNumbers 2
+Invoke-AtomicTest T1518.001 -TestNumbers 5
+Lateral Movement
+Collection
+Invoke-AtomicTest T1113 -TestNumbers 6
+Command and Control
+Invoke-AtomicTest T1106 -TestNumbers 9very new powershell
+Import-Module "C:\AtomicRedTeam\invoke-atomicredteam\Invoke-AtomicRedTeam.psd1" -Force
+Template for command (up arrow is your friend)
+Invoke-AtomicTest T####.00# -GetPrereqs
+Invoke-AtomicTest T####.00# -TestNumbers #
+Part 1
+Execution
+Invoke-AtomicTest T1204.002 -TestNumbers 1
+Why did it fail? What can you do about it?
+
+Invoke-AtomicTest T1204.002 -TestNumbers 8
+goto C:\Users\Administrator\AppData\Local\Temp
+Drill down to the numbered directory What artifact do you see?
+
+Persistence
+Invoke-AtomicTest T1543.003 -TestNumbers 2
+Privilege Escalation
+Invoke-AtomicTest T1055.001 -TestNumbers 1
+Part 2
+Defense Evasion
+Invoke-AtomicTest T1564.001 -TestNumbers 3
+Discovery
+Invoke-AtomicTest T1518.001 -TestNumbers 1
+Invoke-AtomicTest T1518.001 -TestNumbers 2
+Invoke-AtomicTest T1518.001 -TestNumbers 5
+Lateral Movement
+Collection
+Invoke-AtomicTest T1113 -TestNumbers 6
+Command and Control
+Invoke-AtomicTest T1106 -TestNumbers 9very new powershell
+Import-Module "C:\AtomicRedTeam\invoke-atomicredteam\Invoke-AtomicRedTeam.psd1" -Force
+Template for command (up arrow is your friend)
+Invoke-AtomicTest T####.00# -GetPrereqs
+Invoke-AtomicTest T####.00# -TestNumbers #
+Part 1
+Execution
+Invoke-AtomicTest T1204.002 -TestNumbers 1
+Why did it fail? What can you do about it?
+
+Invoke-AtomicTest T1204.002 -TestNumbers 8
+goto C:\Users\Administrator\AppData\Local\Temp
+Drill down to the numbered directory What artifact do you see?
+
+Persistence
+Invoke-AtomicTest T1543.003 -TestNumbers 2
+Privilege Escalation
+Invoke-AtomicTest T1055.001 -TestNumbers 1
+Part 2
+Defense Evasion
+Invoke-AtomicTest T1564.001 -TestNumbers 3
+Discovery
+Invoke-AtomicTest T1518.001 -TestNumbers 1
+Invoke-AtomicTest T1518.001 -TestNumbers 2
+Invoke-AtomicTest T1518.001 -TestNumbers 5
+Lateral Movement
+Collection
+Invoke-AtomicTest T1113 -TestNumbers 6
+Command and Control
+Invoke-AtomicTest T1106 -TestNumbers 9very new powershell
+Import-Module "C:\AtomicRedTeam\invoke-atomicredteam\Invoke-AtomicRedTeam.psd1" -Force
+Template for command (up arrow is your friend)
+Invoke-AtomicTest T####.00# -GetPrereqs
+Invoke-AtomicTest T####.00# -TestNumbers #
+Part 1
+Execution
+Invoke-AtomicTest T1204.002 -TestNumbers 1
+Why did it fail? What can you do about it?
+
+Invoke-AtomicTest T1204.002 -TestNumbers 8
+goto C:\Users\Administrator\AppData\Local\Temp
+Drill down to the numbered directory What artifact do you see?
+
+Persistence
+Invoke-AtomicTest T1543.003 -TestNumbers 2
+Privilege Escalation
+Invoke-AtomicTest T1055.001 -TestNumbers 1
+Part 2
+Defense Evasion
+Invoke-AtomicTest T1564.001 -TestNumbers 3
+Discovery
+Invoke-AtomicTest T1518.001 -TestNumbers 1
+Invoke-AtomicTest T1518.001 -TestNumbers 2
+Invoke-AtomicTest T1518.001 -TestNumbers 5
+Lateral Movement
+Collection
+Invoke-AtomicTest T1113 -TestNumbers 6
+Command and Control
+Invoke-AtomicTest T1106 -TestNumbers 9very new powershell
+Import-Module "C:\AtomicRedTeam\invoke-atomicredteam\Invoke-AtomicRedTeam.psd1" -Force
+Template for command (up arrow is your friend)
+Invoke-AtomicTest T####.00# -GetPrereqs
+Invoke-AtomicTest T####.00# -TestNumbers #
+Part 1
+Execution
+Invoke-AtomicTest T1204.002 -TestNumbers 1
+Why did it fail? What can you do about it?
+
+Invoke-AtomicTest T1204.002 -TestNumbers 8
+goto C:\Users\Administrator\AppData\Local\Temp
+Drill down to the numbered directory What artifact do you see?
+
+Persistence
+Invoke-AtomicTest T1543.003 -TestNumbers 2
+Privilege Escalation
+Invoke-AtomicTest T1055.001 -TestNumbers 1
+Part 2
+Defense Evasion
+Invoke-AtomicTest T1564.001 -TestNumbers 3
+Discovery
+Invoke-AtomicTest T1518.001 -TestNumbers 1
+Invoke-AtomicTest T1518.001 -TestNumbers 2
+Invoke-AtomicTest T1518.001 -TestNumbers 5
+Lateral Movement
+Collection
+Invoke-AtomicTest T1113 -TestNumbers 6
+Command and Control
+Invoke-AtomicTest T1106 -TestNumbers 9very new powershell
+Import-Module "C:\AtomicRedTeam\invoke-atomicredteam\Invoke-AtomicRedTeam.psd1" -Force
+Template for command (up arrow is your friend)
+Invoke-AtomicTest T####.00# -GetPrereqs
+Invoke-AtomicTest T####.00# -TestNumbers #
+Part 1
+Execution
+Invoke-AtomicTest T1204.002 -TestNumbers 1
+Why did it fail? What can you do about it?
+
+Invoke-AtomicTest T1204.002 -TestNumbers 8
+goto C:\Users\Administrator\AppData\Local\Temp
+Drill down to the numbered directory What artifact do you see?
+
+Persistence
+Invoke-AtomicTest T1543.003 -TestNumbers 2
+Privilege Escalation
+Invoke-AtomicTest T1055.001 -TestNumbers 1
+Part 2
+Defense Evasion
+Invoke-AtomicTest T1564.001 -TestNumbers 3
+Discovery
+Invoke-AtomicTest T1518.001 -TestNumbers 1
+Invoke-AtomicTest T1518.001 -TestNumbers 2
+Invoke-AtomicTest T1518.001 -TestNumbers 5
+Lateral Movement
+Collection
+Invoke-AtomicTest T1113 -TestNumbers 6
+Command and Control
+Invoke-AtomicTest T1106 -TestNumbers 9very new powershell
+Import-Module "C:\AtomicRedTeam\invoke-atomicredteam\Invoke-AtomicRedTeam.psd1" -Force
+Template for command (up arrow is your friend)
+Invoke-AtomicTest T####.00# -GetPrereqs
+Invoke-AtomicTest T####.00# -TestNumbers #
+Part 1
+Execution
+Invoke-AtomicTest T1204.002 -TestNumbers 1
+Why did it fail? What can you do about it?
+
+Invoke-AtomicTest T1204.002 -TestNumbers 8
+goto C:\Users\Administrator\AppData\Local\Temp
+Drill down to the numbered directory What artifact do you see?
+
+Persistence
+Invoke-AtomicTest T1543.003 -TestNumbers 2
+Privilege Escalation
+Invoke-AtomicTest T1055.001 -TestNumbers 1
+Part 2
+Defense Evasion
+Invoke-AtomicTest T1564.001 -TestNumbers 3
+Discovery
+Invoke-AtomicTest T1518.001 -TestNumbers 1
+Invoke-AtomicTest T1518.001 -TestNumbers 2
+Invoke-AtomicTest T1518.001 -TestNumbers 5
+Lateral Movement
+Collection
+Invoke-AtomicTest T1113 -TestNumbers 6
+Command and Control
+Invoke-AtomicTest T1106 -TestNumbers 9very new powershell
+Import-Module "C:\AtomicRedTeam\invoke-atomicredteam\Invoke-AtomicRedTeam.psd1" -Force
+Template for command (up arrow is your friend)
+Invoke-AtomicTest T####.00# -GetPrereqs
+Invoke-AtomicTest T####.00# -TestNumbers #
+Part 1
+Execution
+Invoke-AtomicTest T1204.002 -TestNumbers 1
+Why did it fail? What can you do about it?
+
+Invoke-AtomicTest T1204.002 -TestNumbers 8
+goto C:\Users\Administrator\AppData\Local\Temp
+Drill down to the numbered directory What artifact do you see?
+
+Persistence
+Invoke-AtomicTest T1543.003 -TestNumbers 2
+Privilege Escalation
+Invoke-AtomicTest T1055.001 -TestNumbers 1
+Part 2
+Defense Evasion
+Invoke-AtomicTest T1564.001 -TestNumbers 3
+Discovery
+Invoke-AtomicTest T1518.001 -TestNumbers 1
+Invoke-AtomicTest T1518.001 -TestNumbers 2
+Invoke-AtomicTest T1518.001 -TestNumbers 5
+Lateral Movement
+Collection
+Invoke-AtomicTest T1113 -TestNumbers 6
+Command and Control
+Invoke-AtomicTest T1106 -TestNumbers 9very new powershell
+Import-Module "C:\AtomicRedTeam\invoke-atomicredteam\Invoke-AtomicRedTeam.psd1" -Force
+Template for command (up arrow is your friend)
+Invoke-AtomicTest T####.00# -GetPrereqs
+Invoke-AtomicTest T####.00# -TestNumbers #
+Part 1
+Execution
+Invoke-AtomicTest T1204.002 -TestNumbers 1
+Why did it fail? What can you do about it?
+
+Invoke-AtomicTest T1204.002 -TestNumbers 8
+goto C:\Users\Administrator\AppData\Local\Temp
+Drill down to the numbered directory What artifact do you see?
+
+Persistence
+Invoke-AtomicTest T1543.003 -TestNumbers 2
+Privilege Escalation
+Invoke-AtomicTest T1055.001 -TestNumbers 1
+Part 2
+Defense Evasion
+Invoke-AtomicTest T1564.001 -TestNumbers 3
+Discovery
+Invoke-AtomicTest T1518.001 -TestNumbers 1
+Invoke-AtomicTest T1518.001 -TestNumbers 2
+Invoke-AtomicTest T1518.001 -TestNumbers 5
+Lateral Movement
+Collection
+Invoke-AtomicTest T1113 -TestNumbers 6
+Command and Control
+Invoke-AtomicTest T1106 -TestNumbers 9very new powershell
+Import-Module "C:\AtomicRedTeam\invoke-atomicredteam\Invoke-AtomicRedTeam.psd1" -Force
+Template for command (up arrow is your friend)
+Invoke-AtomicTest T####.00# -GetPrereqs
+Invoke-AtomicTest T####.00# -TestNumbers #
+Part 1
+Execution
+Invoke-AtomicTest T1204.002 -TestNumbers 1
+Why did it fail? What can you do about it?
+
+Invoke-AtomicTest T1204.002 -TestNumbers 8
+goto C:\Users\Administrator\AppData\Local\Temp
+Drill down to the numbered directory What artifact do you see?
+
+Persistence
+Invoke-AtomicTest T1543.003 -TestNumbers 2
+Privilege Escalation
+Invoke-AtomicTest T1055.001 -TestNumbers 1
+Part 2
+Defense Evasion
+Invoke-AtomicTest T1564.001 -TestNumbers 3
+Discovery
+Invoke-AtomicTest T1518.001 -TestNumbers 1
+Invoke-AtomicTest T1518.001 -TestNumbers 2
+Invoke-AtomicTest T1518.001 -TestNumbers 5
+Lateral Movement
+Collection
+Invoke-AtomicTest T1113 -TestNumbers 6
+Command and Control
+Invoke-AtomicTest T1106 -TestNumbers 9very new powershell
+Import-Module "C:\AtomicRedTeam\invoke-atomicredteam\Invoke-AtomicRedTeam.psd1" -Force
+Template for command (up arrow is your friend)
+Invoke-AtomicTest T####.00# -GetPrereqs
+Invoke-AtomicTest T####.00# -TestNumbers #
+Part 1
+Execution
+Invoke-AtomicTest T1204.002 -TestNumbers 1
+Why did it fail? What can you do about it?
+
+Invoke-AtomicTest T1204.002 -TestNumbers 8
+goto C:\Users\Administrator\AppData\Local\Temp
+Drill down to the numbered directory What artifact do you see?
+
+Persistence
+Invoke-AtomicTest T1543.003 -TestNumbers 2
+Privilege Escalation
+Invoke-AtomicTest T1055.001 -TestNumbers 1
+Part 2
+Defense Evasion
+Invoke-AtomicTest T1564.001 -TestNumbers 3
+Discovery
+Invoke-AtomicTest T1518.001 -TestNumbers 1
+Invoke-AtomicTest T1518.001 -TestNumbers 2
+Invoke-AtomicTest T1518.001 -TestNumbers 5
+Lateral Movement
+Collection
+Invoke-AtomicTest T1113 -TestNumbers 6
+Command and Control
+Invoke-AtomicTest T1106 -TestNumbers 9very new powershell
+Import-Module "C:\AtomicRedTeam\invoke-atomicredteam\Invoke-AtomicRedTeam.psd1" -Force
+Template for command (up arrow is your friend)
+Invoke-AtomicTest T####.00# -GetPrereqs
+Invoke-AtomicTest T####.00# -TestNumbers #
+Part 1
+Execution
+Invoke-AtomicTest T1204.002 -TestNumbers 1
+Why did it fail? What can you do about it?
+
+Invoke-AtomicTest T1204.002 -TestNumbers 8
+goto C:\Users\Administrator\AppData\Local\Temp
+Drill down to the numbered directory What artifact do you see?
+
+Persistence
+Invoke-AtomicTest T1543.003 -TestNumbers 2
+Privilege Escalation
+Invoke-AtomicTest T1055.001 -TestNumbers 1
+Part 2
+Defense Evasion
+Invoke-AtomicTest T1564.001 -TestNumbers 3
+Discovery
+Invoke-AtomicTest T1518.001 -TestNumbers 1
+Invoke-AtomicTest T1518.001 -TestNumbers 2
+Invoke-AtomicTest T1518.001 -TestNumbers 5
+Lateral Movement
+Collection
+Invoke-AtomicTest T1113 -TestNumbers 6
+Command and Control
+Invoke-AtomicTest T1106 -TestNumbers 9very new powershell
+Import-Module "C:\AtomicRedTeam\invoke-atomicredteam\Invoke-AtomicRedTeam.psd1" -Force
+Template for command (up arrow is your friend)
+Invoke-AtomicTest T####.00# -GetPrereqs
+Invoke-AtomicTest T####.00# -TestNumbers #
+Part 1
+Execution
+Invoke-AtomicTest T1204.002 -TestNumbers 1
+Why did it fail? What can you do about it?
+
+Invoke-AtomicTest T1204.002 -TestNumbers 8
+goto C:\Users\Administrator\AppData\Local\Temp
+Drill down to the numbered directory What artifact do you see?
+
+Persistence
+Invoke-AtomicTest T1543.003 -TestNumbers 2
+Privilege Escalation
+Invoke-AtomicTest T1055.001 -TestNumbers 1
+Part 2
+Defense Evasion
+Invoke-AtomicTest T1564.001 -TestNumbers 3
+Discovery
+Invoke-AtomicTest T1518.001 -TestNumbers 1
+Invoke-AtomicTest T1518.001 -TestNumbers 2
+Invoke-AtomicTest T1518.001 -TestNumbers 5
+Lateral Movement
+Collection
+Invoke-AtomicTest T1113 -TestNumbers 6
+Command and Control
+Invoke-AtomicTest T1106 -TestNumbers 9very new powershell
+Import-Module "C:\AtomicRedTeam\invoke-atomicredteam\Invoke-AtomicRedTeam.psd1" -Force
+Template for command (up arrow is your friend)
+Invoke-AtomicTest T####.00# -GetPrereqs
+Invoke-AtomicTest T####.00# -TestNumbers #
+Part 1
+Execution
+Invoke-AtomicTest T1204.002 -TestNumbers 1
+Why did it fail? What can you do about it?
+
+Invoke-AtomicTest T1204.002 -TestNumbers 8
+goto C:\Users\Administrator\AppData\Local\Temp
+Drill down to the numbered directory What artifact do you see?
+
+Persistence
+Invoke-AtomicTest T1543.003 -TestNumbers 2
+Privilege Escalation
+Invoke-AtomicTest T1055.001 -TestNumbers 1
+Part 2
+Defense Evasion
+Invoke-AtomicTest T1564.001 -TestNumbers 3
+Discovery
+Invoke-AtomicTest T1518.001 -TestNumbers 1
+Invoke-AtomicTest T1518.001 -TestNumbers 2
+Invoke-AtomicTest T1518.001 -TestNumbers 5
+Lateral Movement
+Collection
+Invoke-AtomicTest T1113 -TestNumbers 6
+Command and Control
+Invoke-AtomicTest T1106 -TestNumbers 9very new powershell
+Import-Module "C:\AtomicRedTeam\invoke-atomicredteam\Invoke-AtomicRedTeam.psd1" -Force
+Template for command (up arrow is your friend)
+Invoke-AtomicTest T####.00# -GetPrereqs
+Invoke-AtomicTest T####.00# -TestNumbers #
+Part 1
+Execution
+Invoke-AtomicTest T1204.002 -TestNumbers 1
+Why did it fail? What can you do about it?
+
+Invoke-AtomicTest T1204.002 -TestNumbers 8
+goto C:\Users\Administrator\AppData\Local\Temp
+Drill down to the numbered directory What artifact do you see?
+
+Persistence
+Invoke-AtomicTest T1543.003 -TestNumbers 2
+Privilege Escalation
+Invoke-AtomicTest T1055.001 -TestNumbers 1
+Part 2
+Defense Evasion
+Invoke-AtomicTest T1564.001 -TestNumbers 3
+Discovery
+Invoke-AtomicTest T1518.001 -TestNumbers 1
+Invoke-AtomicTest T1518.001 -TestNumbers 2
+Invoke-AtomicTest T1518.001 -TestNumbers 5
+Lateral Movement
+Collection
+Invoke-AtomicTest T1113 -TestNumbers 6
+Command and Control
+Invoke-AtomicTest T1106 -TestNumbers 9very new powershell
+Import-Module "C:\AtomicRedTeam\invoke-atomicredteam\Invoke-AtomicRedTeam.psd1" -Force
+Template for command (up arrow is your friend)
+Invoke-AtomicTest T####.00# -GetPrereqs
+Invoke-AtomicTest T####.00# -TestNumbers #
+Part 1
+Execution
+Invoke-AtomicTest T1204.002 -TestNumbers 1
+Why did it fail? What can you do about it?
+
+Invoke-AtomicTest T1204.002 -TestNumbers 8
+goto C:\Users\Administrator\AppData\Local\Temp
+Drill down to the numbered directory What artifact do you see?
+
+Persistence
+Invoke-AtomicTest T1543.003 -TestNumbers 2
+Privilege Escalation
+Invoke-AtomicTest T1055.001 -TestNumbers 1
+Part 2
+Defense Evasion
+Invoke-AtomicTest T1564.001 -TestNumbers 3
+Discovery
+Invoke-AtomicTest T1518.001 -TestNumbers 1
+Invoke-AtomicTest T1518.001 -TestNumbers 2
+Invoke-AtomicTest T1518.001 -TestNumbers 5
+Lateral Movement
+Collection
+Invoke-AtomicTest T1113 -TestNumbers 6
+Command and Control
+Invoke-AtomicTest T1106 -TestNumbers 9very new powershell
+Import-Module "C:\AtomicRedTeam\invoke-atomicredteam\Invoke-AtomicRedTeam.psd1" -Force
+Template for command (up arrow is your friend)
+Invoke-AtomicTest T####.00# -GetPrereqs
+Invoke-AtomicTest T####.00# -TestNumbers #
+Part 1
+Execution
+Invoke-AtomicTest T1204.002 -TestNumbers 1
+Why did it fail? What can you do about it?
+
+Invoke-AtomicTest T1204.002 -TestNumbers 8
+goto C:\Users\Administrator\AppData\Local\Temp
+Drill down to the numbered directory What artifact do you see?
+
+Persistence
+Invoke-AtomicTest T1543.003 -TestNumbers 2
+Privilege Escalation
+Invoke-AtomicTest T1055.001 -TestNumbers 1
+Part 2
+Defense Evasion
+Invoke-AtomicTest T1564.001 -TestNumbers 3
+Discovery
+Invoke-AtomicTest T1518.001 -TestNumbers 1
+Invoke-AtomicTest T1518.001 -TestNumbers 2
+Invoke-AtomicTest T1518.001 -TestNumbers 5
+Lateral Movement
+Collection
+Invoke-AtomicTest T1113 -TestNumbers 6
+Command and Control
+Invoke-AtomicTest T1106 -TestNumbers 9very new powershell
+Import-Module "C:\AtomicRedTeam\invoke-atomicredteam\Invoke-AtomicRedTeam.psd1" -Force
+Template for command (up arrow is your friend)
+Invoke-AtomicTest T####.00# -GetPrereqs
+Invoke-AtomicTest T####.00# -TestNumbers #
+Part 1
+Execution
+Invoke-AtomicTest T1204.002 -TestNumbers 1
+Why did it fail? What can you do about it?
+
+Invoke-AtomicTest T1204.002 -TestNumbers 8
+goto C:\Users\Administrator\AppData\Local\Temp
+Drill down to the numbered directory What artifact do you see?
+
+Persistence
+Invoke-AtomicTest T1543.003 -TestNumbers 2
+Privilege Escalation
+Invoke-AtomicTest T1055.001 -TestNumbers 1
+Part 2
+Defense Evasion
+Invoke-AtomicTest T1564.001 -TestNumbers 3
+Discovery
+Invoke-AtomicTest T1518.001 -TestNumbers 1
+Invoke-AtomicTest T1518.001 -TestNumbers 2
+Invoke-AtomicTest T1518.001 -TestNumbers 5
+Lateral Movement
+Collection
+Invoke-AtomicTest T1113 -TestNumbers 6
+Command and Control
+Invoke-AtomicTest T1106 -TestNumbers 9very new powershell
+Import-Module "C:\AtomicRedTeam\invoke-atomicredteam\Invoke-AtomicRedTeam.psd1" -Force
+Template for command (up arrow is your friend)
+Invoke-AtomicTest T####.00# -GetPrereqs
+Invoke-AtomicTest T####.00# -TestNumbers #
+Part 1
+Execution
+Invoke-AtomicTest T1204.002 -TestNumbers 1
+Why did it fail? What can you do about it?
+
+Invoke-AtomicTest T1204.002 -TestNumbers 8
+goto C:\Users\Administrator\AppData\Local\Temp
+Drill down to the numbered directory What artifact do you see?
+
+Persistence
+Invoke-AtomicTest T1543.003 -TestNumbers 2
+Privilege Escalation
+Invoke-AtomicTest T1055.001 -TestNumbers 1
+Part 2
+Defense Evasion
+Invoke-AtomicTest T1564.001 -TestNumbers 3
+Discovery
+Invoke-AtomicTest T1518.001 -TestNumbers 1
+Invoke-AtomicTest T1518.001 -TestNumbers 2
+Invoke-AtomicTest T1518.001 -TestNumbers 5
+Lateral Movement
+Collection
+Invoke-AtomicTest T1113 -TestNumbers 6
+Command and Control
+Invoke-AtomicTest T1106 -TestNumbers 9very new powershell
+Import-Module "C:\AtomicRedTeam\invoke-atomicredteam\Invoke-AtomicRedTeam.psd1" -Force
+Template for command (up arrow is your friend)
+Invoke-AtomicTest T####.00# -GetPrereqs
+Invoke-AtomicTest T####.00# -TestNumbers #
+Part 1
+Execution
+Invoke-AtomicTest T1204.002 -TestNumbers 1
+Why did it fail? What can you do about it?
+
+Invoke-AtomicTest T1204.002 -TestNumbers 8
+goto C:\Users\Administrator\AppData\Local\Temp
+Drill down to the numbered directory What artifact do you see?
+
+Persistence
+Invoke-AtomicTest T1543.003 -TestNumbers 2
+Privilege Escalation
+Invoke-AtomicTest T1055.001 -TestNumbers 1
+Part 2
+Defense Evasion
+Invoke-AtomicTest T1564.001 -TestNumbers 3
+Discovery
+Invoke-AtomicTest T1518.001 -TestNumbers 1
+Invoke-AtomicTest T1518.001 -TestNumbers 2
+Invoke-AtomicTest T1518.001 -TestNumbers 5
+Lateral Movement
+Collection
+Invoke-AtomicTest T1113 -TestNumbers 6
+Command and Control
+Invoke-AtomicTest T1106 -TestNumbers 9very new powershell
+Import-Module "C:\AtomicRedTeam\invoke-atomicredteam\Invoke-AtomicRedTeam.psd1" -Force
+Template for command (up arrow is your friend)
+Invoke-AtomicTest T####.00# -GetPrereqs
+Invoke-AtomicTest T####.00# -TestNumbers #
+Part 1
+Execution
+Invoke-AtomicTest T1204.002 -TestNumbers 1
+Why did it fail? What can you do about it?
+
+Invoke-AtomicTest T1204.002 -TestNumbers 8
+goto C:\Users\Administrator\AppData\Local\Temp
+Drill down to the numbered directory What artifact do you see?
+
+Persistence
+Invoke-AtomicTest T1543.003 -TestNumbers 2
+Privilege Escalation
+Invoke-AtomicTest T1055.001 -TestNumbers 1
+Part 2
+Defense Evasion
+Invoke-AtomicTest T1564.001 -TestNumbers 3
+Discovery
+Invoke-AtomicTest T1518.001 -TestNumbers 1
+Invoke-AtomicTest T1518.001 -TestNumbers 2
+Invoke-AtomicTest T1518.001 -TestNumbers 5
+Lateral Movement
+Collection
+Invoke-AtomicTest T1113 -TestNumbers 6
+Command and Control
+Invoke-AtomicTest T1106 -TestNumbers 9very new powershell
+Import-Module "C:\AtomicRedTeam\invoke-atomicredteam\Invoke-AtomicRedTeam.psd1" -Force
+Template for command (up arrow is your friend)
+Invoke-AtomicTest T####.00# -GetPrereqs
+Invoke-AtomicTest T####.00# -TestNumbers #
+Part 1
+Execution
+Invoke-AtomicTest T1204.002 -TestNumbers 1
+Why did it fail? What can you do about it?
+
+Invoke-AtomicTest T1204.002 -TestNumbers 8
+goto C:\Users\Administrator\AppData\Local\Temp
+Drill down to the numbered directory What artifact do you see?
+
+Persistence
+Invoke-AtomicTest T1543.003 -TestNumbers 2
+Privilege Escalation
+Invoke-AtomicTest T1055.001 -TestNumbers 1
+Part 2
+Defense Evasion
+Invoke-AtomicTest T1564.001 -TestNumbers 3
+Discovery
+Invoke-AtomicTest T1518.001 -TestNumbers 1
+Invoke-AtomicTest T1518.001 -TestNumbers 2
+Invoke-AtomicTest T1518.001 -TestNumbers 5
+Lateral Movement
+Collection
+Invoke-AtomicTest T1113 -TestNumbers 6
+Command and Control
+Invoke-AtomicTest T1106 -TestNumbers 9very new powershell
+Import-Module "C:\AtomicRedTeam\invoke-atomicredteam\Invoke-AtomicRedTeam.psd1" -Force
+Template for command (up arrow is your friend)
+Invoke-AtomicTest T####.00# -GetPrereqs
+Invoke-AtomicTest T####.00# -TestNumbers #
+Part 1
+Execution
+Invoke-AtomicTest T1204.002 -TestNumbers 1
+Why did it fail? What can you do about it?
+
+Invoke-AtomicTest T1204.002 -TestNumbers 8
+goto C:\Users\Administrator\AppData\Local\Temp
+Drill down to the numbered directory What artifact do you see?
+
+Persistence
+Invoke-AtomicTest T1543.003 -TestNumbers 2
+Privilege Escalation
+Invoke-AtomicTest T1055.001 -TestNumbers 1
+Part 2
+Defense Evasion
+Invoke-AtomicTest T1564.001 -TestNumbers 3
+Discovery
+Invoke-AtomicTest T1518.001 -TestNumbers 1
+Invoke-AtomicTest T1518.001 -TestNumbers 2
+Invoke-AtomicTest T1518.001 -TestNumbers 5
+Lateral Movement
+Collection
+Invoke-AtomicTest T1113 -TestNumbers 6
+Command and Control
+Invoke-AtomicTest T1106 -TestNumbers 9very new powershell
+Import-Module "C:\AtomicRedTeam\invoke-atomicredteam\Invoke-AtomicRedTeam.psd1" -Force
+Template for command (up arrow is your friend)
+Invoke-AtomicTest T####.00# -GetPrereqs
+Invoke-AtomicTest T####.00# -TestNumbers #
+Part 1
+Execution
+Invoke-AtomicTest T1204.002 -TestNumbers 1
+Why did it fail? What can you do about it?
+
+Invoke-AtomicTest T1204.002 -TestNumbers 8
+goto C:\Users\Administrator\AppData\Local\Temp
+Drill down to the numbered directory What artifact do you see?
+
+Persistence
+Invoke-AtomicTest T1543.003 -TestNumbers 2
+Privilege Escalation
+Invoke-AtomicTest T1055.001 -TestNumbers 1
+Part 2
+Defense Evasion
+Invoke-AtomicTest T1564.001 -TestNumbers 3
+Discovery
+Invoke-AtomicTest T1518.001 -TestNumbers 1
+Invoke-AtomicTest T1518.001 -TestNumbers 2
+Invoke-AtomicTest T1518.001 -TestNumbers 5
+Lateral Movement
+Collection
+Invoke-AtomicTest T1113 -TestNumbers 6
+Command and Control
+Invoke-AtomicTest T1106 -TestNumbers 9very new powershell
+Import-Module "C:\AtomicRedTeam\invoke-atomicredteam\Invoke-AtomicRedTeam.psd1" -Force
+Template for command (up arrow is your friend)
+Invoke-AtomicTest T####.00# -GetPrereqs
+Invoke-AtomicTest T####.00# -TestNumbers #
+Part 1
+Execution
+Invoke-AtomicTest T1204.002 -TestNumbers 1
+Why did it fail? What can you do about it?
+
+Invoke-AtomicTest T1204.002 -TestNumbers 8
+goto C:\Users\Administrator\AppData\Local\Temp
+Drill down to the numbered directory What artifact do you see?
+
+Persistence
+Invoke-AtomicTest T1543.003 -TestNumbers 2
+Privilege Escalation
+Invoke-AtomicTest T1055.001 -TestNumbers 1
+Part 2
+Defense Evasion
+Invoke-AtomicTest T1564.001 -TestNumbers 3
+Discovery
+Invoke-AtomicTest T1518.001 -TestNumbers 1
+Invoke-AtomicTest T1518.001 -TestNumbers 2
+Invoke-AtomicTest T1518.001 -TestNumbers 5
+Lateral Movement
+Collection
+Invoke-AtomicTest T1113 -TestNumbers 6
+Command and Control
+Invoke-AtomicTest T1106 -TestNumbers 9very new powershell
+Import-Module "C:\AtomicRedTeam\invoke-atomicredteam\Invoke-AtomicRedTeam.psd1" -Force
+Template for command (up arrow is your friend)
+Invoke-AtomicTest T####.00# -GetPrereqs
+Invoke-AtomicTest T####.00# -TestNumbers #
+Part 1
+Execution
+Invoke-AtomicTest T1204.002 -TestNumbers 1
+Why did it fail? What can you do about it?
+
+Invoke-AtomicTest T1204.002 -TestNumbers 8
+goto C:\Users\Administrator\AppData\Local\Temp
+Drill down to the numbered directory What artifact do you see?
+
+Persistence
+Invoke-AtomicTest T1543.003 -TestNumbers 2
+Privilege Escalation
+Invoke-AtomicTest T1055.001 -TestNumbers 1
+Part 2
+Defense Evasion
+Invoke-AtomicTest T1564.001 -TestNumbers 3
+Discovery
+Invoke-AtomicTest T1518.001 -TestNumbers 1
+Invoke-AtomicTest T1518.001 -TestNumbers 2
+Invoke-AtomicTest T1518.001 -TestNumbers 5
+Lateral Movement
+Collection
+Invoke-AtomicTest T1113 -TestNumbers 6
+Command and Control
+Invoke-AtomicTest T1106 -TestNumbers 9very new powershell
+Import-Module "C:\AtomicRedTeam\invoke-atomicredteam\Invoke-AtomicRedTeam.psd1" -Force
+Template for command (up arrow is your friend)
+Invoke-AtomicTest T####.00# -GetPrereqs
+Invoke-AtomicTest T####.00# -TestNumbers #
+Part 1
+Execution
+Invoke-AtomicTest T1204.002 -TestNumbers 1
+Why did it fail? What can you do about it?
+
+Invoke-AtomicTest T1204.002 -TestNumbers 8
+goto C:\Users\Administrator\AppData\Local\Temp
+Drill down to the numbered directory What artifact do you see?
+
+Persistence
+Invoke-AtomicTest T1543.003 -TestNumbers 2
+Privilege Escalation
+Invoke-AtomicTest T1055.001 -TestNumbers 1
+Part 2
+Defense Evasion
+Invoke-AtomicTest T1564.001 -TestNumbers 3
+Discovery
+Invoke-AtomicTest T1518.001 -TestNumbers 1
+Invoke-AtomicTest T1518.001 -TestNumbers 2
+Invoke-AtomicTest T1518.001 -TestNumbers 5
+Lateral Movement
+Collection
+Invoke-AtomicTest T1113 -TestNumbers 6
+Command and Control
+Invoke-AtomicTest T1106 -TestNumbers 9very new powershell
+Import-Module "C:\AtomicRedTeam\invoke-atomicredteam\Invoke-AtomicRedTeam.psd1" -Force
+Template for command (up arrow is your friend)
+Invoke-AtomicTest T####.00# -GetPrereqs
+Invoke-AtomicTest T####.00# -TestNumbers #
+Part 1
+Execution
+Invoke-AtomicTest T1204.002 -TestNumbers 1
+Why did it fail? What can you do about it?
+
+Invoke-AtomicTest T1204.002 -TestNumbers 8
+goto C:\Users\Administrator\AppData\Local\Temp
+Drill down to the numbered directory What artifact do you see?
+
+Persistence
+Invoke-AtomicTest T1543.003 -TestNumbers 2
+Privilege Escalation
+Invoke-AtomicTest T1055.001 -TestNumbers 1
+Part 2
+Defense Evasion
+Invoke-AtomicTest T1564.001 -TestNumbers 3
+Discovery
+Invoke-AtomicTest T1518.001 -TestNumbers 1
+Invoke-AtomicTest T1518.001 -TestNumbers 2
+Invoke-AtomicTest T1518.001 -TestNumbers 5
+Lateral Movement
+Collection
+Invoke-AtomicTest T1113 -TestNumbers 6
+Command and Control
+Invoke-AtomicTest T1106 -TestNumbers 9very new powershell
+Import-Module "C:\AtomicRedTeam\invoke-atomicredteam\Invoke-AtomicRedTeam.psd1" -Force
+Template for command (up arrow is your friend)
+Invoke-AtomicTest T####.00# -GetPrereqs
+Invoke-AtomicTest T####.00# -TestNumbers #
+Part 1
+Execution
+Invoke-AtomicTest T1204.002 -TestNumbers 1
+Why did it fail? What can you do about it?
+
+Invoke-AtomicTest T1204.002 -TestNumbers 8
+goto C:\Users\Administrator\AppData\Local\Temp
+Drill down to the numbered directory What artifact do you see?
+
+Persistence
+Invoke-AtomicTest T1543.003 -TestNumbers 2
+Privilege Escalation
+Invoke-AtomicTest T1055.001 -TestNumbers 1
+Part 2
+Defense Evasion
+Invoke-AtomicTest T1564.001 -TestNumbers 3
+Discovery
+Invoke-AtomicTest T1518.001 -TestNumbers 1
+Invoke-AtomicTest T1518.001 -TestNumbers 2
+Invoke-AtomicTest T1518.001 -TestNumbers 5
+Lateral Movement
+Collection
+Invoke-AtomicTest T1113 -TestNumbers 6
+Command and Control
+Invoke-AtomicTest T1106 -TestNumbers 9very new powershell
+Import-Module "C:\AtomicRedTeam\invoke-atomicredteam\Invoke-AtomicRedTeam.psd1" -Force
+Template for command (up arrow is your friend)
+Invoke-AtomicTest T####.00# -GetPrereqs
+Invoke-AtomicTest T####.00# -TestNumbers #
+Part 1
+Execution
+Invoke-AtomicTest T1204.002 -TestNumbers 1
+Why did it fail? What can you do about it?
+
+Invoke-AtomicTest T1204.002 -TestNumbers 8
+goto C:\Users\Administrator\AppData\Local\Temp
+Drill down to the numbered directory What artifact do you see?
+
+Persistence
+Invoke-AtomicTest T1543.003 -TestNumbers 2
+Privilege Escalation
+Invoke-AtomicTest T1055.001 -TestNumbers 1
+Part 2
+Defense Evasion
+Invoke-AtomicTest T1564.001 -TestNumbers 3
+Discovery
+Invoke-AtomicTest T1518.001 -TestNumbers 1
+Invoke-AtomicTest T1518.001 -TestNumbers 2
+Invoke-AtomicTest T1518.001 -TestNumbers 5
+Lateral Movement
+Collection
+Invoke-AtomicTest T1113 -TestNumbers 6
+Command and Control
+Invoke-AtomicTest T1106 -TestNumbers 9very new powershell
+Import-Module "C:\AtomicRedTeam\invoke-atomicredteam\Invoke-AtomicRedTeam.psd1" -Force
+Template for command (up arrow is your friend)
+Invoke-AtomicTest T####.00# -GetPrereqs
+Invoke-AtomicTest T####.00# -TestNumbers #
+Part 1
+Execution
+Invoke-AtomicTest T1204.002 -TestNumbers 1
+Why did it fail? What can you do about it?
+
+Invoke-AtomicTest T1204.002 -TestNumbers 8
+goto C:\Users\Administrator\AppData\Local\Temp
+Drill down to the numbered directory What artifact do you see?
+
+Persistence
+Invoke-AtomicTest T1543.003 -TestNumbers 2
+Privilege Escalation
+Invoke-AtomicTest T1055.001 -TestNumbers 1
+Part 2
+Defense Evasion
+Invoke-AtomicTest T1564.001 -TestNumbers 3
+Discovery
+Invoke-AtomicTest T1518.001 -TestNumbers 1
+Invoke-AtomicTest T1518.001 -TestNumbers 2
+Invoke-AtomicTest T1518.001 -TestNumbers 5
+Lateral Movement
+Collection
+Invoke-AtomicTest T1113 -TestNumbers 6
+Command and Control
+Invoke-AtomicTest T1106 -TestNumbers 9very new powershell
+Import-Module "C:\AtomicRedTeam\invoke-atomicredteam\Invoke-AtomicRedTeam.psd1" -Force
+Template for command (up arrow is your friend)
+Invoke-AtomicTest T####.00# -GetPrereqs
+Invoke-AtomicTest T####.00# -TestNumbers #
+Part 1
+Execution
+Invoke-AtomicTest T1204.002 -TestNumbers 1
+Why did it fail? What can you do about it?
+
+Invoke-AtomicTest T1204.002 -TestNumbers 8very new powershell
+Import-Module "C:\AtomicRedTeam\invoke-atomicredteam\Invoke-AtomicRedTeam.psd1" -Force
+Template for command (up arrow is your friend)
+Invoke-AtomicTest T####.00# -GetPrereqs
+Invoke-AtomicTest T####.00# -TestNumbers #
+Part 1
+Execution
+Invoke-AtomicTest T1204.002 -TestNumbers 1
+Why did it fail? What can you do about it?
+
+Invoke-AtomicTest T1204.002 -TestNumbers 8
+goto C:\Users\Administrator\AppData\Local\Temp
+Drill down to the numbered directory What artifact do you see?
+
+Persistence
+Invoke-AtomicTest T1543.003 -TestNumbers 2
+Privilege Escalation
+Invoke-AtomicTest T1055.001 -TestNumbers 1
+Part 2
+Defense Evasion
+Invoke-AtomicTest T1564.001 -TestNumbers 3
+Discovery
+Invoke-AtomicTest T1518.001 -TestNumbers 1
+Invoke-AtomicTest T1518.001 -TestNumbers 2
+Invoke-AtomicTest T1518.001 -TestNumbers 5
+Lateral Movement
+Collection
+Invoke-AtomicTest T1113 -TestNumbers 6
+Command and Control
+Invoke-AtomicTest T1106 -TestNumbers 9very new powershell
+Import-Module "C:\AtomicRedTeam\invoke-atomicredteam\Invoke-AtomicRedTeam.psd1" -Force
+Template for command (up arrow is your friend)
+Invoke-AtomicTest T####.00# -GetPrereqs
+Invoke-AtomicTest T####.00# -TestNumbers #
+Part 1
+Execution
+Invoke-AtomicTest T1204.002 -TestNumbers 1
+Why did it fail? What can you do about it?
+
+Invoke-AtomicTest T1204.002 -TestNumbers 8
+goto C:\Users\Administrator\AppData\Local\Temp
+Drill down to the numbered directory What artifact do you see?
+
+Persistence
+Invoke-AtomicTest T1543.003 -TestNumbers 2
+Privilege Escalation
+Invoke-AtomicTest T1055.001 -TestNumbers 1
+Part 2
+Defense Evasion
+Invoke-AtomicTest T1564.001 -TestNumbers 3
+Discovery
+Invoke-AtomicTest T1518.001 -TestNumbers 1
+Invoke-AtomicTest T1518.001 -TestNumbers 2
+Invoke-AtomicTest T1518.001 -TestNumbers 5
+Lateral Movement
+Collection
+Invoke-AtomicTest T1113 -TestNumbers 6
+Command and Control
+Invoke-AtomicTest T1106 -TestNumbers 9very new powershell
+Import-Module "C:\AtomicRedTeam\invoke-atomicredteam\Invoke-AtomicRedTeam.psd1" -Force
+Template for command (up arrow is your friend)
+Invoke-AtomicTest T####.00# -GetPrereqs
+Invoke-AtomicTest T####.00# -TestNumbers #
+Part 1
+Execution
+Invoke-AtomicTest T1204.002 -TestNumbers 1
+Why did it fail? What can you do about it?
+
+Invoke-AtomicTest T1204.002 -TestNumbers 8
+goto C:\Users\Administrator\AppData\Local\Temp
+Drill down to the numbered directory What artifact do you see?
+
+Persistence
+Invoke-AtomicTest T1543.003 -TestNumbers 2
+Privilege Escalation
+Invoke-AtomicTest T1055.001 -TestNumbers 1
+Part 2
+Defense Evasion
+Invoke-AtomicTest T1564.001 -TestNumbers 3
+Discovery
+Invoke-AtomicTest T1518.001 -TestNumbers 1
+Invoke-AtomicTest T1518.001 -TestNumbers 2
+Invoke-AtomicTest T1518.001 -TestNumbers 5
+Lateral Movement
+Collection
+Invoke-AtomicTest T1113 -TestNumbers 6
+Command and Control
+Invoke-AtomicTest T1106 -TestNumbers 9very new powershell
+Import-Module "C:\AtomicRedTeam\invoke-atomicredteam\Invoke-AtomicRedTeam.psd1" -Force
+Template for command (up arrow is your friend)
+Invoke-AtomicTest T####.00# -GetPrereqs
+Invoke-AtomicTest T####.00# -TestNumbers #
+Part 1
+Execution
+Invoke-AtomicTest T1204.002 -TestNumbers 1
+Why did it fail? What can you do about it?
+
+Invoke-AtomicTest T1204.002 -TestNumbers 8
+goto C:\Users\Administrator\AppData\Local\Temp
+Drill down to the numbered directory What artifact do you see?
+
+Persistence
+Invoke-AtomicTest T1543.003 -TestNumbers 2
+Privilege Escalation
+Invoke-AtomicTest T1055.001 -TestNumbers 1
+Part 2
+Defense Evasion
+Invoke-AtomicTest T1564.001 -TestNumbers 3
+Discovery
+Invoke-AtomicTest T1518.001 -TestNumbers 1
+Invoke-AtomicTest T1518.001 -TestNumbers 2
+Invoke-AtomicTest T1518.001 -TestNumbers 5
+Lateral Movement
+Collection
+Invoke-AtomicTest T1113 -TestNumbers 6
+Command and Control
+Invoke-AtomicTest T1106 -TestNumbers 9very new powershell
+Import-Module "C:\AtomicRedTeam\invoke-atomicredteam\Invoke-AtomicRedTeam.psd1" -Force
+Template for command (up arrow is your friend)
+Invoke-AtomicTest T####.00# -GetPrereqs
+Invoke-AtomicTest T####.00# -TestNumbers #
+Part 1
+Execution
+Invoke-AtomicTest T1204.002 -TestNumbers 1
+Why did it fail? What can you do about it?
+
+Invoke-AtomicTest T1204.002 -TestNumbers 8
+goto C:\Users\Administrator\AppData\Local\Temp
+Drill down to the numbered directory What artifact do you see?
+
+Persistence
+Invoke-AtomicTest T1543.003 -TestNumbers 2
+Privilege Escalation
+Invoke-AtomicTest T1055.001 -TestNumbers 1
+Part 2
+Defense Evasion
+Invoke-AtomicTest T1564.001 -TestNumbers 3
+Discovery
+Invoke-AtomicTest T1518.001 -TestNumbers 1
+Invoke-AtomicTest T1518.001 -TestNumbers 2
+Invoke-AtomicTest T1518.001 -TestNumbers 5
+Lateral Movement
+Collection
+Invoke-AtomicTest T1113 -TestNumbers 6
+Command and Control
+Invoke-AtomicTest T1106 -TestNumbers 9very new powershell
+Import-Module "C:\AtomicRedTeam\invoke-atomicredteam\Invoke-AtomicRedTeam.psd1" -Force
+Template for command (up arrow is your friend)
+Invoke-AtomicTest T####.00# -GetPrereqs
+Invoke-AtomicTest T####.00# -TestNumbers #
+Part 1
+Execution
+Invoke-AtomicTest T1204.002 -TestNumbers 1
+Why did it fail? What can you do about it?
+
+Invoke-AtomicTest T1204.002 -TestNumbers 8
+goto C:\Users\Administrator\AppData\Local\Temp
+Drill down to the numbered directory What artifact do you see?
+
+Persistence
+Invoke-AtomicTest T1543.003 -TestNumbers 2
+Privilege Escalation
+Invoke-AtomicTest T1055.001 -TestNumbers 1
+Part 2
+Defense Evasion
+Invoke-AtomicTest T1564.001 -TestNumbers 3
+Discovery
+Invoke-AtomicTest T1518.001 -TestNumbers 1
+Invoke-AtomicTest T1518.001 -TestNumbers 2
+Invoke-AtomicTest T1518.001 -TestNumbers 5
+Lateral Movement
+Collection
+Invoke-AtomicTest T1113 -TestNumbers 6
+Command and Control
+Invoke-AtomicTest T1106 -TestNumbers 9very new powershell
+Import-Module "C:\AtomicRedTeam\invoke-atomicredteam\Invoke-AtomicRedTeam.psd1" -Force
+Template for command (up arrow is your friend)
+Invoke-AtomicTest T####.00# -GetPrereqs
+Invoke-AtomicTest T####.00# -TestNumbers #
+Part 1
+Execution
+Invoke-AtomicTest T1204.002 -TestNumbers 1
+Why did it fail? What can you do about it?
+
+Invoke-AtomicTest T1204.002 -TestNumbers 8
+goto C:\Users\Administrator\AppData\Local\Temp
+Drill down to the numbered directory What artifact do you see?
+
+Persistence
+Invoke-AtomicTest T1543.003 -TestNumbers 2
+Privilege Escalation
+Invoke-AtomicTest T1055.001 -TestNumbers 1
+Part 2
+Defense Evasion
+Invoke-AtomicTest T1564.001 -TestNumbers 3
+Discovery
+Invoke-AtomicTest T1518.001 -TestNumbers 1
+Invoke-AtomicTest T1518.001 -TestNumbers 2
+Invoke-AtomicTest T1518.001 -TestNumbers 5
+Lateral Movement
+Collection
+Invoke-AtomicTest T1113 -TestNumbers 6
+Command and Control
+Invoke-AtomicTest T1106 -TestNumbers 9very new powershell
+Import-Module "C:\AtomicRedTeam\invoke-atomicredteam\Invoke-AtomicRedTeam.psd1" -Force
+Template for command (up arrow is your friend)
+Invoke-AtomicTest T####.00# -GetPrereqs
+Invoke-AtomicTest T####.00# -TestNumbers #
+Part 1
+Execution
+Invoke-AtomicTest T1204.002 -TestNumbers 1
+Why did it fail? What can you do about it?
+
+Invoke-AtomicTest T1204.002 -TestNumbers 8
+goto C:\Users\Administrator\AppData\Local\Temp
+Drill down to the numbered directory What artifact do you see?
+
+Persistence
+Invoke-AtomicTest T1543.003 -TestNumbers 2
+Privilege Escalation
+Invoke-AtomicTest T1055.001 -TestNumbers 1
+Part 2
+Defense Evasion
+Invoke-AtomicTest T1564.001 -TestNumbers 3
+Discovery
+Invoke-AtomicTest T1518.001 -TestNumbers 1
+Invoke-AtomicTest T1518.001 -TestNumbers 2
+Invoke-AtomicTest T1518.001 -TestNumbers 5
+Lateral Movement
+Collection
+Invoke-AtomicTest T1113 -TestNumbers 6
+Command and Control
+Invoke-AtomicTest T1106 -TestNumbers 9very new powershell
+Import-Module "C:\AtomicRedTeam\invoke-atomicredteam\Invoke-AtomicRedTeam.psd1" -Force
+Template for command (up arrow is your friend)
+Invoke-AtomicTest T####.00# -GetPrereqs
+Invoke-AtomicTest T####.00# -TestNumbers #
+Part 1
+Execution
+Invoke-AtomicTest T1204.002 -TestNumbers 1
+Why did it fail? What can you do about it?
+
+Invoke-AtomicTest T1204.002 -TestNumbers 8
+goto C:\Users\Administrator\AppData\Local\Temp
+Drill down to the numbered directory What artifact do you see?
+
+Persistence
+Invoke-AtomicTest T1543.003 -TestNumbers 2
+Privilege Escalation
+Invoke-AtomicTest T1055.001 -TestNumbers 1
+Part 2
+Defense Evasion
+Invoke-AtomicTest T1564.001 -TestNumbers 3
+Discovery
+Invoke-AtomicTest T1518.001 -TestNumbers 1
+Invoke-AtomicTest T1518.001 -TestNumbers 2
+Invoke-AtomicTest T1518.001 -TestNumbers 5
+Lateral Movement
+Collection
+Invoke-AtomicTest T1113 -TestNumbers 6
+Command and Control
+Invoke-AtomicTest T1106 -TestNumbers 9very new powershell
+Import-Module "C:\AtomicRedTeam\invoke-atomicredteam\Invoke-AtomicRedTeam.psd1" -Force
+Template for command (up arrow is your friend)
+Invoke-AtomicTest T####.00# -GetPrereqs
+Invoke-AtomicTest T####.00# -TestNumbers #
+Part 1
+Execution
+Invoke-AtomicTest T1204.002 -TestNumbers 1
+Why did it fail? What can you do about it?
+
+Invoke-AtomicTest T1204.002 -TestNumbers 8
+goto C:\Users\Administrator\AppData\Local\Temp
+Drill down to the numbered directory What artifact do you see?
+
+Persistence
+Invoke-AtomicTest T1543.003 -TestNumbers 2
+Privilege Escalation
+Invoke-AtomicTest T1055.001 -TestNumbers 1
+Part 2
+Defense Evasion
+Invoke-AtomicTest T1564.001 -TestNumbers 3
+Discovery
+Invoke-AtomicTest T1518.001 -TestNumbers 1
+Invoke-AtomicTest T1518.001 -TestNumbers 2
+Invoke-AtomicTest T1518.001 -TestNumbers 5
+Lateral Movement
+Collection
+Invoke-AtomicTest T1113 -TestNumbers 6
+Command and Control
+Invoke-AtomicTest T1106 -TestNumbers 9very new powershell
+Import-Module "C:\AtomicRedTeam\invoke-atomicredteam\Invoke-AtomicRedTeam.psd1" -Force
+Template for command (up arrow is your friend)
+Invoke-AtomicTest T####.00# -GetPrereqs
+Invoke-AtomicTest T####.00# -TestNumbers #
+Part 1
+Execution
+Invoke-AtomicTest T1204.002 -TestNumbers 1
+Why did it fail? What can you do about it?
+
+Invoke-AtomicTest T1204.002 -TestNumbers 8
+goto C:\Users\Administrator\AppData\Local\Temp
+Drill down to the numbered directory What artifact do you see?
+
+Persistence
+Invoke-AtomicTest T1543.003 -TestNumbers 2
+Privilege Escalation
+Invoke-AtomicTest T1055.001 -TestNumbers 1
+Part 2
+Defense Evasion
+Invoke-AtomicTest T1564.001 -TestNumbers 3
+Discovery
+Invoke-AtomicTest T1518.001 -TestNumbers 1
+Invoke-AtomicTest T1518.001 -TestNumbers 2
+Invoke-AtomicTest T1518.001 -TestNumbers 5
+Lateral Movement
+Collection
+Invoke-AtomicTest T1113 -TestNumbers 6
+Command and Control
+Invoke-AtomicTest T1106 -TestNumbers 9very new powershell
+Import-Module "C:\AtomicRedTeam\invoke-atomicredteam\Invoke-AtomicRedTeam.psd1" -Force
+Template for command (up arrow is your friend)
+Invoke-AtomicTest T####.00# -GetPrereqs
+Invoke-AtomicTest T####.00# -TestNumbers #
+Part 1
+Execution
+Invoke-AtomicTest T1204.002 -TestNumbers 1
+Why did it fail? What can you do about it?
+
+Invoke-AtomicTest T1204.002 -TestNumbers 8
+goto C:\Users\Administrator\AppData\Local\Temp
+Drill down to the numbered directory What artifact do you see?
+
+Persistence
+Invoke-AtomicTest T1543.003 -TestNumbers 2
+Privilege Escalation
+Invoke-AtomicTest T1055.001 -TestNumbers 1
+Part 2
+Defense Evasion
+Invoke-AtomicTest T1564.001 -TestNumbers 3
+Discovery
+Invoke-AtomicTest T1518.001 -TestNumbers 1
+Invoke-AtomicTest T1518.001 -TestNumbers 2
+Invoke-AtomicTest T1518.001 -TestNumbers 5
+Lateral Movement
+Collection
+Invoke-AtomicTest T1113 -TestNumbers 6
+Command and Control
+Invoke-AtomicTest T1106 -TestNumbers 9very new powershell
+Import-Module "C:\AtomicRedTeam\invoke-atomicredteam\Invoke-AtomicRedTeam.psd1" -Force
+Template for command (up arrow is your friend)
+Invoke-AtomicTest T####.00# -GetPrereqs
+Invoke-AtomicTest T####.00# -TestNumbers #
+Part 1
+Execution
+Invoke-AtomicTest T1204.002 -TestNumbers 1
+Why did it fail? What can you do about it?
+
+Invoke-AtomicTest T1204.002 -TestNumbers 8
+goto C:\Users\Administrator\AppData\Local\Temp
+Drill down to the numbered directory What artifact do you see?
+
+Persistence
+Invoke-AtomicTest T1543.003 -TestNumbers 2
+Privilege Escalation
+Invoke-AtomicTest T1055.001 -TestNumbers 1
+Part 2
+Defense Evasion
+Invoke-AtomicTest T1564.001 -TestNumbers 3
+Discovery
+Invoke-AtomicTest T1518.001 -TestNumbers 1
+Invoke-AtomicTest T1518.001 -TestNumbers 2
+Invoke-AtomicTest T1518.001 -TestNumbers 5
+Lateral Movement
+Collection
+Invoke-AtomicTest T1113 -TestNumbers 6
+Command and Control
+Invoke-AtomicTest T1106 -TestNumbers 9very new powershell
+Import-Module "C:\AtomicRedTeam\invoke-atomicredteam\Invoke-AtomicRedTeam.psd1" -Force
+Template for command (up arrow is your friend)
+Invoke-AtomicTest T####.00# -GetPrereqs
+Invoke-AtomicTest T####.00# -TestNumbers #
+Part 1
+Execution
+Invoke-AtomicTest T1204.002 -TestNumbers 1
+Why did it fail? What can you do about it?
+
+Invoke-AtomicTest T1204.002 -TestNumbers 8
+goto C:\Users\Administrator\AppData\Local\Temp
+Drill down to the numbered directory What artifact do you see?
+
+Persistence
+Invoke-AtomicTest T1543.003 -TestNumbers 2
+Privilege Escalation
+Invoke-AtomicTest T1055.001 -TestNumbers 1
+Part 2
+Defense Evasion
+Invoke-AtomicTest T1564.001 -TestNumbers 3
+Discovery
+Invoke-AtomicTest T1518.001 -TestNumbers 1
+Invoke-AtomicTest T1518.001 -TestNumbers 2
+Invoke-AtomicTest T1518.001 -TestNumbers 5
+Lateral Movement
+Collection
+Invoke-AtomicTest T1113 -TestNumbers 6
+Command and Control
+Invoke-AtomicTest T1106 -TestNumbers 9very new powershell
+Import-Module "C:\AtomicRedTeam\invoke-atomicredteam\Invoke-AtomicRedTeam.psd1" -Force
+Template for command (up arrow is your friend)
+Invoke-AtomicTest T####.00# -GetPrereqs
+Invoke-AtomicTest T####.00# -TestNumbers #
+Part 1
+Execution
+Invoke-AtomicTest T1204.002 -TestNumbers 1
+Why did it fail? What can you do about it?
+
+Invoke-AtomicTest T1204.002 -TestNumbers 8
+goto C:\Users\Administrator\AppData\Local\Temp
+Drill down to the numbered directory What artifact do you see?
+
+Persistence
+Invoke-AtomicTest T1543.003 -TestNumbers 2
+Privilege Escalation
+Invoke-AtomicTest T1055.001 -TestNumbers 1
+Part 2
+Defense Evasion
+Invoke-AtomicTest T1564.001 -TestNumbers 3
+Discovery
+Invoke-AtomicTest T1518.001 -TestNumbers 1
+Invoke-AtomicTest T1518.001 -TestNumbers 2
+Invoke-AtomicTest T1518.001 -TestNumbers 5
+Lateral Movement
+Collection
+Invoke-AtomicTest T1113 -TestNumbers 6
+Command and Control
+Invoke-AtomicTest T1106 -TestNumbers 9very new powershell
+Import-Module "C:\AtomicRedTeam\invoke-atomicredteam\Invoke-AtomicRedTeam.psd1" -Force
+Template for command (up arrow is your friend)
+Invoke-AtomicTest T####.00# -GetPrereqs
+Invoke-AtomicTest T####.00# -TestNumbers #
+Part 1
+Execution
+Invoke-AtomicTest T1204.002 -TestNumbers 1
+Why did it fail? What can you do about it?
+
+Invoke-AtomicTest T1204.002 -TestNumbers 8
+goto C:\Users\Administrator\AppData\Local\Temp
+Drill down to the numbered directory What artifact do you see?
+
+Persistence
+Invoke-AtomicTest T1543.003 -TestNumbers 2
+Privilege Escalation
+Invoke-AtomicTest T1055.001 -TestNumbers 1
+Part 2
+Defense Evasion
+Invoke-AtomicTest T1564.001 -TestNumbers 3
+Discovery
+Invoke-AtomicTest T1518.001 -TestNumbers 1
+Invoke-AtomicTest T1518.001 -TestNumbers 2
+Invoke-AtomicTest T1518.001 -TestNumbers 5
+Lateral Movement
+Collection
+Invoke-AtomicTest T1113 -TestNumbers 6
+Command and Control
+Invoke-AtomicTest T1106 -TestNumbers 9very new powershell
+Import-Module "C:\AtomicRedTeam\invoke-atomicredteam\Invoke-AtomicRedTeam.psd1" -Force
+Template for command (up arrow is your friend)
+Invoke-AtomicTest T####.00# -GetPrereqs
+Invoke-AtomicTest T####.00# -TestNumbers #
+Part 1
+Execution
+Invoke-AtomicTest T1204.002 -TestNumbers 1
+Why did it fail? What can you do about it?
+
+Invoke-AtomicTest T1204.002 -TestNumbers 8
+goto C:\Users\Administrator\AppData\Local\Temp
+Drill down to the numbered directory What artifact do you see?
+
+Persistence
+Invoke-AtomicTest T1543.003 -TestNumbers 2
+Privilege Escalation
+Invoke-AtomicTest T1055.001 -TestNumbers 1
+Part 2
+Defense Evasion
+Invoke-AtomicTest T1564.001 -TestNumbers 3
+Discovery
+Invoke-AtomicTest T1518.001 -TestNumbers 1
+Invoke-AtomicTest T1518.001 -TestNumbers 2
+Invoke-AtomicTest T1518.001 -TestNumbers 5
+Lateral Movement
+Collection
+Invoke-AtomicTest T1113 -TestNumbers 6
+Command and Control
+Invoke-AtomicTest T1106 -TestNumbers 9very new powershell
+Import-Module "C:\AtomicRedTeam\invoke-atomicredteam\Invoke-AtomicRedTeam.psd1" -Force
+Template for command (up arrow is your friend)
+Invoke-AtomicTest T####.00# -GetPrereqs
+Invoke-AtomicTest T####.00# -TestNumbers #
+Part 1
+Execution
+Invoke-AtomicTest T1204.002 -TestNumbers 1
+Why did it fail? What can you do about it?
+
+Invoke-AtomicTest T1204.002 -TestNumbers 8
+goto C:\Users\Administrator\AppData\Local\Temp
+Drill down to the numbered directory What artifact do you see?
+
+Persistence
+Invoke-AtomicTest T1543.003 -TestNumbers 2
+Privilege Escalation
+Invoke-AtomicTest T1055.001 -TestNumbers 1
+Part 2
+Defense Evasion
+Invoke-AtomicTest T1564.001 -TestNumbers 3
+Discovery
+Invoke-AtomicTest T1518.001 -TestNumbers 1
+Invoke-AtomicTest T1518.001 -TestNumbers 2
+Invoke-AtomicTest T1518.001 -TestNumbers 5
+Lateral Movement
+Collection
+Invoke-AtomicTest T1113 -TestNumbers 6
+Command and Control
+Invoke-AtomicTest T1106 -TestNumbers 9very new powershell
+Import-Module "C:\AtomicRedTeam\invoke-atomicredteam\Invoke-AtomicRedTeam.psd1" -Force
+Template for command (up arrow is your friend)
+Invoke-AtomicTest T####.00# -GetPrereqs
+Invoke-AtomicTest T####.00# -TestNumbers #
+Part 1
+Execution
+Invoke-AtomicTest T1204.002 -TestNumbers 1
+Why did it fail? What can you do about it?
+
+Invoke-AtomicTest T1204.002 -TestNumbers 8
+goto C:\Users\Administrator\AppData\Local\Temp
+Drill down to the numbered directory What artifact do you see?
+
+Persistence
+Invoke-AtomicTest T1543.003 -TestNumbers 2
+Privilege Escalation
+Invoke-AtomicTest T1055.001 -TestNumbers 1
+Part 2
+Defense Evasion
+Invoke-AtomicTest T1564.001 -TestNumbers 3
+Discovery
+Invoke-AtomicTest T1518.001 -TestNumbers 1
+Invoke-AtomicTest T1518.001 -TestNumbers 2
+Invoke-AtomicTest T1518.001 -TestNumbers 5
+Lateral Movement
+Collection
+Invoke-AtomicTest T1113 -TestNumbers 6
+Command and Control
+Invoke-AtomicTest T1106 -TestNumbers 9very new powershell
+Import-Module "C:\AtomicRedTeam\invoke-atomicredteam\Invoke-AtomicRedTeam.psd1" -Force
+Template for command (up arrow is your friend)
+Invoke-AtomicTest T####.00# -GetPrereqs
+Invoke-AtomicTest T####.00# -TestNumbers #
+Part 1
+Execution
+Invoke-AtomicTest T1204.002 -TestNumbers 1
+Why did it fail? What can you do about it?
+
+Invoke-AtomicTest T1204.002 -TestNumbers 8
+goto C:\Users\Administrator\AppData\Local\Temp
+Drill down to the numbered directory What artifact do you see?
+
+Persistence
+Invoke-AtomicTest T1543.003 -TestNumbers 2
+Privilege Escalation
+Invoke-AtomicTest T1055.001 -TestNumbers 1
+Part 2
+Defense Evasion
+Invoke-AtomicTest T1564.001 -TestNumbers 3
+Discovery
+Invoke-AtomicTest T1518.001 -TestNumbers 1
+Invoke-AtomicTest T1518.001 -TestNumbers 2
+Invoke-AtomicTest T1518.001 -TestNumbers 5
+Lateral Movement
+Collection
+Invoke-AtomicTest T1113 -TestNumbers 6
+Command and Control
+Invoke-AtomicTest T1106 -TestNumbers 9very new powershell
+Import-Module "C:\AtomicRedTeam\invoke-atomicredteam\Invoke-AtomicRedTeam.psd1" -Force
+Template for command (up arrow is your friend)
+Invoke-AtomicTest T####.00# -GetPrereqs
+Invoke-AtomicTest T####.00# -TestNumbers #
+Part 1
+Execution
+Invoke-AtomicTest T1204.002 -TestNumbers 1
+Why did it fail? What can you do about it?
+
+Invoke-AtomicTest T1204.002 -TestNumbers 8
+goto C:\Users\Administrator\AppData\Local\Temp
+Drill down to the numbered directory What artifact do you see?
+
+Persistence
+Invoke-AtomicTest T1543.003 -TestNumbers 2
+Privilege Escalation
+Invoke-AtomicTest T1055.001 -TestNumbers 1
+Part 2
+Defense Evasion
+Invoke-AtomicTest T1564.001 -TestNumbers 3
+Discovery
+Invoke-AtomicTest T1518.001 -TestNumbers 1
+Invoke-AtomicTest T1518.001 -TestNumbers 2
+Invoke-AtomicTest T1518.001 -TestNumbers 5
+Lateral Movement
+Collection
+Invoke-AtomicTest T1113 -TestNumbers 6
+Command and Control
+Invoke-AtomicTest T1106 -TestNumbers 9very new powershell
+Import-Module "C:\AtomicRedTeam\invoke-atomicredteam\Invoke-AtomicRedTeam.psd1" -Force
+Template for command (up arrow is your friend)
+Invoke-AtomicTest T####.00# -GetPrereqs
+Invoke-AtomicTest T####.00# -TestNumbers #
+Part 1
+Execution
+Invoke-AtomicTest T1204.002 -TestNumbers 1
+Why did it fail? What can you do about it?
+
+Invoke-AtomicTest T1204.002 -TestNumbers 8
+goto C:\Users\Administrator\AppData\Local\Temp
+Drill down to the numbered directory What artifact do you see?
+
+Persistence
+Invoke-AtomicTest T1543.003 -TestNumbers 2
+Privilege Escalation
+Invoke-AtomicTest T1055.001 -TestNumbers 1
+Part 2
+Defense Evasion
+Invoke-AtomicTest T1564.001 -TestNumbers 3
+Discovery
+Invoke-AtomicTest T1518.001 -TestNumbers 1
+Invoke-AtomicTest T1518.001 -TestNumbers 2
+Invoke-AtomicTest T1518.001 -TestNumbers 5
+Lateral Movement
+Collection
+Invoke-AtomicTest T1113 -TestNumbers 6
+Command and Control
+Invoke-AtomicTest T1106 -TestNumbers 9very new powershell
+Import-Module "C:\AtomicRedTeam\invoke-atomicredteam\Invoke-AtomicRedTeam.psd1" -Force
+Template for command (up arrow is your friend)
+Invoke-AtomicTest T####.00# -GetPrereqs
+Invoke-AtomicTest T####.00# -TestNumbers #
+Part 1
+Execution
+Invoke-AtomicTest T1204.002 -TestNumbers 1
+Why did it fail? What can you do about it?
+
+Invoke-AtomicTest T1204.002 -TestNumbers 8
+goto C:\Users\Administrator\AppData\Local\Temp
+Drill down to the numbered directory What artifact do you see?
+
+Persistence
+Invoke-AtomicTest T1543.003 -TestNumbers 2
+Privilege Escalation
+Invoke-AtomicTest T1055.001 -TestNumbers 1
+Part 2
+Defense Evasion
+Invoke-AtomicTest T1564.001 -TestNumbers 3
+Discovery
+Invoke-AtomicTest T1518.001 -TestNumbers 1
+Invoke-AtomicTest T1518.001 -TestNumbers 2
+Invoke-AtomicTest T1518.001 -TestNumbers 5
+Lateral Movement
+Collection
+Invoke-AtomicTest T1113 -TestNumbers 6
+Command and Control
+Invoke-AtomicTest T1106 -TestNumbers 9very new powershell
+Import-Module "C:\AtomicRedTeam\invoke-atomicredteam\Invoke-AtomicRedTeam.psd1" -Force
+Template for command (up arrow is your friend)
+Invoke-AtomicTest T####.00# -GetPrereqs
+Invoke-AtomicTest T####.00# -TestNumbers #
+Part 1
+Execution
+Invoke-AtomicTest T1204.002 -TestNumbers 1
+Why did it fail? What can you do about it?
+
+Invoke-AtomicTest T1204.002 -TestNumbers 8
+goto C:\Users\Administrator\AppData\Local\Temp
+Drill down to the numbered directory What artifact do you see?
+
+Persistence
+Invoke-AtomicTest T1543.003 -TestNumbers 2
+Privilege Escalation
+Invoke-AtomicTest T1055.001 -TestNumbers 1
+Part 2
+Defense Evasion
+Invoke-AtomicTest T1564.001 -TestNumbers 3
+Discovery
+Invoke-AtomicTest T1518.001 -TestNumbers 1
+Invoke-AtomicTest T1518.001 -TestNumbers 2
+Invoke-AtomicTest T1518.001 -TestNumbers 5
+Lateral Movement
+Collection
+Invoke-AtomicTest T1113 -TestNumbers 6
+Command and Control
+Invoke-AtomicTest T1106 -TestNumbers 9very new powershell
+Import-Module "C:\AtomicRedTeam\invoke-atomicredteam\Invoke-AtomicRedTeam.psd1" -Force
+Template for command (up arrow is your friend)
+Invoke-AtomicTest T####.00# -GetPrereqs
+Invoke-AtomicTest T####.00# -TestNumbers #
+Part 1
+Execution
+Invoke-AtomicTest T1204.002 -TestNumbers 1
+Why did it fail? What can you do about it?
+
+Invoke-AtomicTest T1204.002 -TestNumbers 8
+goto C:\Users\Administrator\AppData\Local\Temp
+Drill down to the numbered directory What artifact do you see?
+
+Persistence
+Invoke-AtomicTest T1543.003 -TestNumbers 2
+Privilege Escalation
+Invoke-AtomicTest T1055.001 -TestNumbers 1
+Part 2
+Defense Evasion
+Invoke-AtomicTest T1564.001 -TestNumbers 3
+Discovery
+Invoke-AtomicTest T1518.001 -TestNumbers 1
+Invoke-AtomicTest T1518.001 -TestNumbers 2
+Invoke-AtomicTest T1518.001 -TestNumbers 5
+Lateral Movement
+Collection
+Invoke-AtomicTest T1113 -TestNumbers 6
+Command and Control
+Invoke-AtomicTest T1106 -TestNumbers 9very new powershell
+Import-Module "C:\AtomicRedTeam\invoke-atomicredteam\Invoke-AtomicRedTeam.psd1" -Force
+Template for command (up arrow is your friend)
+Invoke-AtomicTest T####.00# -GetPrereqs
+Invoke-AtomicTest T####.00# -TestNumbers #
+Part 1
+Execution
+Invoke-AtomicTest T1204.002 -TestNumbers 1
+Why did it fail? What can you do about it?
+
+Invoke-AtomicTest T1204.002 -TestNumbers 8
+goto C:\Users\Administrator\AppData\Local\Temp
+Drill down to the numbered directory What artifact do you see?
+
+Persistence
+Invoke-AtomicTest T1543.003 -TestNumbers 2
+Privilege Escalation
+Invoke-AtomicTest T1055.001 -TestNumbers 1
+Part 2
+Defense Evasion
+Invoke-AtomicTest T1564.001 -TestNumbers 3
+Discovery
+Invoke-AtomicTest T1518.001 -TestNumbers 1
+Invoke-AtomicTest T1518.001 -TestNumbers 2
+Invoke-AtomicTest T1518.001 -TestNumbers 5
+Lateral Movement
+Collection
+Invoke-AtomicTest T1113 -TestNumbers 6
+Command and Control
+Invoke-AtomicTest T1106 -TestNumbers 9very new powershell
+Import-Module "C:\AtomicRedTeam\invoke-atomicredteam\Invoke-AtomicRedTeam.psd1" -Force
+Template for command (up arrow is your friend)
+Invoke-AtomicTest T####.00# -GetPrereqs
+Invoke-AtomicTest T####.00# -TestNumbers #
+Part 1
+Execution
+Invoke-AtomicTest T1204.002 -TestNumbers 1
+Why did it fail? What can you do about it?
+
+Invoke-AtomicTest T1204.002 -TestNumbers 8
+goto C:\Users\Administrator\AppData\Local\Temp
+Drill down to the numbered directory What artifact do you see?
+
+Persistence
+Invoke-AtomicTest T1543.003 -TestNumbers 2
+Privilege Escalation
+Invoke-AtomicTest T1055.001 -TestNumbers 1
+Part 2
+Defense Evasion
+Invoke-AtomicTest T1564.001 -TestNumbers 3
+Discovery
+Invoke-AtomicTest T1518.001 -TestNumbers 1
+Invoke-AtomicTest T1518.001 -TestNumbers 2
+Invoke-AtomicTest T1518.001 -TestNumbers 5
+Lateral Movement
+Collection
+Invoke-AtomicTest T1113 -TestNumbers 6
+Command and Control
+Invoke-AtomicTest T1106 -TestNumbers 9very new powershell
+Import-Module "C:\AtomicRedTeam\invoke-atomicredteam\Invoke-AtomicRedTeam.psd1" -Force
+Template for command (up arrow is your friend)
+Invoke-AtomicTest T####.00# -GetPrereqs
+Invoke-AtomicTest T####.00# -TestNumbers #
+Part 1
+Execution
+Invoke-AtomicTest T1204.002 -TestNumbers 1
+Why did it fail? What can you do about it?
+
+Invoke-AtomicTest T1204.002 -TestNumbers 8
+goto C:\Users\Administrator\AppData\Local\Temp
+Drill down to the numbered directory What artifact do you see?
+
+Persistence
+Invoke-AtomicTest T1543.003 -TestNumbers 2
+Privilege Escalation
+Invoke-AtomicTest T1055.001 -TestNumbers 1
+Part 2
+Defense Evasion
+Invoke-AtomicTest T1564.001 -TestNumbers 3
+Discovery
+Invoke-AtomicTest T1518.001 -TestNumbers 1
+Invoke-AtomicTest T1518.001 -TestNumbers 2
+Invoke-AtomicTest T1518.001 -TestNumbers 5
+Lateral Movement
+Collection
+Invoke-AtomicTest T1113 -TestNumbers 6
+Command and Control
+Invoke-AtomicTest T1106 -TestNumbers 9very new powershell
+Import-Module "C:\AtomicRedTeam\invoke-atomicredteam\Invoke-AtomicRedTeam.psd1" -Force
+Template for command (up arrow is your friend)
+Invoke-AtomicTest T####.00# -GetPrereqs
+Invoke-AtomicTest T####.00# -TestNumbers #
+Part 1
+Execution
+Invoke-AtomicTest T1204.002 -TestNumbers 1
+Why did it fail? What can you do about it?
+
+Invoke-AtomicTest T1204.002 -TestNumbers 8
+goto C:\Users\Administrator\AppData\Local\Temp
+Drill down to the numbered directory What artifact do you see?
+
+Persistence
+Invoke-AtomicTest T1543.003 -TestNumbers 2
+Privilege Escalation
+Invoke-AtomicTest T1055.001 -TestNumbers 1
+Part 2
+Defense Evasion
+Invoke-AtomicTest T1564.001 -TestNumbers 3
+Discovery
+Invoke-AtomicTest T1518.001 -TestNumbers 1
+Invoke-AtomicTest T1518.001 -TestNumbers 2
+Invoke-AtomicTest T1518.001 -TestNumbers 5
+Lateral Movement
+Collection
+Invoke-AtomicTest T1113 -TestNumbers 6
+Command and Control
+Invoke-AtomicTest T1106 -TestNumbers 9very new powershell
+Import-Module "C:\AtomicRedTeam\invoke-atomicredteam\Invoke-AtomicRedTeam.psd1" -Force
+Template for command (up arrow is your friend)
+Invoke-AtomicTest T####.00# -GetPrereqs
+Invoke-AtomicTest T####.00# -TestNumbers #
+Part 1
+Execution
+Invoke-AtomicTest T1204.002 -TestNumbers 1
+Why did it fail? What can you do about it?
+
+Invoke-AtomicTest T1204.002 -TestNumbers 8
+goto C:\Users\Administrator\AppData\Local\Temp
+Drill down to the numbered directory What artifact do you see?
+
+Persistence
+Invoke-AtomicTest T1543.003 -TestNumbers 2
+Privilege Escalation
+Invoke-AtomicTest T1055.001 -TestNumbers 1
+Part 2
+Defense Evasion
+Invoke-AtomicTest T1564.001 -TestNumbers 3
+Discovery
+Invoke-AtomicTest T1518.001 -TestNumbers 1
+Invoke-AtomicTest T1518.001 -TestNumbers 2
+Invoke-AtomicTest T1518.001 -TestNumbers 5
+Lateral Movement
+Collection
+Invoke-AtomicTest T1113 -TestNumbers 6
+Command and Control
+Invoke-AtomicTest T1106 -TestNumbers 9very new powershell
+Import-Module "C:\AtomicRedTeam\invoke-atomicredteam\Invoke-AtomicRedTeam.psd1" -Force
+Template for command (up arrow is your friend)
+Invoke-AtomicTest T####.00# -GetPrereqs
+Invoke-AtomicTest T####.00# -TestNumbers #
+Part 1
+Execution
+Invoke-AtomicTest T1204.002 -TestNumbers 1
+Why did it fail? What can you do about it?
+
+Invoke-AtomicTest T1204.002 -TestNumbers 8
+goto C:\Users\Administrator\AppData\Local\Temp
+Drill down to the numbered directory What artifact do you see?
+
+Persistence
+Invoke-AtomicTest T1543.003 -TestNumbers 2
+Privilege Escalation
+Invoke-AtomicTest T1055.001 -TestNumbers 1
+Part 2
+Defense Evasion
+Invoke-AtomicTest T1564.001 -TestNumbers 3
+Discovery
+Invoke-AtomicTest T1518.001 -TestNumbers 1
+Invoke-AtomicTest T1518.001 -TestNumbers 2
+Invoke-AtomicTest T1518.001 -TestNumbers 5
+Lateral Movement
+Collection
+Invoke-AtomicTest T1113 -TestNumbers 6
+Command and Control
+Invoke-AtomicTest T1106 -TestNumbers 9very new powershell
+Import-Module "C:\AtomicRedTeam\invoke-atomicredteam\Invoke-AtomicRedTeam.psd1" -Force
+Template for command (up arrow is your friend)
+Invoke-AtomicTest T####.00# -GetPrereqs
+Invoke-AtomicTest T####.00# -TestNumbers #
+Part 1
+Execution
+Invoke-AtomicTest T1204.002 -TestNumbers 1
+Why did it fail? What can you do about it?
+
+Invoke-AtomicTest T1204.002 -TestNumbers 8
+goto C:\Users\Administrator\AppData\Local\Temp
+Drill down to the numbered directory What artifact do you see?
+
+Persistence
+Invoke-AtomicTest T1543.003 -TestNumbers 2
+Privilege Escalation
+Invoke-AtomicTest T1055.001 -TestNumbers 1
+Part 2
+Defense Evasion
+Invoke-AtomicTest T1564.001 -TestNumbers 3
+Discovery
+Invoke-AtomicTest T1518.001 -TestNumbers 1
+Invoke-AtomicTest T1518.001 -TestNumbers 2
+Invoke-AtomicTest T1518.001 -TestNumbers 5
+Lateral Movement
+Collection
+Invoke-AtomicTest T1113 -TestNumbers 6
+Command and Control
+Invoke-AtomicTest T1106 -TestNumbers 9very new powershell
+Import-Module "C:\AtomicRedTeam\invoke-atomicredteam\Invoke-AtomicRedTeam.psd1" -Force
+Template for command (up arrow is your friend)
+Invoke-AtomicTest T####.00# -GetPrereqs
+Invoke-AtomicTest T####.00# -TestNumbers #
+Part 1
+Execution
+Invoke-AtomicTest T1204.002 -TestNumbers 1
+Why did it fail? What can you do about it?
+
+Invoke-AtomicTest T1204.002 -TestNumbers 8
+goto C:\Users\Administrator\AppData\Local\Temp
+Drill down to the numbered directory What artifact do you see?
+
+Persistence
+Invoke-AtomicTest T1543.003 -TestNumbers 2
+Privilege Escalation
+Invoke-AtomicTest T1055.001 -TestNumbers 1
+Part 2
+Defense Evasion
+Invoke-AtomicTest T1564.001 -TestNumbers 3
+Discovery
+Invoke-AtomicTest T1518.001 -TestNumbers 1
+Invoke-AtomicTest T1518.001 -TestNumbers 2
+Invoke-AtomicTest T1518.001 -TestNumbers 5
+Lateral Movement
+Collection
+Invoke-AtomicTest T1113 -TestNumbers 6
+Command and Control
+Invoke-AtomicTest T1106 -TestNumbers 9very new powershell
+Import-Module "C:\AtomicRedTeam\invoke-atomicredteam\Invoke-AtomicRedTeam.psd1" -Force
+Template for command (up arrow is your friend)
+Invoke-AtomicTest T####.00# -GetPrereqs
+Invoke-AtomicTest T####.00# -TestNumbers #
+Part 1
+Execution
+Invoke-AtomicTest T1204.002 -TestNumbers 1
+Why did it fail? What can you do about it?
+
+Invoke-AtomicTest T1204.002 -TestNumbers 8
+goto C:\Users\Administrator\AppData\Local\Temp
+Drill down to the numbered directory What artifact do you see?
+
+Persistence
+Invoke-AtomicTest T1543.003 -TestNumbers 2
+Privilege Escalation
+Invoke-AtomicTest T1055.001 -TestNumbers 1
+Part 2
+Defense Evasion
+Invoke-AtomicTest T1564.001 -TestNumbers 3
+Discovery
+Invoke-AtomicTest T1518.001 -TestNumbers 1
+Invoke-AtomicTest T1518.001 -TestNumbers 2
+Invoke-AtomicTest T1518.001 -TestNumbers 5
+Lateral Movement
+Collection
+Invoke-AtomicTest T1113 -TestNumbers 6
+Command and Control
+Invoke-AtomicTest T1106 -TestNumbers 9very new powershell
+Import-Module "C:\AtomicRedTeam\invoke-atomicredteam\Invoke-AtomicRedTeam.psd1" -Force
+Template for command (up arrow is your friend)
+Invoke-AtomicTest T####.00# -GetPrereqs
+Invoke-AtomicTest T####.00# -TestNumbers #
+Part 1
+Execution
+Invoke-AtomicTest T1204.002 -TestNumbers 1
+Why did it fail? What can you do about it?
+
+Invoke-AtomicTest T1204.002 -TestNumbers 8
+goto C:\Users\Administrator\AppData\Local\Temp
+Drill down to the numbered directory What artifact do you see?
+
+Persistence
+Invoke-AtomicTest T1543.003 -TestNumbers 2
+Privilege Escalation
+Invoke-AtomicTest T1055.001 -TestNumbers 1
+Part 2
+Defense Evasion
+Invoke-AtomicTest T1564.001 -TestNumbers 3
+Discovery
+Invoke-AtomicTest T1518.001 -TestNumbers 1
+Invoke-AtomicTest T1518.001 -TestNumbers 2
+Invoke-AtomicTest T1518.001 -TestNumbers 5
+Lateral Movement
+Collection
+Invoke-AtomicTest T1113 -TestNumbers 6
+Command and Control
+Invoke-AtomicTest T1106 -TestNumbers 9very new powershell
+Import-Module "C:\AtomicRedTeam\invoke-atomicredteam\Invoke-AtomicRedTeam.psd1" -Force
+Template for command (up arrow is your friend)
+Invoke-AtomicTest T####.00# -GetPrereqs
+Invoke-AtomicTest T####.00# -TestNumbers #
+Part 1
+Execution
+Invoke-AtomicTest T1204.002 -TestNumbers 1
+Why did it fail? What can you do about it?
+
+Invoke-AtomicTest T1204.002 -TestNumbers 8
+goto C:\Users\Administrator\AppData\Local\Temp
+Drill down to the numbered directory What artifact do you see?
+
+Persistence
+Invoke-AtomicTest T1543.003 -TestNumbers 2
+Privilege Escalation
+Invoke-AtomicTest T1055.001 -TestNumbers 1
+Part 2
+Defense Evasion
+Invoke-AtomicTest T1564.001 -TestNumbers 3
+Discovery
+Invoke-AtomicTest T1518.001 -TestNumbers 1
+Invoke-AtomicTest T1518.001 -TestNumbers 2
+Invoke-AtomicTest T1518.001 -TestNumbers 5
+Lateral Movement
+Collection
+Invoke-AtomicTest T1113 -TestNumbers 6
+Command and Control
+Invoke-AtomicTest T1106 -TestNumbers 9very new powershell
+Import-Module "C:\AtomicRedTeam\invoke-atomicredteam\Invoke-AtomicRedTeam.psd1" -Force
+Template for command (up arrow is your friend)
+Invoke-AtomicTest T####.00# -GetPrereqs
+Invoke-AtomicTest T####.00# -TestNumbers #
+Part 1
+Execution
+Invoke-AtomicTest T1204.002 -TestNumbers 1
+Why did it fail? What can you do about it?
+
+Invoke-AtomicTest T1204.002 -TestNumbers 8
+goto C:\Users\Administrator\AppData\Local\Temp
+Drill down to the numbered directory What artifact do you see?
+
+Persistence
+Invoke-AtomicTest T1543.003 -TestNumbers 2
+Privilege Escalation
+Invoke-AtomicTest T1055.001 -TestNumbers 1
+Part 2
+Defense Evasion
+Invoke-AtomicTest T1564.001 -TestNumbers 3
+Discovery
+Invoke-AtomicTest T1518.001 -TestNumbers 1
+Invoke-AtomicTest T1518.001 -TestNumbers 2
+Invoke-AtomicTest T1518.001 -TestNumbers 5
+Lateral Movement
+Collection
+Invoke-AtomicTest T1113 -TestNumbers 6
+Command and Control
+Invoke-AtomicTest T1106 -TestNumbers 9very new powershell
+Import-Module "C:\AtomicRedTeam\invoke-atomicredteam\Invoke-AtomicRedTeam.psd1" -Force
+Template for command (up arrow is your friend)
+Invoke-AtomicTest T####.00# -GetPrereqs
+Invoke-AtomicTest T####.00# -TestNumbers #
+Part 1
+Execution
+Invoke-AtomicTest T1204.002 -TestNumbers 1
+Why did it fail? What can you do about it?
+
+Invoke-AtomicTest T1204.002 -TestNumbers 8
+goto C:\Users\Administrator\AppData\Local\Temp
+Drill down to the numbered directory What artifact do you see?
+
+Persistence
+Invoke-AtomicTest T1543.003 -TestNumbers 2
+Privilege Escalation
+Invoke-AtomicTest T1055.001 -TestNumbers 1
+Part 2
+Defense Evasion
+Invoke-AtomicTest T1564.001 -TestNumbers 3
+Discovery
+Invoke-AtomicTest T1518.001 -TestNumbers 1
+Invoke-AtomicTest T1518.001 -TestNumbers 2
+Invoke-AtomicTest T1518.001 -TestNumbers 5
+Lateral Movement
+Collection
+Invoke-AtomicTest T1113 -TestNumbers 6
+Command and Control
+Invoke-AtomicTest T1106 -TestNumbers 9very new powershell
+Import-Module "C:\AtomicRedTeam\invoke-atomicredteam\Invoke-AtomicRedTeam.psd1" -Force
+Template for command (up arrow is your friend)
+Invoke-AtomicTest T####.00# -GetPrereqs
+Invoke-AtomicTest T####.00# -TestNumbers #
+Part 1
+Execution
+Invoke-AtomicTest T1204.002 -TestNumbers 1
+Why did it fail? What can you do about it?
+
+Invoke-AtomicTest T1204.002 -TestNumbers 8
+goto C:\Users\Administrator\AppData\Local\Temp
+Drill down to the numbered directory What artifact do you see?
+
+Persistence
+Invoke-AtomicTest T1543.003 -TestNumbers 2
+Privilege Escalation
+Invoke-AtomicTest T1055.001 -TestNumbers 1
+Part 2
+Defense Evasion
+Invoke-AtomicTest T1564.001 -TestNumbers 3
+Discovery
+Invoke-AtomicTest T1518.001 -TestNumbers 1
+Invoke-AtomicTest T1518.001 -TestNumbers 2
+Invoke-AtomicTest T1518.001 -TestNumbers 5
+Lateral Movement
+Collection
+Invoke-AtomicTest T1113 -TestNumbers 6
+Command and Control
+Invoke-AtomicTest T1106 -TestNumbers 9very new powershell
+Import-Module "C:\AtomicRedTeam\invoke-atomicredteam\Invoke-AtomicRedTeam.psd1" -Force
+Template for command (up arrow is your friend)
+Invoke-AtomicTest T####.00# -GetPrereqs
+Invoke-AtomicTest T####.00# -TestNumbers #
+Part 1
+Execution
+Invoke-AtomicTest T1204.002 -TestNumbers 1
+Why did it fail? What can you do about it?
+
+Invoke-AtomicTest T1204.002 -TestNumbers 8
+goto C:\Users\Administrator\AppData\Local\Temp
+Drill down to the numbered directory What artifact do you see?
+
+Persistence
+Invoke-AtomicTest T1543.003 -TestNumbers 2
+Privilege Escalation
+Invoke-AtomicTest T1055.001 -TestNumbers 1
+Part 2
+Defense Evasion
+Invoke-AtomicTest T1564.001 -TestNumbers 3
+Discovery
+Invoke-AtomicTest T1518.001 -TestNumbers 1
+Invoke-AtomicTest T1518.001 -TestNumbers 2
+Invoke-AtomicTest T1518.001 -TestNumbers 5
+Lateral Movement
+Collection
+Invoke-AtomicTest T1113 -TestNumbers 6
+Command and Control
+Invoke-AtomicTest T1106 -TestNumbers 9very new powershell
+Import-Module "C:\AtomicRedTeam\invoke-atomicredteam\Invoke-AtomicRedTeam.psd1" -Force
+Template for command (up arrow is your friend)
+Invoke-AtomicTest T####.00# -GetPrereqs
+Invoke-AtomicTest T####.00# -TestNumbers #
+Part 1
+Execution
+Invoke-AtomicTest T1204.002 -TestNumbers 1
+Why did it fail? What can you do about it?
+
+Invoke-AtomicTest T1204.002 -TestNumbers 8
+goto C:\Users\Administrator\AppData\Local\Temp
+Drill down to the numbered directory What artifact do you see?
+
+Persistence
+Invoke-AtomicTest T1543.003 -TestNumbers 2
+Privilege Escalation
+Invoke-AtomicTest T1055.001 -TestNumbers 1
+Part 2
+Defense Evasion
+Invoke-AtomicTest T1564.001 -TestNumbers 3
+Discovery
+Invoke-AtomicTest T1518.001 -TestNumbers 1
+Invoke-AtomicTest T1518.001 -TestNumbers 2
+Invoke-AtomicTest T1518.001 -TestNumbers 5
+Lateral Movement
+Collection
+Invoke-AtomicTest T1113 -TestNumbers 6
+Command and Control
+Invoke-AtomicTest T1106 -TestNumbers 9very new powershell
+Import-Module "C:\AtomicRedTeam\invoke-atomicredteam\Invoke-AtomicRedTeam.psd1" -Force
+Template for command (up arrow is your friend)
+Invoke-AtomicTest T####.00# -GetPrereqs
+Invoke-AtomicTest T####.00# -TestNumbers #
+Part 1
+Execution
+Invoke-AtomicTest T1204.002 -TestNumbers 1
+Why did it fail? What can you do about it?
+
+Invoke-AtomicTest T1204.002 -TestNumbers 8
+goto C:\Users\Administrator\AppData\Local\Temp
+Drill down to the numbered directory What artifact do you see?
+
+Persistence
+Invoke-AtomicTest T1543.003 -TestNumbers 2
+Privilege Escalation
+Invoke-AtomicTest T1055.001 -TestNumbers 1
+Part 2
+Defense Evasion
+Invoke-AtomicTest T1564.001 -TestNumbers 3
+Discovery
+Invoke-AtomicTest T1518.001 -TestNumbers 1
+Invoke-AtomicTest T1518.001 -TestNumbers 2
+Invoke-AtomicTest T1518.001 -TestNumbers 5
+Lateral Movement
+Collection
+Invoke-AtomicTest T1113 -TestNumbers 6
+Command and Control
+Invoke-AtomicTest T1106 -TestNumbers 9very new powershell
+Import-Module "C:\AtomicRedTeam\invoke-atomicredteam\Invoke-AtomicRedTeam.psd1" -Force
+Template for command (up arrow is your friend)
+Invoke-AtomicTest T####.00# -GetPrereqs
+Invoke-AtomicTest T####.00# -TestNumbers #
+Part 1
+Execution
+Invoke-AtomicTest T1204.002 -TestNumbers 1
+Why did it fail? What can you do about it?
+
+Invoke-AtomicTest T1204.002 -TestNumbers 8
+goto C:\Users\Administrator\AppData\Local\Temp
+Drill down to the numbered directory What artifact do you see?
+
+Persistence
+Invoke-AtomicTest T1543.003 -TestNumbers 2
+Privilege Escalation
+Invoke-AtomicTest T1055.001 -TestNumbers 1
+Part 2
+Defense Evasion
+Invoke-AtomicTest T1564.001 -TestNumbers 3
+Discovery
+Invoke-AtomicTest T1518.001 -TestNumbers 1
+Invoke-AtomicTest T1518.001 -TestNumbers 2
+Invoke-AtomicTest T1518.001 -TestNumbers 5
+Lateral Movement
+Collection
+Invoke-AtomicTest T1113 -TestNumbers 6
+Command and Control
+Invoke-AtomicTest T1106 -TestNumbers 9very new powershell
+Import-Module "C:\AtomicRedTeam\invoke-atomicredteam\Invoke-AtomicRedTeam.psd1" -Force
+Template for command (up arrow is your friend)
+Invoke-AtomicTest T####.00# -GetPrereqs
+Invoke-AtomicTest T####.00# -TestNumbers #
+Part 1
+Execution
+Invoke-AtomicTest T1204.002 -TestNumbers 1
+Why did it fail? What can you do about it?
+
+Invoke-AtomicTest T1204.002 -TestNumbers 8
+goto C:\Users\Administrator\AppData\Local\Temp
+Drill down to the numbered directory What artifact do you see?
+
+Persistence
+Invoke-AtomicTest T1543.003 -TestNumbers 2
+Privilege Escalation
+Invoke-AtomicTest T1055.001 -TestNumbers 1
+Part 2
+Defense Evasion
+Invoke-AtomicTest T1564.001 -TestNumbers 3
+Discovery
+Invoke-AtomicTest T1518.001 -TestNumbers 1
+Invoke-AtomicTest T1518.001 -TestNumbers 2
+Invoke-AtomicTest T1518.001 -TestNumbers 5
+Lateral Movement
+Collection
+Invoke-AtomicTest T1113 -TestNumbers 6
+Command and Control
+Invoke-AtomicTest T1106 -TestNumbers 9very new powershell
+Import-Module "C:\AtomicRedTeam\invoke-atomicredteam\Invoke-AtomicRedTeam.psd1" -Force
+Template for command (up arrow is your friend)
+Invoke-AtomicTest T####.00# -GetPrereqs
+Invoke-AtomicTest T####.00# -TestNumbers #
+Part 1
+Execution
+Invoke-AtomicTest T1204.002 -TestNumbers 1
+Why did it fail? What can you do about it?
+
+Invoke-AtomicTest T1204.002 -TestNumbers 8
+goto C:\Users\Administrator\AppData\Local\Temp
+Drill down to the numbered directory What artifact do you see?
+
+Persistence
+Invoke-AtomicTest T1543.003 -TestNumbers 2
+Privilege Escalation
+Invoke-AtomicTest T1055.001 -TestNumbers 1
+Part 2
+Defense Evasion
+Invoke-AtomicTest T1564.001 -TestNumbers 3
+Discovery
+Invoke-AtomicTest T1518.001 -TestNumbers 1
+Invoke-AtomicTest T1518.001 -TestNumbers 2
+Invoke-AtomicTest T1518.001 -TestNumbers 5
+Lateral Movement
+Collection
+Invoke-AtomicTest T1113 -TestNumbers 6
+Command and Control
+Invoke-AtomicTest T1106 -TestNumbers 9very new powershell
+Import-Module "C:\AtomicRedTeam\invoke-atomicredteam\Invoke-AtomicRedTeam.psd1" -Force
+Template for command (up arrow is your friend)
+Invoke-AtomicTest T####.00# -GetPrereqs
+Invoke-AtomicTest T####.00# -TestNumbers #
+Part 1
+Execution
+Invoke-AtomicTest T1204.002 -TestNumbers 1
+Why did it fail? What can you do about it?
+
+Invoke-AtomicTest T1204.002 -TestNumbers 8
+goto C:\Users\Administrator\AppData\Local\Temp
+Drill down to the numbered directory What artifact do you see?
+
+Persistence
+Invoke-AtomicTest T1543.003 -TestNumbers 2
+Privilege Escalation
+Invoke-AtomicTest T1055.001 -TestNumbers 1
+Part 2
+Defense Evasion
+Invoke-AtomicTest T1564.001 -TestNumbers 3
+Discovery
+Invoke-AtomicTest T1518.001 -TestNumbers 1
+Invoke-AtomicTest T1518.001 -TestNumbers 2
+Invoke-AtomicTest T1518.001 -TestNumbers 5
+Lateral Movement
+Collection
+Invoke-AtomicTest T1113 -TestNumbers 6
+Command and Control
+Invoke-AtomicTest T1106 -TestNumbers 9very new powershell
+Import-Module "C:\AtomicRedTeam\invoke-atomicredteam\Invoke-AtomicRedTeam.psd1" -Force
+Template for command (up arrow is your friend)
+Invoke-AtomicTest T####.00# -GetPrereqs
+Invoke-AtomicTest T####.00# -TestNumbers #
+Part 1
+Execution
+Invoke-AtomicTest T1204.002 -TestNumbers 1
+Why did it fail? What can you do about it?
+
+Invoke-AtomicTest T1204.002 -TestNumbers 8
+goto C:\Users\Administrator\AppData\Local\Temp
+Drill down to the numbered directory What artifact do you see?
+
+Persistence
+Invoke-AtomicTest T1543.003 -TestNumbers 2
+Privilege Escalation
+Invoke-AtomicTest T1055.001 -TestNumbers 1
+Part 2
+Defense Evasion
+Invoke-AtomicTest T1564.001 -TestNumbers 3
+Discovery
+Invoke-AtomicTest T1518.001 -TestNumbers 1
+Invoke-AtomicTest T1518.001 -TestNumbers 2
+Invoke-AtomicTest T1518.001 -TestNumbers 5
+Lateral Movement
+Collection
+Invoke-AtomicTest T1113 -TestNumbers 6
+Command and Control
+Invoke-AtomicTest T1106 -TestNumbers 9very new powershell
+Import-Module "C:\AtomicRedTeam\invoke-atomicredteam\Invoke-AtomicRedTeam.psd1" -Force
+Template for command (up arrow is your friend)
+Invoke-AtomicTest T####.00# -GetPrereqs
+Invoke-AtomicTest T####.00# -TestNumbers #
+Part 1
+Execution
+Invoke-AtomicTest T1204.002 -TestNumbers 1
+Why did it fail? What can you do about it?
+
+Invoke-AtomicTest T1204.002 -TestNumbers 8
+goto C:\Users\Administrator\AppData\Local\Temp
+Drill down to the numbered directory What artifact do you see?
+
+Persistence
+Invoke-AtomicTest T1543.003 -TestNumbers 2
+Privilege Escalation
+Invoke-AtomicTest T1055.001 -TestNumbers 1
+Part 2
+Defense Evasion
+Invoke-AtomicTest T1564.001 -TestNumbers 3
+Discovery
+Invoke-AtomicTest T1518.001 -TestNumbers 1
+Invoke-AtomicTest T1518.001 -TestNumbers 2
+Invoke-AtomicTest T1518.001 -TestNumbers 5
+Lateral Movement
+Collection
+Invoke-AtomicTest T1113 -TestNumbers 6
+Command and Control
+Invoke-AtomicTest T1106 -TestNumbers 9very new powershell
+Import-Module "C:\AtomicRedTeam\invoke-atomicredteam\Invoke-AtomicRedTeam.psd1" -Force
+Template for command (up arrow is your friend)
+Invoke-AtomicTest T####.00# -GetPrereqs
+Invoke-AtomicTest T####.00# -TestNumbers #
+Part 1
+Execution
+Invoke-AtomicTest T1204.002 -TestNumbers 1
+Why did it fail? What can you do about it?
+
+Invoke-AtomicTest T1204.002 -TestNumbers 8
+goto C:\Users\Administrator\AppData\Local\Temp
+Drill down to the numbered directory What artifact do you see?
+
+Persistence
+Invoke-AtomicTest T1543.003 -TestNumbers 2
+Privilege Escalation
+Invoke-AtomicTest T1055.001 -TestNumbers 1
+Part 2
+Defense Evasion
+Invoke-AtomicTest T1564.001 -TestNumbers 3
+Discovery
+Invoke-AtomicTest T1518.001 -TestNumbers 1
+Invoke-AtomicTest T1518.001 -TestNumbers 2
+Invoke-AtomicTest T1518.001 -TestNumbers 5
+Lateral Movement
+Collection
+Invoke-AtomicTest T1113 -TestNumbers 6
+Command and Control
+Invoke-AtomicTest T1106 -TestNumbers 9very new powershell
+Import-Module "C:\AtomicRedTeam\invoke-atomicredteam\Invoke-AtomicRedTeam.psd1" -Force
+Template for command (up arrow is your friend)
+Invoke-AtomicTest T####.00# -GetPrereqs
+Invoke-AtomicTest T####.00# -TestNumbers #
+Part 1
+Execution
+Invoke-AtomicTest T1204.002 -TestNumbers 1
+Why did it fail? What can you do about it?
+
+Invoke-AtomicTest T1204.002 -TestNumbers 8
+goto C:\Users\Administrator\AppData\Local\Temp
+Drill down to the numbered directory What artifact do you see?
+
+Persistence
+Invoke-AtomicTest T1543.003 -TestNumbers 2
+Privilege Escalation
+Invoke-AtomicTest T1055.001 -TestNumbers 1
+Part 2
+Defense Evasion
+Invoke-AtomicTest T1564.001 -TestNumbers 3
+Discovery
+Invoke-AtomicTest T1518.001 -TestNumbers 1
+Invoke-AtomicTest T1518.001 -TestNumbers 2
+Invoke-AtomicTest T1518.001 -TestNumbers 5
+Lateral Movement
+Collection
+Invoke-AtomicTest T1113 -TestNumbers 6
+Command and Control
+Invoke-AtomicTest T1106 -TestNumbers 9very new powershell
+Import-Module "C:\AtomicRedTeam\invoke-atomicredteam\Invoke-AtomicRedTeam.psd1" -Force
+Template for command (up arrow is your friend)
+Invoke-AtomicTest T####.00# -GetPrereqs
+Invoke-AtomicTest T####.00# -TestNumbers #
+Part 1
+Execution
+Invoke-AtomicTest T1204.002 -TestNumbers 1
+Why did it fail? What can you do about it?
+
+Invoke-AtomicTest T1204.002 -TestNumbers 8
+goto C:\Users\Administrator\AppData\Local\Temp
+Drill down to the numbered directory What artifact do you see?
+
+Persistence
+Invoke-AtomicTest T1543.003 -TestNumbers 2
+Privilege Escalation
+Invoke-AtomicTest T1055.001 -TestNumbers 1
+Part 2
+Defense Evasion
+Invoke-AtomicTest T1564.001 -TestNumbers 3
+Discovery
+Invoke-AtomicTest T1518.001 -TestNumbers 1
+Invoke-AtomicTest T1518.001 -TestNumbers 2
+Invoke-AtomicTest T1518.001 -TestNumbers 5
+Lateral Movement
+Collection
+Invoke-AtomicTest T1113 -TestNumbers 6
+Command and Control
+Invoke-AtomicTest T1106 -TestNumbers 9very new powershell
+Import-Module "C:\AtomicRedTeam\invoke-atomicredteam\Invoke-AtomicRedTeam.psd1" -Force
+Template for command (up arrow is your friend)
+Invoke-AtomicTest T####.00# -GetPrereqs
+Invoke-AtomicTest T####.00# -TestNumbers #
+Part 1
+Execution
+Invoke-AtomicTest T1204.002 -TestNumbers 1
+Why did it fail? What can you do about it?
+
+Invoke-AtomicTest T1204.002 -TestNumbers 8
+goto C:\Users\Administrator\AppData\Local\Temp
+Drill down to the numbered directory What artifact do you see?
+
+Persistence
+Invoke-AtomicTest T1543.003 -TestNumbers 2
+Privilege Escalation
+Invoke-AtomicTest T1055.001 -TestNumbers 1
+Part 2
+Defense Evasion
+Invoke-AtomicTest T1564.001 -TestNumbers 3
+Discovery
+Invoke-AtomicTest T1518.001 -TestNumbers 1
+Invoke-AtomicTest T1518.001 -TestNumbers 2
+Invoke-AtomicTest T1518.001 -TestNumbers 5
+Lateral Movement
+Collection
+Invoke-AtomicTest T1113 -TestNumbers 6
+Command and Control
+Invoke-AtomicTest T1106 -TestNumbers 9very new powershell
+Import-Module "C:\AtomicRedTeam\invoke-atomicredteam\Invoke-AtomicRedTeam.psd1" -Force
+Template for command (up arrow is your friend)
+Invoke-AtomicTest T####.00# -GetPrereqs
+Invoke-AtomicTest T####.00# -TestNumbers #
+Part 1
+Execution
+Invoke-AtomicTest T1204.002 -TestNumbers 1
+Why did it fail? What can you do about it?
+
+Invoke-AtomicTest T1204.002 -TestNumbers 8
+goto C:\Users\Administrator\AppData\Local\Temp
+Drill down to the numbered directory What artifact do you see?
+
+Persistence
+Invoke-AtomicTest T1543.003 -TestNumbers 2
+Privilege Escalation
+Invoke-AtomicTest T1055.001 -TestNumbers 1
+Part 2
+Defense Evasion
+Invoke-AtomicTest T1564.001 -TestNumbers 3
+Discovery
+Invoke-AtomicTest T1518.001 -TestNumbers 1
+Invoke-AtomicTest T1518.001 -TestNumbers 2
+Invoke-AtomicTest T1518.001 -TestNumbers 5
+Lateral Movement
+Collection
+Invoke-AtomicTest T1113 -TestNumbers 6
+Command and Control
+Invoke-AtomicTest T1106 -TestNumbers 9very new powershell
+Import-Module "C:\AtomicRedTeam\invoke-atomicredteam\Invoke-AtomicRedTeam.psd1" -Force
+Template for command (up arrow is your friend)
+Invoke-AtomicTest T####.00# -GetPrereqs
+Invoke-AtomicTest T####.00# -TestNumbers #
+Part 1
+Execution
+Invoke-AtomicTest T1204.002 -TestNumbers 1
+Why did it fail? What can you do about it?
+
+Invoke-AtomicTest T1204.002 -TestNumbers 8
+goto C:\Users\Administrator\AppData\Local\Temp
+Drill down to the numbered directory What artifact do you see?
+
+Persistence
+Invoke-AtomicTest T1543.003 -TestNumbers 2
+Privilege Escalation
+Invoke-AtomicTest T1055.001 -TestNumbers 1
+Part 2
+Defense Evasion
+Invoke-AtomicTest T1564.001 -TestNumbers 3
+Discovery
+Invoke-AtomicTest T1518.001 -TestNumbers 1
+Invoke-AtomicTest T1518.001 -TestNumbers 2
+Invoke-AtomicTest T1518.001 -TestNumbers 5
+Lateral Movement
+Collection
+Invoke-AtomicTest T1113 -TestNumbers 6
+Command and Control
+Invoke-AtomicTest T1106 -TestNumbers 9very new powershell
+Import-Module "C:\AtomicRedTeam\invoke-atomicredteam\Invoke-AtomicRedTeam.psd1" -Force
+Template for command (up arrow is your friend)
+Invoke-AtomicTest T####.00# -GetPrereqs
+Invoke-AtomicTest T####.00# -TestNumbers #
+Part 1
+Execution
+Invoke-AtomicTest T1204.002 -TestNumbers 1
+Why did it fail? What can you do about it?
+
+Invoke-AtomicTest T1204.002 -TestNumbers 8
+goto C:\Users\Administrator\AppData\Local\Temp
+Drill down to the numbered directory What artifact do you see?
+
+Persistence
+Invoke-AtomicTest T1543.003 -TestNumbers 2
+Privilege Escalation
+Invoke-AtomicTest T1055.001 -TestNumbers 1
+Part 2
+Defense Evasion
+Invoke-AtomicTest T1564.001 -TestNumbers 3
+Discovery
+Invoke-AtomicTest T1518.001 -TestNumbers 1
+Invoke-AtomicTest T1518.001 -TestNumbers 2
+Invoke-AtomicTest T1518.001 -TestNumbers 5
+Lateral Movement
+Collection
+Invoke-AtomicTest T1113 -TestNumbers 6
+Command and Control
+Invoke-AtomicTest T1106 -TestNumbers 9very new powershell
+Import-Module "C:\AtomicRedTeam\invoke-atomicredteam\Invoke-AtomicRedTeam.psd1" -Force
+Template for command (up arrow is your friend)
+Invoke-AtomicTest T####.00# -GetPrereqs
+Invoke-AtomicTest T####.00# -TestNumbers #
+Part 1
+Execution
+Invoke-AtomicTest T1204.002 -TestNumbers 1
+Why did it fail? What can you do about it?
+
+Invoke-AtomicTest T1204.002 -TestNumbers 8
+goto C:\Users\Administrator\AppData\Local\Temp
+Drill down to the numbered directory What artifact do you see?
+
+Persistence
+Invoke-AtomicTest T1543.003 -TestNumbers 2
+Privilege Escalation
+Invoke-AtomicTest T1055.001 -TestNumbers 1
+Part 2
+Defense Evasion
+Invoke-AtomicTest T1564.001 -TestNumbers 3
+Discovery
+Invoke-AtomicTest T1518.001 -TestNumbers 1
+Invoke-AtomicTest T1518.001 -TestNumbers 2
+Invoke-AtomicTest T1518.001 -TestNumbers 5
+Lateral Movement
+Collection
+Invoke-AtomicTest T1113 -TestNumbers 6
+Command and Control
+Invoke-AtomicTest T1106 -TestNumbers 9very new powershell
+Import-Module "C:\AtomicRedTeam\invoke-atomicredteam\Invoke-AtomicRedTeam.psd1" -Force
+Template for command (up arrow is your friend)
+Invoke-AtomicTest T####.00# -GetPrereqs
+Invoke-AtomicTest T####.00# -TestNumbers #
+Part 1
+Execution
+Invoke-AtomicTest T1204.002 -TestNumbers 1
+Why did it fail? What can you do about it?
+
+Invoke-AtomicTest T1204.002 -TestNumbers 8
+goto C:\Users\Administrator\AppData\Local\Temp
+Drill down to the numbered directory What artifact do you see?
+
+Persistence
+Invoke-AtomicTest T1543.003 -TestNumbers 2
+Privilege Escalation
+Invoke-AtomicTest T1055.001 -TestNumbers 1
+Part 2
+Defense Evasion
+Invoke-AtomicTest T1564.001 -TestNumbers 3
+Discovery
+Invoke-AtomicTest T1518.001 -TestNumbers 1
+Invoke-AtomicTest T1518.001 -TestNumbers 2
+Invoke-AtomicTest T1518.001 -TestNumbers 5
+Lateral Movement
+Collection
+Invoke-AtomicTest T1113 -TestNumbers 6
+Command and Control
+Invoke-AtomicTest T1106 -TestNumbers 9very new powershell
+Import-Module "C:\AtomicRedTeam\invoke-atomicredteam\Invoke-AtomicRedTeam.psd1" -Force
+Template for command (up arrow is your friend)
+Invoke-AtomicTest T####.00# -GetPrereqs
+Invoke-AtomicTest T####.00# -TestNumbers #
+Part 1
+Execution
+Invoke-AtomicTest T1204.002 -TestNumbers 1
+Why did it fail? What can you do about it?
+
+Invoke-AtomicTest T1204.002 -TestNumbers 8
+goto C:\Users\Administrator\AppData\Local\Temp
+Drill down to the numbered directory What artifact do you see?
+
+Persistence
+Invoke-AtomicTest T1543.003 -TestNumbers 2
+Privilege Escalation
+Invoke-AtomicTest T1055.001 -TestNumbers 1
+Part 2
+Defense Evasion
+Invoke-AtomicTest T1564.001 -TestNumbers 3
+Discovery
+Invoke-AtomicTest T1518.001 -TestNumbers 1
+Invoke-AtomicTest T1518.001 -TestNumbers 2
+Invoke-AtomicTest T1518.001 -TestNumbers 5
+Lateral Movement
+Collection
+Invoke-AtomicTest T1113 -TestNumbers 6
+Command and Control
+Invoke-AtomicTest T1106 -TestNumbers 9very new powershell
+Import-Module "C:\AtomicRedTeam\invoke-atomicredteam\Invoke-AtomicRedTeam.psd1" -Force
+Template for command (up arrow is your friend)
+Invoke-AtomicTest T####.00# -GetPrereqs
+Invoke-AtomicTest T####.00# -TestNumbers #
+Part 1
+Execution
+Invoke-AtomicTest T1204.002 -TestNumbers 1
+Why did it fail? What can you do about it?
+
+Invoke-AtomicTest T1204.002 -TestNumbers 8
+goto C:\Users\Administrator\AppData\Local\Temp
+Drill down to the numbered directory What artifact do you see?
+
+Persistence
+Invoke-AtomicTest T1543.003 -TestNumbers 2
+Privilege Escalation
+Invoke-AtomicTest T1055.001 -TestNumbers 1
+Part 2
+Defense Evasion
+Invoke-AtomicTest T1564.001 -TestNumbers 3
+Discovery
+Invoke-AtomicTest T1518.001 -TestNumbers 1
+Invoke-AtomicTest T1518.001 -TestNumbers 2
+Invoke-AtomicTest T1518.001 -TestNumbers 5
+Lateral Movement
+Collection
+Invoke-AtomicTest T1113 -TestNumbers 6
+Command and Control
+Invoke-AtomicTest T1106 -TestNumbers 9very new powershell
+Import-Module "C:\AtomicRedTeam\invoke-atomicredteam\Invoke-AtomicRedTeam.psd1" -Force
+Template for command (up arrow is your friend)
+Invoke-AtomicTest T####.00# -GetPrereqs
+Invoke-AtomicTest T####.00# -TestNumbers #
+Part 1
+Execution
+Invoke-AtomicTest T1204.002 -TestNumbers 1
+Why did it fail? What can you do about it?
+
+Invoke-AtomicTest T1204.002 -TestNumbers 8
+goto C:\Users\Administrator\AppData\Local\Temp
+Drill down to the numbered directory What artifact do you see?
+
+Persistence
+Invoke-AtomicTest T1543.003 -TestNumbers 2
+Privilege Escalation
+Invoke-AtomicTest T1055.001 -TestNumbers 1
+Part 2
+Defense Evasion
+Invoke-AtomicTest T1564.001 -TestNumbers 3
+Discovery
+Invoke-AtomicTest T1518.001 -TestNumbers 1
+Invoke-AtomicTest T1518.001 -TestNumbers 2
+Invoke-AtomicTest T1518.001 -TestNumbers 5
+Lateral Movement
+Collection
+Invoke-AtomicTest T1113 -TestNumbers 6
+Command and Control
+Invoke-AtomicTest T1106 -TestNumbers 9very new powershell
+Import-Module "C:\AtomicRedTeam\invoke-atomicredteam\Invoke-AtomicRedTeam.psd1" -Force
+Template for command (up arrow is your friend)
+Invoke-AtomicTest T####.00# -GetPrereqs
+Invoke-AtomicTest T####.00# -TestNumbers #
+Part 1
+Execution
+Invoke-AtomicTest T1204.002 -TestNumbers 1
+Why did it fail? What can you do about it?
+
+Invoke-AtomicTest T1204.002 -TestNumbers 8
+goto C:\Users\Administrator\AppData\Local\Temp
+Drill down to the numbered directory What artifact do you see?
+
+Persistence
+Invoke-AtomicTest T1543.003 -TestNumbers 2
+Privilege Escalation
+Invoke-AtomicTest T1055.001 -TestNumbers 1
+Part 2
+Defense Evasion
+Invoke-AtomicTest T1564.001 -TestNumbers 3
+Discovery
+Invoke-AtomicTest T1518.001 -TestNumbers 1
+Invoke-AtomicTest T1518.001 -TestNumbers 2
+Invoke-AtomicTest T1518.001 -TestNumbers 5
+Lateral Movement
+Collection
+Invoke-AtomicTest T1113 -TestNumbers 6
+Command and Control
+Invoke-AtomicTest T1106 -TestNumbers 9very new powershell
+Import-Module "C:\AtomicRedTeam\invoke-atomicredteam\Invoke-AtomicRedTeam.psd1" -Force
+Template for command (up arrow is your friend)
+Invoke-AtomicTest T####.00# -GetPrereqs
+Invoke-AtomicTest T####.00# -TestNumbers #
+Part 1
+Execution
+Invoke-AtomicTest T1204.002 -TestNumbers 1
+Why did it fail? What can you do about it?
+
+Invoke-AtomicTest T1204.002 -TestNumbers 8
+goto C:\Users\Administrator\AppData\Local\Temp
+Drill down to the numbered directory What artifact do you see?
+
+Persistence
+Invoke-AtomicTest T1543.003 -TestNumbers 2
+Privilege Escalation
+Invoke-AtomicTest T1055.001 -TestNumbers 1
+Part 2
+Defense Evasion
+Invoke-AtomicTest T1564.001 -TestNumbers 3
+Discovery
+Invoke-AtomicTest T1518.001 -TestNumbers 1
+Invoke-AtomicTest T1518.001 -TestNumbers 2
+Invoke-AtomicTest T1518.001 -TestNumbers 5
+Lateral Movement
+Collection
+Invoke-AtomicTest T1113 -TestNumbers 6
+Command and Control
+Invoke-AtomicTest T1106 -TestNumbers 9very new powershell
+Import-Module "C:\AtomicRedTeam\invoke-atomicredteam\Invoke-AtomicRedTeam.psd1" -Force
+Template for command (up arrow is your friend)
+Invoke-AtomicTest T####.00# -GetPrereqs
+Invoke-AtomicTest T####.00# -TestNumbers #
+Part 1
+Execution
+Invoke-AtomicTest T1204.002 -TestNumbers 1
+Why did it fail? What can you do about it?
+
+Invoke-AtomicTest T1204.002 -TestNumbers 8
+goto C:\Users\Administrator\AppData\Local\Temp
+Drill down to the numbered directory What artifact do you see?
+
+Persistence
+Invoke-AtomicTest T1543.003 -TestNumbers 2
+Privilege Escalation
+Invoke-AtomicTest T1055.001 -TestNumbers 1
+Part 2
+Defense Evasion
+Invoke-AtomicTest T1564.001 -TestNumbers 3
+Discovery
+Invoke-AtomicTest T1518.001 -TestNumbers 1
+Invoke-AtomicTest T1518.001 -TestNumbers 2
+Invoke-AtomicTest T1518.001 -TestNumbers 5
+Lateral Movement
+Collection
+Invoke-AtomicTest T1113 -TestNumbers 6
+Command and Control
+Invoke-AtomicTest T1106 -TestNumbers 9very new powershell
+Import-Module "C:\AtomicRedTeam\invoke-atomicredteam\Invoke-AtomicRedTeam.psd1" -Force
+Template for command (up arrow is your friend)
+Invoke-AtomicTest T####.00# -GetPrereqs
+Invoke-AtomicTest T####.00# -TestNumbers #
+Part 1
+Execution
+Invoke-AtomicTest T1204.002 -TestNumbers 1
+Why did it fail? What can you do about it?
+
+Invoke-AtomicTest T1204.002 -TestNumbers 8
+goto C:\Users\Administrator\AppData\Local\Temp
+Drill down to the numbered directory What artifact do you see?
+
+Persistence
+Invoke-AtomicTest T1543.003 -TestNumbers 2
+Privilege Escalation
+Invoke-AtomicTest T1055.001 -TestNumbers 1
+Part 2
+Defense Evasion
+Invoke-AtomicTest T1564.001 -TestNumbers 3
+Discovery
+Invoke-AtomicTest T1518.001 -TestNumbers 1
+Invoke-AtomicTest T1518.001 -TestNumbers 2
+Invoke-AtomicTest T1518.001 -TestNumbers 5
+Lateral Movement
+Collection
+Invoke-AtomicTest T1113 -TestNumbers 6
+Command and Control
+Invoke-AtomicTest T1106 -TestNumbers 9very new powershell
+Import-Module "C:\AtomicRedTeam\invoke-atomicredteam\Invoke-AtomicRedTeam.psd1" -Force
+Template for command (up arrow is your friend)
+Invoke-AtomicTest T####.00# -GetPrereqs
+Invoke-AtomicTest T####.00# -TestNumbers #
+Part 1
+Execution
+Invoke-AtomicTest T1204.002 -TestNumbers 1
+Why did it fail? What can you do about it?
+
+Invoke-AtomicTest T1204.002 -TestNumbers 8
+goto C:\Users\Administrator\AppData\Local\Temp
+Drill down to the numbered directory What artifact do you see?
+
+Persistence
+Invoke-AtomicTest T1543.003 -TestNumbers 2
+Privilege Escalation
+Invoke-AtomicTest T1055.001 -TestNumbers 1
+Part 2
+Defense Evasion
+Invoke-AtomicTest T1564.001 -TestNumbers 3
+Discovery
+Invoke-AtomicTest T1518.001 -TestNumbers 1
+Invoke-AtomicTest T1518.001 -TestNumbers 2
+Invoke-AtomicTest T1518.001 -TestNumbers 5
+Lateral Movement
+Collection
+Invoke-AtomicTest T1113 -TestNumbers 6
+Command and Control
+Invoke-AtomicTest T1106 -TestNumbers 9
+goto C:\Users\Administrator\AppData\Local\Temp
+Drill down to the numbered directory What artifact do you see?
+
+Persistence
+Invoke-AtomicTest T1543.003 -TestNumbers 2
+Privilege Escalation
+Invoke-AtomicTest T1055.001 -TestNumbers 1
+Part 2
+Defense Evasion
+Invoke-AtomicTest T1564.001 -TestNumbers 3
+Discovery
+Invoke-AtomicTest T1518.001 -TestNumbers 1
+Invoke-AtomicTest T1518.001 -TestNumbers 2
+Invoke-AtomicTest T1518.001 -TestNumbers 5
+Lateral Movement
+Collection
+Invoke-AtomicTest T1113 -TestNumbers 6
+Command and Control
+Invoke-AtomicTest T1106 -TestNumbers 9

@@ -1,0 +1,10 @@
+Clear event logs:
+Right click each log |select the command 
+Clear Log... from the context menu
+
+setup AtomicredTeam for this Admin session in powershell
+Import-Module "C:\AtomicRedTeam\invoke-atomicredteam\Invoke-AtomicRedTeam.psd1" -Force
+
+After first test navigate to:
+C:\Users\Administrator\AppData\Local\Temp\
+might add number to end
