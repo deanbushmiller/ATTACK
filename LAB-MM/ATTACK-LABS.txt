@@ -3,7 +3,7 @@ Right click each log |select the command
 Clear Log... from the context menu
 
 Do 2 commands at once:
-$Host.PrivateData.ErrorForegroundColor = 'Yellow' && Import-Module "C:\AtomicRedTeam\invoke-atomicredteam\Invoke-AtomicRedTeam.psd1" -Force
+$Host.PrivateData.ErrorForegroundColor = 'Yellow'; if ($?) Import-Module "C:\AtomicRedTeam\invoke-atomicredteam\Invoke-AtomicRedTeam.psd1" -Force
 
 They do
 setup AtomicredTeam for this Admin session in powershell
