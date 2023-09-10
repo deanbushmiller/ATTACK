@@ -2,8 +2,13 @@ Clear event logs:
 Right click each log |select the command 
 Clear Log... from the context menu
 
+Do 2 commands at once:
+$Host.PrivateData.ErrorForegroundColor = 'Yellow' && Import-Module "C:\AtomicRedTeam\invoke-atomicredteam\Invoke-AtomicRedTeam.psd1" -Force
+
+They do
 setup AtomicredTeam for this Admin session in powershell
-Import-Module "C:\AtomicRedTeam\invoke-atomicredteam\Invoke-AtomicRedTeam.psd1" -Force
+1. Import-Module "C:\AtomicRedTeam\invoke-atomicredteam\Invoke-AtomicRedTeam.psd1" -Force
+2. Fix bad color setup
 
 After first test navigate to:
 C:\Users\Administrator\AppData\Local\Temp\
