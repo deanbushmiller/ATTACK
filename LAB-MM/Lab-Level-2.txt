@@ -1,2 +1,71 @@
 Lab-level 2
+
+Open Powershell as Administrator
+Set the environment
+$Host.PrivateData.ErrorForegroundColor = 'Yellow'; if ($?) {Import-Module "C:\AtomicRedTeam\invoke-atomicredteam\Invoke-AtomicRedTeam.psd1" -Force}
+General format of commands for lab
+
+Invoke-AtomicTest T####.0## -GetPreq
+Invoke-AtomicTest T####.0## -TestNumbers # -ShowDetails
+Invoke-AtomicTest T####.0## -TestNumbers # -PromptForInputArgs
+Other Test Numbers to run #-#
+Optional # test that work with this setup
+
+Test 1
+Invoke-AtomicTest T1078.001 -GetPreq
+Invoke-AtomicTest T1078.001 -TestNumbers 1 -ShowDetails
 Invoke-AtomicTest T1078.001 -TestNumbers 1 -PromptForInputArgs
+
+Test 2
+Invoke-AtomicTest T1204.002 -GetPreq
+Invoke-AtomicTest T1204.002 -TestNumbers 1 -ShowDetails
+Invoke-AtomicTest T1204.002 -TestNumbers 1 -PromptForInputArgs
+Other Test 8
+Optional 3-6
+
+Auto complete works well (up arrow)
+
+Test 3
+1546.001
+-TestNumbers 1-3
+
+Test 4
+T1547.001
+-TestNumbers 3-4
+Optional 7-8
+
+Test 5
+T1552.004
+-TestNumbers 1-4
+Optional 9-10
+
+Test 6
+T1112
+-TestNumbers 1-8
+*** DO NOT DO #9 it will disable regedit and break most of other labs
+
+Test 7
+T1563.002
+-TestNumbers 1
+MIGHT FAIL
+
+Test 8
+T1518.001
+-TestNumbers 1-2
+Optional 5
+
+Test 9
+T1113
+-TestNumbers 2
+Optional 5-6 with output file ARGS set
+
+Test 10
+T1572
+-TestNumbers 4
+Needs install download https://bin.equinox.io/c/bNyj1mQVY4c/ngrok-v3-stable-windows-amd64.zip
+
+Test 11
+T1020
+-TestNumbers 1
+Need Target domain ARG input
+
