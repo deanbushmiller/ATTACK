@@ -9,6 +9,9 @@ This may interupt your class interaction
 ### You have been warned... no whining
 ## Use my image
 ### This file is a full Windows 2k12 image 6.4GB - it has no license. It will shut down after one hour of boot time
+* vmware configured
+	https://20230305-attack-labs.s3.amazonaws.com/ATTACK/Attacklab230911v3.ova
+* virtual box and AWS configured
 	https://ceh-v11-20220609.s3.amazonaws.com/ATTACKLAB/ATTACK-LAB-2k12-insecure.ova
 ### Fast setup - the image has all the preconfigurations
 ## Easy setup = open the github in lab machine
