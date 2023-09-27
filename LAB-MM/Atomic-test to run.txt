@@ -2,17 +2,9 @@ Clear event logs:
 Right click each log |select the command 
 Clear Log... from the context menu
 
-Fix the crappy powershell default error color
-$Host.PrivateData.ErrorForegroundColor = 'Yellow'
-
-setup AtomicredTeam for this Admin session in powershell
-Import-Module "C:\AtomicRedTeam\invoke-atomicredteam\Invoke-AtomicRedTeam.psd1" -Force
-
-After first test navigate to:
-C:\Users\Administrator\AppData\Local\Temp\
-might add number to end
-very new powershell
-Import-Module "C:\AtomicRedTeam\invoke-atomicredteam\Invoke-AtomicRedTeam.psd1" -Force
+Set Powershell enviroment (EVERY TIME YOU OPEN POWERSHELL)
+	Powershell as Administrator
+	$Host.PrivateData.ErrorForegroundColor = 'Yellow'; if ($?) {Import-Module "C:\AtomicRedTeam\invoke-atomicredteam\Invoke-AtomicRedTeam.psd1" -Force}
 
 Template for command (up arrow is your friend)
 Invoke-AtomicTest T####.00# -GetPrereqs
