@@ -2,26 +2,36 @@ Clear event logs:
 Right click each log |select the command 
 Clear Log... from the context menu
 
-Set Powershell enviroment (EVERY TIME YOU OPEN POWERSHELL)
-	Powershell as Administrator
-	$Host.PrivateData.ErrorForegroundColor = 'Yellow'; if ($?) {Import-Module "C:\AtomicRedTeam\invoke-atomicredteam\Invoke-AtomicRedTeam.psd1" -Force}
+Start powershell as administrator
+
+In powershell:
+	First Time command 1
+		[Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12
+	First Time command 2
+		IEX (IWR 'https://raw.githubusercontent.com/redcanaryco/invoke-atomicredteam/master/install-atomicredteam.ps1' -UseBasicParsing); Install-AtomicRedTeam -getAtomics -Force
+	EVERY TIME YOU OPEN POWERSHELL
+		$Host.PrivateData.ErrorForegroundColor = 'Yellow'; if ($?) {Import-Module "C:\AtomicRedTeam\invoke-atomicredteam\Invoke-AtomicRedTeam.psd1" -Force}
 
 Template for command (up arrow is your friend)
-Invoke-AtomicTest T####.00# -GetPrereqs
-Invoke-AtomicTest T####.00# -TestNumbers #
+	Invoke-AtomicTest T####.00# -TestNumbers # -GetPrereqs
+	Invoke-AtomicTest T####.00# -TestNumbers #
 
 Lab List
+	Reality: You must have each variable set to make attack work.
+	Lab: you do not have variable set, attack will run and return 0
+	0 = will run if you had all the variables set you would produce artifact
 
 Execution
-Invoke-AtomicTest T1204.002 -TestNumbers 8
+Invoke-AtomicTest T1204.002 -TestNumbers 5
 goto C:\Users\Administrator\AppData\Local\Temp
 Drill down to the numbered directory What artifact do you see?
 
 Persistence
+Invoke-AtomicTest T1543.003 -TestNumbers 1
 Invoke-AtomicTest T1543.003 -TestNumbers 2
 
 Privilege Escalation
-Invoke-AtomicTest T1055.001 -TestNumbers 1
+Invoke-AtomicTest T1547.010 -TestNumbers 10
 
 Defense Evasion
 Invoke-AtomicTest T1564.001 -TestNumbers 3
@@ -40,11 +50,14 @@ Discovery
 Invoke-AtomicTest T1518.001 -TestNumbers 2
 
 Lateral Movement
-DO NOT DO REMOTE AWS
+DO NOT DO this on AWS
 Invoke-AtomicTest T1563.002 -TestNumbers 1
 
 Collection
 Invoke-AtomicTest T1113 -TestNumbers 6
 
 Command and Control
-Invoke-AtomicTest T1105 -TestNumbers 9
+Invoke-AtomicTest T1105 -TestNumbers 15
+
+Exfiltration
+Invoke-AtomicTest T1041 -TestNumbers 1

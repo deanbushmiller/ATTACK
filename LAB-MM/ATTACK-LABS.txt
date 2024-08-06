@@ -5,7 +5,7 @@ Clear Log... from the context menu
 Do 2 commands at once:
 $Host.PrivateData.ErrorForegroundColor = 'Yellow'; if ($?) Import-Module "C:\AtomicRedTeam\invoke-atomicredteam\Invoke-AtomicRedTeam.psd1" -Force
 
-They do
+Then do
 setup AtomicredTeam for this Admin session in powershell
 1. Import-Module "C:\AtomicRedTeam\invoke-atomicredteam\Invoke-AtomicRedTeam.psd1" -Force
 2. Fix bad color setup

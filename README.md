@@ -1,18 +1,20 @@
 # ATTACK
 Class tools for overview of MITRE ATT&amp;CK®
 
+## Watching is always option for labs
+Minimum open mindmap and click along on the links
+
 ## Use my image OR Build your own
 
 ## BANDWIDTH WARNING
-### Downloading during class - do a quick calculation before starting - ON a 1Gb connection = 30min.
+### Downloading during class - do a quick calculation before starting - ON a 1Gb/27.5Mbps connection = 10min.
 This may interupt your class interaction
 ### You have been warned... no whining
 ## Use my image
 ### This file is a full Windows 2k12 image 6.4GB - it has no license. It will shut down after one hour of boot time
-* vmware configured
+* vmware & virtual box configured 
 	https://20230305-attack-labs.s3.amazonaws.com/ATTACK/20230911-ATTACK-LAB-2k12r2-1qaz%40WSX-20230301-fromVMware.ova
-* virtual box and AWS configured
-	https://ceh-v11-20220609.s3.amazonaws.com/ATTACKLAB/ATTACK-LAB-2k12-insecure.ova
+
 ### Fast setup - the image has all the preconfigurations
 ## Easy setup = open the github in lab machine
 ### You need these websites open on your 2k12 for your lab steps
