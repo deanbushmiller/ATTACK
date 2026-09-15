@@ -154,25 +154,6 @@ Import-Module "C:\AtomicRedTeam\invoke-atomicredteam\Invoke-AtomicRedTeam.psd1" 
 ## Per-lab notes
 
 - **T1555.003 test 6.** Install Firefox first. It is a prerequisite for this test.
-
----
-
-## Part 2: the Caldera rebuild
-
-Part 2 moves the same tests onto Caldera. A Linux server sends each test to an
-agent on the Windows target, and you drive everything from a web interface.
-
-- Start here: the wiki. https://github.com/deanbushmiller/ATTACK/wiki
-
----
-
-## What is in this repository
-
-- **LAB-MM** â the class mindmap for the watch-along path.
-- **Lab-sysmon** â Sysmon setup used to observe the tests.
-- **Layers-for-navigator** â ATT&CK Navigator layer files for class.
-- **lab-machine-build.zip** â build files for the lab machine.
-
 ---
 
 ## Safety and legal
