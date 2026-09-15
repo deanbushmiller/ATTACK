@@ -6,8 +6,11 @@ Students run real ATT&CK techniques on a Windows target, read what each techniqu
 does, run the matching Atomic test, and watch the result. The goal is to connect
 the ATT&CK matrix to what actually happens on a machine.
 
-Part 2 rebuilds these labs on Caldera, where a Linux server drives the tests
+Most of class work is on the wiki after downloads here.
+
+Part 3 is in beta rebuilds these labs on Caldera, where a Linux server drives the tests
 instead of typing them on the Windows box. See the wiki link near the bottom.
+https://github.com/deanbushmiller/ATTACK/wiki/Lab-Part-3-%E2%80%90-Caldera-build
 
 ---
 
