@@ -8,7 +8,7 @@ the ATT&CK matrix to what actually happens on a machine.
 
 Most of class work is on the wiki after downloads here.
 
-Part 3 is in beta rebuilds these labs on Caldera, where a Linux server drives the tests
+Part 3 is in beta. It rebuilds same labs on Caldera, where a Linux server drives the tests
 instead of typing them on the Windows box. See the wiki link near the bottom.
 https://github.com/deanbushmiller/ATTACK/wiki/Lab-Part-3-%E2%80%90-Caldera-build
 
